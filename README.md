@@ -1,2 +1,2 @@
 # Projeto da Diciplina de Apis2
-JosÃ© Alan - Jhonatta Pietro - Gustavo Duarte
+José Alan - Jhonatta Pietro - Gustavo Duarte
