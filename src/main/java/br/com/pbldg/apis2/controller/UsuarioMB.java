@@ -1,26 +1,14 @@
 package br.com.pbldg.apis2.controller;
 
-import java.io.Serializable;
-import java.util.List;
 
-import javax.annotation.PostConstruct;
-import javax.ejb.Stateless;
-import javax.faces.bean.ManagedBean;
-import javax.faces.bean.RequestScoped;
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-
-
-
-import br.com.pbldg.apis2.model.Usuario;
-@Stateless
-@RequestScoped
-@ManagedBean(name="usuarioMB")
-public class UsuarioMB implements Serializable {
-	
+public class UsuarioMB {
+ 
 	/**
-	 * 
+	 * Não vai ser usada
 	 */
+ 
+ 
+ /* 
 	private static final long serialVersionUID = 5202799275364383072L;
 
 	@PersistenceContext
@@ -38,8 +26,9 @@ public class UsuarioMB implements Serializable {
 		return em.createQuery("select a from Usuario a").getResultList();
  	}
 	
-	public void salvar() {
+	public void salvar(Usuario usuario) {
 		
+	
 		
 //		EntityManager em = JPAUtil.getEntityManager();
 //		Query q = em.createQuery("select a from Usuario a", Usuario.class);
@@ -48,17 +37,17 @@ public class UsuarioMB implements Serializable {
 //			System.out.println(usuario.getLogin());
 //		}
 			
-	/*  parte da inclusão	
+	  parte da inclusão	
 		EntityManager em = JPAUtil.getEntityManager();
 		em.getTransaction().begin();
 		em.persist(usuario);
 		em.getTransaction().commit();
 		em.close();
-	*/	
+	
 		try{
 			
 
-			em.persist(usuario);
+			this.em.persist(usuario);
 			System.out.println("Foi!");
 			
 			
@@ -76,5 +65,7 @@ public class UsuarioMB implements Serializable {
 	public void setUsuario(Usuario usuario) {
 		this.usuario = usuario;
 	}
-	
+	  */
 }
+
+	
