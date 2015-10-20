@@ -49,10 +49,22 @@ public class UsuarioController implements Serializable {
 	
 	public void excluir(Usuario usuario){
 		this.usuarioDao.excluir(usuario);
+		
 	}
 	
 	public void salvar(Usuario usuario){
 		this.usuarioDao.salvar(usuario);
+	}
+	
+	public String alterar(Usuario usuario){
+		this.usuario = usuario;
+		return "/alterar.xhtml";
+		
+	}
+	
+	public String atualizar(Usuario usuario){
+		this.usuarioDao.atualizar(usuario);
+		return "/index.xhtml";
 	}
 
 	public List<Usuario> getListaUsuarios() {

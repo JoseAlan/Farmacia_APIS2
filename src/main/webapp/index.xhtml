@@ -15,7 +15,9 @@
 	<p:panelGrid columns="2" >
 		<p:outputLabel id="nome_id" value="Nome"/>
 		<p:inputText id="input_nome_id" value="#{usuarioController.usuario.login}" pt:placeholder="Digite seu nome" />
-		<h:commandButton action="#{usuarioController.salvar(usuarioController.usuario)}" value="" />
+		<p:outputLabel id="senha_id" value="Senha"/>
+		<p:inputText id="input_senha_id" value="#{usuarioController.usuario.senha}" pt:placeholder="Digite sua Senha" />
+		<h:commandButton action="#{usuarioController.salvar(usuarioController.usuario)}" value="Salvar" />
 	</p:panelGrid>
 	
 	<p:dataTable value="#{usuarioController.usuarios}" var="usuario" emptyMessage="Não existe usuários">
@@ -28,10 +30,13 @@
 		<p:column headerText="LOGIN">
 			#{usuario.login}
 		</p:column>
+		<p:column headerText="alterar">
+			<h:commandButton action="#{usuarioController.alterar(usuario)}" value="alterar" />
+		</p:column>
 		<p:column headerText="Excluir">
 			<h:commandLink action="#{usuarioController.excluir(usuario)}">
 				excluir
-	    	</h:commandLink>
+			</h:commandLink>
 		</p:column>
 	</p:dataTable>
 </h:form>
