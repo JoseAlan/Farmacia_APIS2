@@ -22,10 +22,10 @@ public class Usuario {
     
     @Column(name = "SENHA", nullable = false)
     private String senha;
-    /*
+ 
     @Column(name = "EMAIL", length = 50, nullable = false, unique = true)
     private String email;
-	*/
+	
 	public Long getId() {
 		return id;
 	}
@@ -50,7 +50,7 @@ public class Usuario {
 		this.senha = senha;
 	}
 	
-	/*
+	
 	public String getEmail() {
 		return email;
 	}
@@ -59,6 +59,8 @@ public class Usuario {
 		this.email = email;
 	}
 	
+	
+	/*
 	public void fazBesteira(){
 		String s1 = "todahora";
 		String s2 = "opa, quem foi que disse epa?";

@@ -12,6 +12,7 @@
 </h:head>
 <h:body>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <h:form>
 			
 		
@@ -23,21 +24,31 @@
  	            </h:panelGrid>
    
 	<p:dataTable value="#{usuarioController.usuarios}" var="usuario" emptyMessage="Não existe usuários">
+=======
+<h:form id="formUsuarios">
+>>>>>>> 37bc244b6d7997b8a2b552ee70b43bbd4d740621
 	
+	<h1>Usuários</h1>
+	
+	<p:commandButton value="Novo Usário" action="#{usuarioController.irPaginaSalvar}" />
+	
+	<p:dataTable id="usuarioDT" value="#{usuarioController.usuarios}" var="usuario" emptyMessage="Não existe usuários">
 		<p:column headerText="ID">
 			#{usuario.id}
+		</p:column>
+		<p:column headerText="E-MAIL">
+			#{usuario.email}
 		</p:column>
 		<p:column headerText="LOGIN">
 			#{usuario.login}
 		</p:column>
-		<p:column headerText="Excluir">
-			<h:commandLink action="#{usuarioController.excluir(usuario)}">
-				<button>excluir</button>
-	    	</h:commandLink>
+		<p:column headerText="Ações">
+			<p:commandButton action="#{usuarioController.excluir(usuario)}" value="Excluir" />
+			<p:commandButton action="#{usuarioController.irPaginaAtualizar}" value="Atualizar">
+				<f:setPropertyActionListener value="#{usuario}" target="#{usuarioController.usuario}"/>				
+	    	</p:commandButton>
 		</p:column>
 	</p:dataTable>
-	
-	
 </h:form>
 =======
 	<p:outputLabel value="Nome"/>

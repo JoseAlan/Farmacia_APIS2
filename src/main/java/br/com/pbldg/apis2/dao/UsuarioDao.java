@@ -30,8 +30,11 @@ public class UsuarioDao implements Serializable {
 	
 	@Transactional
 	public void salvar(Usuario usuario) {
-	
-		this.em.persist(usuario);
-				
+		this.em.merge(usuario);
+	}
+
+	@Transactional
+	public void atualizar(Usuario usuario) {
+		this.em.merge(usuario);
 	}
 }
