@@ -13,11 +13,14 @@
 <h:body>
 <h:form>
 	<p:panelGrid columns="2" >
+	    <p:outputLabel id="id_id" value="Id"/>
+		<p:inputText id="input_id_id" value="#{usuarioController.usuario.id}" pt:placeholder="" />
 		<p:outputLabel id="nome_id" value="Nome"/>
 		<p:inputText id="input_nome_id" value="#{usuarioController.usuario.login}" pt:placeholder="Digite seu nome" />
 		<p:outputLabel id="senha_id" value="Senha"/>
 		<p:inputText id="input_senha_id" value="#{usuarioController.usuario.senha}" pt:placeholder="Digite sua Senha" />
-		<h:commandButton action="#{usuarioController.atualizar(usuarioController.usuario)}" value="Alterar" />
+		<h:commandButton action="#{usuarioController.atualizar}" value="Alterar" />
+		
 		
 	</p:panelGrid>
 	

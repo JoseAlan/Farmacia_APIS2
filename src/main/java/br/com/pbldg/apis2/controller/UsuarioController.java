@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
-import javax.enterprise.context.RequestScoped;
+import javax.enterprise.context.SessionScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
@@ -12,7 +12,7 @@ import br.com.pbldg.apis2.dao.UsuarioDao;
 import br.com.pbldg.apis2.model.Usuario;
 
 @Named
-@RequestScoped
+@SessionScoped
 public class UsuarioController implements Serializable {
 
 	/**
@@ -47,24 +47,34 @@ public class UsuarioController implements Serializable {
 		this.usuario = usuario;
 	}
 	
-	public void excluir(Usuario usuario){
+	public String excluir(Usuario usuario){
 		this.usuarioDao.excluir(usuario);
-		
+		this.listaUsuarios = usuarioDao.listaUsuarios();
+		this.usuario = new Usuario();
+		return "index?faces-redirect=true";
 	}
 	
-	public void salvar(Usuario usuario){
-		this.usuarioDao.salvar(usuario);
+	public String irPaginaAtualizar(){
+		return "pages/usuario/atualizar?faces-redirect=true";
+	}
+	public String irPaginaSalvar(){
+		return "pages/usuario/cadastrar?faces-redirect=true";
+	}
+	public String atualizar(){
+		this.usuarioDao.atualizar(this.usuario);
+		this.usuario = new Usuario();
+		return "/index?faces-redirect=true";
 	}
 	
-	public String alterar(Usuario usuario){
-		this.usuario = usuario;
-		return "/alterar.xhtml";
-		
+	public String salvar(){
+		this.usuarioDao.salvar(this.usuario);
+		this.listaUsuarios = usuarioDao.listaUsuarios();
+		this.usuario = new Usuario();
+		return "/index?faces-redirect=true";
 	}
 	
-	public String atualizar(Usuario usuario){
-		this.usuarioDao.atualizar(usuario);
-		return "/index.xhtml";
+	public String voltar(){
+		return "/index?faces-redirect=true";
 	}
 
 	public List<Usuario> getListaUsuarios() {
