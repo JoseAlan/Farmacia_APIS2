@@ -37,4 +37,20 @@ public class UsuarioDao implements Serializable {
 	public void atualizar(Usuario usuario) {
 		this.em.merge(usuario);
 	}
+	
+	@Transactional
+	public Usuario getUsuario(String login, String senha){
+		
+		try{
+		Usuario usuario = (Usuario) this.em.createQuery( "SELECT u from Usuario u where u.login = :login and u.senha = :senha") .setParameter("login", login) .setParameter("senha", senha).getSingleResult(); 
+		
+		return usuario;
+		} catch (Exception e) { 
+			return null; 
+			
+		}
+
+	
+	}	
+	
 }

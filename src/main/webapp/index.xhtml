@@ -5,35 +5,66 @@
 	xmlns:h="http://xmlns.jcp.org/jsf/html"
 	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
 	xmlns:f="http://xmlns.jcp.org/jsf/core"
-	xmlns:p="http://primefaces.org/ui"
+   	xmlns:p="http://primefaces.org/ui"
+   	xmlns:b="http://bootsfaces.net/ui"
 	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
 
 <h:head>
+	<style type="text/css">
+            .form-signin {
+                margin: 0 auto;
+                max-width: 330px;
+                padding: 15px;
+            }
+            
+        </style>
+
 </h:head>
-<h:body>
-<h:form id="formUsuarios">
+<h:body style="margin: 10px">
+<h:form id="formFarmacias">
 	
-	<h1>Usuários</h1>
+	<h1>Principal</h1>
 	
-	<p:commandButton value="Novo Usário" action="#{usuarioController.irPaginaSalvar}" />
-	
-	<p:dataTable id="usuarioDT" value="#{usuarioController.usuarios}" var="usuario" emptyMessage="Não existe usuários">
+	<b:commandButton style="margin:5px;" value="Nova Farmácia" action="#{farmaciaController.goToPaginaSalvar()}" look="success"/>
+
+	<p:dataTable id="farmaciaDT" value="#{farmaciaController.farmacias}" var="farmacia" emptyMessage="Não há farmácias">
 		<p:column headerText="ID">
-			#{usuario.id}
+			#{farmacia.id}
 		</p:column>
-		<p:column headerText="E-MAIL">
-			#{usuario.email}
+		<p:column headerText="NOME">
+			#{farmacia.nome}
 		</p:column>
-		<p:column headerText="LOGIN">
-			#{usuario.login}
+		<p:column headerText="RUA">
+			#{farmacia.endereco}
 		</p:column>
-		<p:column headerText="Ações">
-			<p:commandButton action="#{usuarioController.excluir(usuario)}" value="Excluir" />
-			<p:commandButton action="#{usuarioController.irPaginaAtualizar}" value="Atualizar">
-				<f:setPropertyActionListener value="#{usuario}" target="#{usuarioController.usuario}"/>				
-	    	</p:commandButton>
+		<!-- <p:column headerText="NUMERO">
+			#{farmacia.numero}
 		</p:column>
+		<p:column headerText="BAIRRO">
+			#{farmacia.bairro}
+		</p:column>
+		<p:column headerText="CIDADE">
+			#{farmacia.cidade}
+		</p:column>
+		<p:column headerText="TELEFONE">
+			#{farmacia.numero}
+		</p:column>
+		<p:column headerText="HORARIO">
+			#{farmacia.horario}
+		</p:column> -->
+		<p:column headerText="DESCRICAO">
+			#{farmacia.descricao}
+		</p:column>
+		
+		<p:column headerText="Opções">
+			<b:commandButton style="margin:5px;" action="#{farmaciaController.excluir(farmacia)}" value="Excluir" look="danger"/>
+			<b:commandButton style="margin:5px;" action="#{farmaciaController.goToPaginaAtualizar}" value="Atualizar" look="primary">
+				<f:setPropertyActionListener value="#{farmacia}" target="#{farmaciaController.farmacia}"/>				
+	    	</b:commandButton>
+		</p:column>
+		
 	</p:dataTable>
+
 </h:form>
 </h:body>
 </html>

@@ -5,6 +5,7 @@ import java.util.List;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.SessionScoped;
+import javax.faces.context.FacesContext;
 import javax.inject.Inject;
 import javax.inject.Named;
 
@@ -83,6 +84,24 @@ public class UsuarioController implements Serializable {
 
 	public void setListaUsuarios(List<Usuario> listaUsuarios) {
 		this.listaUsuarios = listaUsuarios;
+	}
+	
+	public String login(){
+		
+		this.usuario = usuarioDao.getUsuario(usuario.getLogin(), usuario.getSenha()); 
+		
+		if (usuario == null) { 
+			usuario = new Usuario();
+			System.out.println("deu errado");
+			
+			return null;	
+				
+		} else { 
+			
+			return "/alterar?faces-redirect=true";
+		
+		}
+
 	}
 
 }
