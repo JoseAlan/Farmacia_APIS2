@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
+
+<h:head>
+</h:head>
+<h:body>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<h:form>
+			
+		
+           <legend>Dados do cliente</legend>
+                <h:panelGrid columns="4">
+                    <h:outputText value="Nome" />
+                    <h:inputText var="" value="#{usuarioController.usuario.login}" /> 
+                     <h:commandButton action="#{usuarioController.salvar(usuario)}" /> <!-- Nessa Parte, o metodo salvar não reconhece a entidade usuario-->                
+ 	            </h:panelGrid>
+   
+	<p:dataTable value="#{usuarioController.usuarios}" var="usuario" emptyMessage="Não existe usuários">
+=======
+<h:form id="formUsuarios">
+>>>>>>> 37bc244b6d7997b8a2b552ee70b43bbd4d740621
+	
+	<h1>Usuários</h1>
+	
+	<p:commandButton value="Novo Usário" action="#{usuarioController.irPaginaSalvar}" />
+	
+	<p:dataTable id="usuarioDT" value="#{usuarioController.usuarios}" var="usuario" emptyMessage="Não existe usuários">
+		<p:column headerText="ID">
+			#{usuario.id}
+		</p:column>
+		<p:column headerText="E-MAIL">
+			#{usuario.email}
+		</p:column>
+		<p:column headerText="LOGIN">
+			#{usuario.login}
+		</p:column>
+		<p:column headerText="Ações">
+			<p:commandButton action="#{usuarioController.excluir(usuario)}" value="Excluir" />
+			<p:commandButton action="#{usuarioController.irPaginaAtualizar}" value="Atualizar">
+				<f:setPropertyActionListener value="#{usuario}" target="#{usuarioController.usuario}"/>				
+	    	</p:commandButton>
+		</p:column>
+	</p:dataTable>
+</h:form>
+=======
+	<p:outputLabel value="Nome"/>
+	<p:inputText value="" pt:placeholder="Digite seu nome" />
+	<br/><br/>
+	<p:outputLabel value="Senha"/>
+	<p:inputText value="" pt:placeholder="Digite sua senha" />
+>>>>>>> 27633e23347f5bf5a599e1c134e7a97fe1a6fb38
+</h:body>
+</html>
