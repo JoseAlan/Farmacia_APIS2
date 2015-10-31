@@ -34,6 +34,9 @@ public class Farmacia {
     
     @Column(name = "TELEFONE", length = 30, nullable = false)
     private Integer telefone;
+    
+    @Column(name = "TELEFONE2", length = 30, nullable = false)
+    private Integer telefone2;
       
     @Column(name = "HORARIO", length = 30, nullable = false)
     private String horario;
@@ -83,6 +86,14 @@ public class Farmacia {
 		this.telefone = telefone;
 	}
 
+	public Integer getTelefone2() {
+		return telefone2;
+	}
+
+	public void setTelefone2(Integer telefone2) {
+		this.telefone2 = telefone2;
+	}
+	
 	public String getHorario() {
 		return horario;
 	}

@@ -3,13 +3,10 @@ package br.com.pbldg.apis2.controller;
 
 import java.io.Serializable;
 import java.util.List;
-
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.SessionScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
-
-
 import br.com.pbldg.apis2.model.Farmacia;
 import br.com.pbldg.apis2.dao.FarmaciaDao;
 
@@ -54,7 +51,7 @@ public class FarmaciaController implements Serializable  {
 		this.farmaciaDao.excluir(usuario);
 		this.listaFarmacias = farmaciaDao.listaFarmacias();
 		this.farmacia = new Farmacia();
-		return "index?faces-redirect=true";
+		return "principal?faces-redirect=true";
 	}
 	
 	public String goToPaginaAtualizar(){
@@ -66,17 +63,21 @@ public class FarmaciaController implements Serializable  {
 	public String atualizar(){
 		this.farmaciaDao.atualizar(this.farmacia);
 		this.farmacia = new Farmacia();
-		return "/index?faces-redirect=true";
+		return "/principal?faces-redirect=true";
 	}
 	
 	public String salvar(){
 		this.farmaciaDao.salvar(this.farmacia);
 		this.listaFarmacias = farmaciaDao.listaFarmacias();
 		this.farmacia = new Farmacia();
-		return "/index?faces-redirect=true";
+		return "/principal?faces-redirect=true";
 	}
 	
 	public String voltar(){
+		return "/principal?faces-redirect=true";
+	}
+	
+	public String sair(){
 		return "/index?faces-redirect=true";
 	}
 

@@ -5,7 +5,6 @@ import java.util.List;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.SessionScoped;
-import javax.faces.context.FacesContext;
 import javax.inject.Inject;
 import javax.inject.Named;
 
@@ -98,10 +97,14 @@ public class UsuarioController implements Serializable {
 				
 		} else { 
 			
-			return "/alterar?faces-redirect=true";
+			return "/principal?faces-redirect=true";
 		
 		}
 
+	}
+	
+	public String goToCadastroUser(){
+		return "/pages/usuario/cadastrar?faces-redirect=true";
 	}
 
 }
