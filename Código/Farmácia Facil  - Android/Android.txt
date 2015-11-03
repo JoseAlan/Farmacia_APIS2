@@ -1,0 +1,1 @@
+Essa pasta será destinada para o armazenamento do código Android do projeto referente a dicilina de Apis2.
