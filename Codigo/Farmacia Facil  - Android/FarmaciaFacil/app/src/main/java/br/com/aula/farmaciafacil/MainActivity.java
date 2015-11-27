@@ -1,12 +1,9 @@
-package br.com.aula.farmaciafcil;
+package br.com.aula.farmaciafacil;
 
 
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentTransaction;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.app.Activity;
 
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -69,26 +66,25 @@ public class MainActivity extends FragmentActivity {
         map = mapFrag.getMap();
         map.setMapType(GoogleMap.MAP_TYPE_NORMAL);
 
-        LatLng latLng = new LatLng(-7.2058717, -39.3131984);
+        LatLng latLng = new LatLng(-7.205877, -39.3110097);
         CameraPosition cameraPosition = new CameraPosition.Builder().target(latLng).zoom(18).build();
         CameraUpdate update = CameraUpdateFactory.newCameraPosition(cameraPosition);
 
         map.moveCamera(update);
+        customAddMarker(new LatLng(-7.205877, -39.3110097), "FAP", "A.K.A Sua localização");
+        customAddMarker(new LatLng(-7.20495083, -39.31016296), "Farmácia Palestina", "7:00 até 22:00");
+        customAddMarker(new LatLng(-7.2038593, -39.3180164), "Farmácia Pague Menos", "24h");
+        customAddMarker(new LatLng(-7.2191748, -39.3095176), "Farmácia Mandacaru", "7:00 até 22:00");
+        customAddMarker(new LatLng(-7.204598, -39.3142246), "Pharmapele", "9:00 até 22:00");
 
-        map.setOnCameraChangeListener(new GoogleMap.OnCameraChangeListener(){
-
-            @Override
-            public void onCameraChange(CameraPosition cameraPosition) {
-
-                if(marker != null ){
-                    marker.remove();
-                }
-                customAddMarker(new LatLng(cameraPosition.target.latitude,cameraPosition.target.longitude) , "Marcador Alterado", "O marcador foi redirecionado");
-            }
-
-
-        });
+        //-7.20495083, -39.31016296;Farmacia palestina
+        //-7.205877, -39.3110097;//Fap
+        //-7.2038593, -39.3180164;//Farmácia pague menos
+        //-7.2191748, -39.3095176;//Farmácia Mandacaru
+        //-7.204598, -39.3142246;//Pharmapele
     }
+
+
 
     public void customAddMarker(LatLng latLng, String title, String snippet){
         MarkerOptions options = new MarkerOptions();

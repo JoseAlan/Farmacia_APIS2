@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Farmacia Fácil</string>
+    <string name="title_activity_login">Tela de Login</string>
+    <!-- Referente ao login -->
+    <string name="erro_autenticacao">Login e/ou Senha incorreto</string>
+    <string name="usuario">Login</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+
+    <!--Menu -->
+    <string name="mapa">Mapa</string>
+    <string name="sair">Sair</string>
+    <string name="menu_inicial">Menu Inicial</string>
+
+
 </resources>

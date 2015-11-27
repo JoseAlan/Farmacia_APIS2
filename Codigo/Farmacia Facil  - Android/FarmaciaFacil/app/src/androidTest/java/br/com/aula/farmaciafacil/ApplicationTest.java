@@ -1,4 +1,4 @@
-package br.com.aula.farmaciafcil;
+package br.com.aula.farmaciafacil;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
