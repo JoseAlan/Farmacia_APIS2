@@ -1,0 +1,965 @@
+2015-09-11 14:58:01,175 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-09-11 14:58:05,155 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-09-11 14:58:05,506 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) starting
+2015-09-11 14:58:05,519 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_60\jre
+	java.io.tmpdir = C:\Users\Aluno\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec BioExcess\x64;C:\Program Files (x86)\EgisTec BioExcess\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Brackets\command;C:\Users\Aluno\Desktop\Apaches apis2\apache-maven-3.3.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_60\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final
+	jboss.host.name = aluno-pc
+	jboss.modules.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = aluno-pc
+	jboss.qualified.host.name = aluno-pc
+	jboss.server.base.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	jboss.server.config.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\log
+	jboss.server.name = aluno-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\modules
+	org.jboss.boot.log.file = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_60\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\jboss-modules.jar -mp C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = BR
+	user.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\bin
+	user.home = C:\Users\Aluno
+	user.language = pt
+	user.name = Aluno
+	user.script = 
+	user.timezone = GMT-03:00
+	user.variant = 
+2015-09-11 14:58:05,523 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MaxPermSize=256M -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\configuration/logging.properties 
+2015-09-11 14:58:16,410 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 25) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-09-11 14:58:16,463 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 21) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=apis2DS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-09-11 14:58:16,524 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 21) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-09-11 14:58:16,597 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found apis1.war in deployment directory. To trigger deployment create a file called apis1.war.dodeploy
+2015-09-11 14:58:16,771 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-09-11 14:58:16,954 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.3.1.Final
+2015-09-11 14:58:17,013 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.3.1.Final
+2015-09-11 14:58:17,196 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-09-11 14:58:17,208 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-09-11 14:58:17,242 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-09-11 14:58:17,245 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-09-11 14:58:17,234 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-09-11 14:58:17,293 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-09-11 14:58:17,380 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-09-11 14:58:17,576 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.4.Final)
+2015-09-11 14:58:17,776 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-09-11 14:58:18,280 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-09-11 14:58:18,280 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-09-11 14:58:18,796 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-09-11 14:58:18,808 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-09-11 14:58:19,268 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-09-11 14:58:19,281 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2015-09-11 14:58:20,004 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final/welcome-content
+2015-09-11 14:58:20,310 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2015-09-11 14:58:20,327 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-09-11 14:58:21,118 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2015-09-11 14:58:21,125 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.9.Final
+2015-09-11 14:58:21,251 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2015-09-11 14:58:21,480 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on /127.0.0.1:8080
+2015-09-11 14:58:21,834 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\deployments
+2015-09-11 14:58:21,895 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "apis1.war" (runtime-name: "apis1.war")
+2015-09-11 14:58:22,899 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/apis2DS]
+2015-09-11 14:58:22,910 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-09-11 14:58:26,009 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-09-11 14:58:26,550 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for apis1
+2015-09-11 14:58:27,181 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'apis1.war#apis1'
+2015-09-11 14:58:27,280 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: apis1
+	...]
+2015-09-11 14:58:27,739 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment apis1.war
+2015-09-11 14:58:28,239 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {4.3.10.Final}
+2015-09-11 14:58:28,270 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2015-09-11 14:58:28,276 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+2015-09-11 14:58:28,398 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.1.3.Final
+2015-09-11 14:58:29,356 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0006: Starting Services for CDI deployment: apis1.war
+2015-09-11 14:58:29,587 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 2.2.14 (Final)
+2015-09-11 14:58:29,732 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0009: Starting weld service for deployment apis1.war
+2015-09-11 14:58:31,684 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'apis1.war#apis1'
+2015-09-11 14:58:31,991 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-09-11 14:58:32,944 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2015-09-11 14:58:32,971 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 59) HHH000431: Unable to determine H2 database version, certain features may not work
+2015-09-11 14:58:33,155 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 59) HHH000397: Using ASTQueryTranslatorFactory
+2015-09-11 14:58:37,021 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 59) Inicializando Mojarra 2.2.11-jbossorg-1 20150505-1501 para o contexto '/apis1'
+2015-09-11 14:58:44,519 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /apis1
+2015-09-11 14:58:45,062 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "apis1.war" (runtime-name : "apis1.war")
+2015-09-11 14:58:46,914 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-09-11 14:58:46,917 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-09-11 14:58:46,918 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) started in 51082ms - Started 308 of 488 services (221 services are lazy, passive or on-demand)
+2015-09-11 19:34:38,546 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-09-11 19:34:41,360 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-09-11 19:34:42,039 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) starting
+2015-09-11 19:34:42,053 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_60\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_60\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_60
+	java.io.tmpdir = C:\Users\Aluno\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec BioExcess\x64;C:\Program Files (x86)\EgisTec BioExcess\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Brackets\command;C:\Users\Aluno\Desktop\Apaches apis2\apache-maven-3.3.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Users\Aluno\Documents\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final
+	jboss.host.name = aluno-pc
+	jboss.modules.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = aluno-pc
+	jboss.qualified.host.name = aluno-pc
+	jboss.server.base.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	jboss.server.config.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\log
+	jboss.server.name = aluno-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules
+	org.jboss.boot.log.file = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly 9.x (Experimental)
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_60\lib\resources.jar;C:\Program Files\Java\jre1.8.0_60\lib\rt.jar;C:\Program Files\Java\jre1.8.0_60\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_60\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_60\lib\jce.jar;C:\Program Files\Java\jre1.8.0_60\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_60\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_60\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_60\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\bin
+	user.home = C:\Users\Aluno
+	user.language = pt
+	user.name = Aluno
+	user.script = 
+	user.timezone = GMT-03:00
+	user.variant = 
+2015-09-11 19:34:42,060 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=JBossTools: WildFly 9.x (Experimental) -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2015-09-11 19:34:52,868 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 11) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=apis2DS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-09-11 19:34:52,871 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 11) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-09-11 19:34:52,827 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 26) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-09-11 19:34:53,040 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found farmafacil.war in deployment directory. To trigger deployment create a file called farmafacil.war.dodeploy
+2015-09-11 19:34:53,043 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found apis1.war in deployment directory. To trigger deployment create a file called apis1.war.dodeploy
+2015-09-11 19:34:53,213 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-09-11 19:34:53,398 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.3.1.Final
+2015-09-11 19:34:53,461 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.3.1.Final
+2015-09-11 19:34:53,860 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-09-11 19:34:53,877 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-09-11 19:34:53,900 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-09-11 19:34:53,911 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-09-11 19:34:53,925 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-09-11 19:34:53,991 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-09-11 19:34:53,978 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-09-11 19:34:54,136 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-09-11 19:34:54,431 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-09-11 19:34:54,431 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-09-11 19:34:54,981 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.4.Final)
+2015-09-11 19:34:57,117 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final/welcome-content
+2015-09-11 19:34:59,110 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-09-11 19:34:59,174 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-09-11 19:34:59,956 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-09-11 19:34:59,959 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2015-09-11 19:35:00,191 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2015-09-11 19:35:00,193 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-09-11 19:35:01,333 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.9.Final
+2015-09-11 19:35:01,375 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2015-09-11 19:35:01,454 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2015-09-11 19:35:01,767 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2015-09-11 19:35:01,887 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "apis1.war" (runtime-name: "apis1.war")
+2015-09-11 19:35:01,887 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "farmafacil.war" (runtime-name: "farmafacil.war")
+2015-09-11 19:35:01,905 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\deployments
+2015-09-11 19:35:02,386 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/apis2DS]
+2015-09-11 19:35:02,412 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-09-11 19:35:08,508 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-09-11 19:35:08,684 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/deployments/farmafacil.war/WEB-INF/lib/com.sun.tools.xjc_2.2.0.jar  does not point to a valid jar for a Class-Path reference.
+2015-09-11 19:35:08,685 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/deployments/farmafacil.war/WEB-INF/lib/com.sun.tools.xjc_2.2.0.jar  does not point to a valid jar for a Class-Path reference.
+2015-09-11 19:35:08,686 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/deployments/farmafacil.war/WEB-INF/lib/com.sun.tools.xjc_2.2.0.jar  does not point to a valid jar for a Class-Path reference.
+2015-09-11 19:35:08,688 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0059: Class Path entry activation.jar in /C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/deployments/farmafacil.war/WEB-INF/lib/com.sun.tools.xjc_2.2.0.jar  does not point to a valid jar for a Class-Path reference.
+2015-09-11 19:35:09,985 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for apis1
+2015-09-11 19:35:09,991 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for farmafacil
+2015-09-11 19:35:10,931 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'apis1.war#apis1'
+2015-09-11 19:35:10,955 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'farmafacil.war#farmafacil'
+2015-09-11 19:35:10,981 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 60) HHH000204: Processing PersistenceUnitInfo [
+	name: farmafacil
+	...]
+2015-09-11 19:35:10,981 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: apis1
+	...]
+2015-09-11 19:35:11,349 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment apis1.war
+2015-09-11 19:35:11,572 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment farmafacil.war
+2015-09-11 19:35:12,058 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {4.3.10.Final}
+2015-09-11 19:35:12,091 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2015-09-11 19:35:12,096 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+2015-09-11 19:35:12,117 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.1.3.Final
+2015-09-11 19:35:14,194 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0006: Starting Services for CDI deployment: apis1.war
+2015-09-11 19:35:14,263 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0006: Starting Services for CDI deployment: farmafacil.war
+2015-09-11 19:35:14,349 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 2.2.14 (Final)
+2015-09-11 19:35:14,554 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0009: Starting weld service for deployment apis1.war
+2015-09-11 19:35:14,559 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0009: Starting weld service for deployment farmafacil.war
+2015-09-11 19:35:15,447 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'farmafacil.war#farmafacil'
+2015-09-11 19:35:15,447 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'apis1.war#apis1'
+2015-09-11 19:35:15,785 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 60) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-09-11 19:35:16,377 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 60) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:336)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:278)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1224)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.getConnection(SemaphoreArrayListManagedConnectionPool.java:484)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getSimpleConnection(AbstractPool.java:622)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:594)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:579)
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:430)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:737)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:138)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:67)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcServicesImpl.java:279)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:124)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:111)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:234)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:206)
+	at org.hibernate.cfg.Configuration.buildTypeRegistrations(Configuration.java:1887)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1845)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.jboss.as.jpa.hibernate4.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:665)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:427)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:203)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:146)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:312)
+	... 32 more
+
+2015-09-11 19:35:16,384 WARN  [org.hibernate.engine.jdbc.internal.JdbcServicesImpl] (ServerService Thread Pool -- 60) HHH000342: Could not obtain connection to query metadata : javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/apis2DS
+2015-09-11 19:35:16,514 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 60) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-09-11 19:35:16,593 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 60) HHH000422: Disabling contextual LOB creation as connection was null
+2015-09-11 19:35:16,938 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 60) HHH000397: Using ASTQueryTranslatorFactory
+2015-09-11 19:35:17,108 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2015-09-11 19:35:17,147 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 59) HHH000431: Unable to determine H2 database version, certain features may not work
+2015-09-11 19:35:17,310 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 59) HHH000397: Using ASTQueryTranslatorFactory
+2015-09-11 19:35:17,888 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 60) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:336)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:278)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1224)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.getConnection(SemaphoreArrayListManagedConnectionPool.java:484)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getSimpleConnection(AbstractPool.java:622)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:594)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:579)
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:430)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:737)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:138)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:67)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator$ConnectionProviderJdbcConnectionAccess.<init>(JpaSchemaGenerator.java:695)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator$ConnectionProviderJdbcConnectionAccess.<init>(JpaSchemaGenerator.java:686)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.determineAppropriateJdbcConnectionContext(JpaSchemaGenerator.java:413)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.access$100(JpaSchemaGenerator.java:69)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator$Generation.execute(JpaSchemaGenerator.java:122)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.performGeneration(JpaSchemaGenerator.java:76)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:864)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.jboss.as.jpa.hibernate4.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:665)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:427)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:203)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:146)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:312)
+	... 31 more
+
+2015-09-11 19:35:17,896 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 60) MSC000001: Failed to start service jboss.persistenceunit."farmafacil.war#farmafacil": org.jboss.msc.service.StartException in service jboss.persistenceunit."farmafacil.war#farmafacil": javax.persistence.PersistenceException: Unable to obtain JDBC Connection
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:172)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:665)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: javax.persistence.PersistenceException: Unable to obtain JDBC Connection
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator$ConnectionProviderJdbcConnectionAccess.<init>(JpaSchemaGenerator.java:698)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator$ConnectionProviderJdbcConnectionAccess.<init>(JpaSchemaGenerator.java:686)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.determineAppropriateJdbcConnectionContext(JpaSchemaGenerator.java:413)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.access$100(JpaSchemaGenerator.java:69)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator$Generation.execute(JpaSchemaGenerator.java:122)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.performGeneration(JpaSchemaGenerator.java:76)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:864)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.jboss.as.jpa.hibernate4.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
+	... 7 more
+Caused by: java.sql.SQLException: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/apis2DS
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:146)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:67)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator$ConnectionProviderJdbcConnectionAccess.<init>(JpaSchemaGenerator.java:695)
+	... 18 more
+Caused by: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/apis2DS
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:646)
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:430)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:737)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:138)
+	... 21 more
+Caused by: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:336)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:278)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1224)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.getConnection(SemaphoreArrayListManagedConnectionPool.java:484)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getSimpleConnection(AbstractPool.java:622)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:594)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:579)
+	... 24 more
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:427)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:203)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:146)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:312)
+	... 31 more
+
+2015-09-11 19:35:21,138 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 60) Inicializando Mojarra 2.2.11-jbossorg-1 20150505-1501 para o contexto '/apis1'
+2015-09-11 19:35:25,883 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 60) WFLYUT0021: Registered web context: /apis1
+2015-09-11 19:35:25,900 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "farmafacil.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.persistenceunit.\"farmafacil.war#farmafacil\"" => "org.jboss.msc.service.StartException in service jboss.persistenceunit.\"farmafacil.war#farmafacil\": javax.persistence.PersistenceException: Unable to obtain JDBC Connection
+    Caused by: javax.persistence.PersistenceException: Unable to obtain JDBC Connection
+    Caused by: java.sql.SQLException: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/apis2DS
+    Caused by: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/apis2DS
+    Caused by: javax.resource.ResourceException: IJ031084: Unable to create connection
+    Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user \"postgres\""}}
+2015-09-11 19:35:26,056 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "farmafacil.war" (runtime-name : "farmafacil.war")
+2015-09-11 19:35:26,058 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "apis1.war" (runtime-name : "apis1.war")
+2015-09-11 19:35:26,071 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."farmafacil.war#farmafacil": org.jboss.msc.service.StartException in service jboss.persistenceunit."farmafacil.war#farmafacil": javax.persistence.PersistenceException: Unable to obtain JDBC Connection
+
+2015-09-11 19:35:26,668 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-09-11 19:35:26,670 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-09-11 19:35:26,670 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) started (with errors) in 50991ms - Started 534 of 841 services (120 services failed or missing dependencies, 232 services are lazy, passive or on-demand)
+2015-09-11 19:35:26,921 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 16) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'farmafacil.war#farmafacil'
+2015-09-11 19:35:27,054 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0010: Stopping weld service for deployment farmafacil.war
+2015-09-11 19:35:27,465 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment farmafacil.war (runtime-name: farmafacil.war) in 600ms
+2015-09-11 19:35:28,000 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "farmafacil.war" (runtime-name: "farmafacil.war")
+2015-09-11 19:35:28,030 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."farmafacil.war".WeldBootstrapService (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateLengthTag".WeldInstantiator, service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.RegexValidatorTag".WeldInstantiator, service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandButtonTag".WeldInstantiator, service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateDoubleRangeTag".WeldInstantiator, WFLYCTL0208: ... and 56 more ] 
+      service jboss.deployment.unit."farmafacil.war".WeldStartService (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateLengthTag".WeldInstantiator, service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.RegexValidatorTag".WeldInstantiator, service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandButtonTag".WeldInstantiator, service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateDoubleRangeTag".WeldInstantiator, WFLYCTL0208: ... and 57 more ] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.config.ConfigureListener".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.config.ConfigureListener".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.config.ConfigureListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.config.ConfigureListener".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.ext.taglib.CreditCardValidatorTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.ext.taglib.CreditCardValidatorTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.ext.taglib.CreditCardValidatorTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.ext.taglib.CreditCardValidatorTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.ext.taglib.CreditCardValidatorTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.ext.taglib.FocusTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.ext.taglib.FocusTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.ext.taglib.FocusTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.ext.taglib.FocusTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.ext.taglib.FocusTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.ColumnTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.ColumnTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.ColumnTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.ColumnTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.ColumnTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandButtonTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandButtonTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandButtonTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandButtonTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandButtonTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandLinkTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandLinkTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandLinkTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandLinkTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandLinkTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.DataTableTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.DataTableTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.DataTableTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.DataTableTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.DataTableTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.FormTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.FormTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.FormTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.FormTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.FormTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.GraphicImageTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.GraphicImageTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.GraphicImageTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.GraphicImageTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.GraphicImageTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.HtmlBasicValidator".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.HtmlBasicValidator".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.HtmlBasicValidator".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.HtmlBasicValidator".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.HtmlBasicValidator".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputFileTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputFileTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputFileTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputFileTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputFileTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputHiddenTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputHiddenTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputHiddenTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputHiddenTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputHiddenTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputSecretTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputSecretTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputSecretTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputSecretTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputSecretTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputTextTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputTextTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputTextTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputTextTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputTextTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputTextareaTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputTextareaTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputTextareaTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputTextareaTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputTextareaTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.MessageTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.MessageTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.MessageTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.MessageTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.MessageTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.MessagesTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.MessagesTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.MessagesTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.MessagesTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.MessagesTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputFormatTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputFormatTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputFormatTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputFormatTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputFormatTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputLabelTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputLabelTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputLabelTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputLabelTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputLabelTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputLinkTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputLinkTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputLinkTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputLinkTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputLinkTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputTextTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputTextTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputTextTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputTextTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.OutputTextTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.PanelGridTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.PanelGridTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.PanelGridTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.PanelGridTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.PanelGridTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.PanelGroupTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.PanelGroupTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.PanelGroupTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.PanelGroupTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.PanelGroupTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectBooleanCheckboxTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectBooleanCheckboxTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectBooleanCheckboxTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectBooleanCheckboxTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectBooleanCheckboxTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectManyCheckboxTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectManyCheckboxTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectManyCheckboxTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectManyCheckboxTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectManyCheckboxTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectManyListboxTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectManyListboxTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectManyListboxTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectManyListboxTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectManyListboxTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectManyMenuTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectManyMenuTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectManyMenuTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectManyMenuTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectManyMenuTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectOneListboxTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectOneListboxTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectOneListboxTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectOneListboxTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectOneListboxTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectOneMenuTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectOneMenuTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectOneMenuTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectOneMenuTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectOneMenuTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectOneRadioTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectOneRadioTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectOneRadioTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectOneRadioTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectOneRadioTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ActionListenerTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ActionListenerTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ActionListenerTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ActionListenerTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ActionListenerTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.AttributeTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.AttributeTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.AttributeTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.AttributeTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.AttributeTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConvertDateTimeTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConvertDateTimeTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConvertDateTimeTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConvertDateTimeTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConvertDateTimeTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConvertNumberTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConvertNumberTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConvertNumberTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConvertNumberTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConvertNumberTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConverterTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConverterTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConverterTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConverterTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConverterTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.CoreValidator".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.CoreValidator".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.CoreValidator".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.CoreValidator".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.CoreValidator".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.LoadBundleTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.LoadBundleTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.LoadBundleTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.LoadBundleTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.LoadBundleTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ParameterTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ParameterTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ParameterTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ParameterTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ParameterTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.PhaseListenerTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.PhaseListenerTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.PhaseListenerTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.PhaseListenerTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.PhaseListenerTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.RegexValidatorTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.RegexValidatorTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.RegexValidatorTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.RegexValidatorTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.RegexValidatorTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SelectItemTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SelectItemTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SelectItemTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SelectItemTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SelectItemTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SelectItemsTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SelectItemsTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SelectItemsTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SelectItemsTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SelectItemsTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SetPropertyActionListenerTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SetPropertyActionListenerTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SetPropertyActionListenerTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SetPropertyActionListenerTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SetPropertyActionListenerTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SubviewTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SubviewTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SubviewTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SubviewTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SubviewTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateDoubleRangeTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateDoubleRangeTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateDoubleRangeTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateDoubleRangeTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateDoubleRangeTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateLengthTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateLengthTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateLengthTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateLengthTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateLengthTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateLongRangeTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateLongRangeTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateLongRangeTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateLongRangeTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateLongRangeTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidatorTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidatorTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidatorTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidatorTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidatorTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValueChangeListenerTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValueChangeListenerTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValueChangeListenerTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValueChangeListenerTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValueChangeListenerTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.VerbatimTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.VerbatimTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.VerbatimTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.VerbatimTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.VerbatimTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ViewTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ViewTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ViewTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ViewTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ViewTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."javax.faces.webapp.FacesServlet".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."javax.faces.webapp.FacesServlet".START] 
+      service jboss.deployment.unit."farmafacil.war".component."javax.faces.webapp.FacesServlet".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."javax.faces.webapp.FacesServlet".START] 
+      service jboss.deployment.unit."farmafacil.war".component."javax.faces.webapp.FacetTag".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."javax.faces.webapp.FacetTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."javax.faces.webapp.FacetTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."javax.faces.webapp.FacetTag".START] 
+      service jboss.deployment.unit."farmafacil.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START] 
+      service jboss.deployment.unit."farmafacil.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START] 
+      service jboss.deployment.unit."farmafacil.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START] 
+      service jboss.deployment.unit."farmafacil.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START] 
+      service jboss.deployment.unit."farmafacil.war".component."org.jboss.weld.servlet.WeldInitialListener".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."org.jboss.weld.servlet.WeldInitialListener".START] 
+      service jboss.deployment.unit."farmafacil.war".component."org.jboss.weld.servlet.WeldInitialListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."org.jboss.weld.servlet.WeldInitialListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."org.jboss.weld.servlet.WeldInitialListener".START] 
+      service jboss.deployment.unit."farmafacil.war".component."org.jboss.weld.servlet.WeldTerminalListener".CREATE (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."org.jboss.weld.servlet.WeldTerminalListener".START] 
+      service jboss.deployment.unit."farmafacil.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil, service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService, service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."org.jboss.weld.servlet.WeldTerminalListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."org.jboss.weld.servlet.WeldTerminalListener".START] 
+      service jboss.deployment.unit."farmafacil.war".ee.ComponentRegistry (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."farmafacil.war".jndiDependencyService (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandButtonTag".START, service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandLinkTag".START, service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputHiddenTag".START, service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateDoubleRangeTag".START, WFLYCTL0208: ... and 55 more ] 
+      service jboss.persistenceunit."farmafacil.war#farmafacil" (missing) dependents: [service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandButtonTag".START, service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandLinkTag".START, service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputHiddenTag".START, service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ValidateDoubleRangeTag".START, WFLYCTL0208: ... and 56 more ] 
+      service jboss.server.global-request-controller.control-point."farmafacil.war".undertow (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host./farmafacil (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil] 
+      service jboss.undertow.deployment.default-server.default-host./farmafacil.codec (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host./farmafacil.session (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./farmafacil.UndertowDeploymentInfoService] 
+WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."farmafacil.war#farmafacil"
+
+2015-09-11 19:35:31,320 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found farmafacil.war in deployment directory. To trigger deployment create a file called farmafacil.war.dodeploy
+2015-09-11 20:05:29,383 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-09-11 20:05:30,228 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-09-11 20:05:30,395 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) starting
+2015-09-11 20:05:30,398 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_60\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_60\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_60
+	java.io.tmpdir = C:\Users\Aluno\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec BioExcess\x64;C:\Program Files (x86)\EgisTec BioExcess\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Brackets\command;C:\Users\Aluno\Desktop\Apaches apis2\apache-maven-3.3.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Users\Aluno\Documents\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final
+	jboss.host.name = aluno-pc
+	jboss.modules.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = aluno-pc
+	jboss.qualified.host.name = aluno-pc
+	jboss.server.base.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	jboss.server.config.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\log
+	jboss.server.name = aluno-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules
+	org.jboss.boot.log.file = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly 9.x (Experimental)
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_60\lib\resources.jar;C:\Program Files\Java\jre1.8.0_60\lib\rt.jar;C:\Program Files\Java\jre1.8.0_60\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_60\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_60\lib\jce.jar;C:\Program Files\Java\jre1.8.0_60\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_60\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_60\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_60\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\bin
+	user.home = C:\Users\Aluno
+	user.language = pt
+	user.name = Aluno
+	user.script = 
+	user.timezone = GMT-03:00
+	user.variant = 
+2015-09-11 20:05:30,401 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly 9.x (Experimental) -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2015-09-11 20:05:34,753 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 21) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=apis2DS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-09-11 20:05:34,756 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 21) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-09-11 20:05:34,830 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 6) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-09-11 20:05:34,890 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment farmafacil.war
+2015-09-11 20:05:34,909 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found farmafacil.war in deployment directory. To trigger deployment create a file called farmafacil.war.dodeploy
+2015-09-11 20:05:34,910 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found apis1.war in deployment directory. To trigger deployment create a file called apis1.war.dodeploy
+2015-09-11 20:05:34,985 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-09-11 20:05:35,043 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.3.1.Final
+2015-09-11 20:05:35,060 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.3.1.Final
+2015-09-11 20:05:35,129 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-09-11 20:05:35,142 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-09-11 20:05:35,179 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-09-11 20:05:35,162 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-09-11 20:05:35,134 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-09-11 20:05:35,172 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-09-11 20:05:35,225 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-09-11 20:05:35,295 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.4.Final)
+2015-09-11 20:05:35,393 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-09-11 20:05:35,406 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-09-11 20:05:35,411 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-09-11 20:05:35,543 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-09-11 20:05:35,594 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2015-09-11 20:05:35,641 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-09-11 20:05:35,644 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-09-11 20:05:35,647 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2015-09-11 20:05:35,696 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-09-11 20:05:36,065 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.9.Final
+2015-09-11 20:05:36,213 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final/welcome-content
+2015-09-11 20:05:36,287 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2015-09-11 20:05:36,294 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2015-09-11 20:05:36,502 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2015-09-11 20:05:37,049 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "apis1.war" (runtime-name: "apis1.war")
+2015-09-11 20:05:37,050 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "farmafacil.war" (runtime-name: "farmafacil.war")
+2015-09-11 20:05:37,130 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\deployments
+2015-09-11 20:05:37,938 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/apis2DS]
+2015-09-11 20:05:37,946 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-09-11 20:05:37,949 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-09-11 20:05:38,788 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for apis1
+2015-09-11 20:05:39,576 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'apis1.war#apis1'
+2015-09-11 20:05:39,610 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment apis1.war
+2015-09-11 20:05:39,911 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: apis1
+	...]
+2015-09-11 20:05:40,310 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.1.3.Final
+2015-09-11 20:05:40,946 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0006: Starting Services for CDI deployment: apis1.war
+2015-09-11 20:05:41,038 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {4.3.10.Final}
+2015-09-11 20:05:41,069 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2015-09-11 20:05:41,078 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 2.2.14 (Final)
+2015-09-11 20:05:41,360 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+2015-09-11 20:05:41,473 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0009: Starting weld service for deployment apis1.war
+2015-09-11 20:05:43,034 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'apis1.war#apis1'
+2015-09-11 20:05:43,973 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-09-11 20:05:44,516 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxb-api.jar in /C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/deployments/farmafacil.war/WEB-INF/lib/com.sun.tools.xjc_2.2.0.jar  does not point to a valid jar for a Class-Path reference.
+2015-09-11 20:05:44,516 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jaxb-impl.jar in /C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/deployments/farmafacil.war/WEB-INF/lib/com.sun.tools.xjc_2.2.0.jar  does not point to a valid jar for a Class-Path reference.
+2015-09-11 20:05:44,517 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/deployments/farmafacil.war/WEB-INF/lib/com.sun.tools.xjc_2.2.0.jar  does not point to a valid jar for a Class-Path reference.
+2015-09-11 20:05:44,517 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0059: Class Path entry activation.jar in /C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/deployments/farmafacil.war/WEB-INF/lib/com.sun.tools.xjc_2.2.0.jar  does not point to a valid jar for a Class-Path reference.
+2015-09-11 20:05:44,637 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for farmafacil
+2015-09-11 20:05:44,735 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2015-09-11 20:05:44,748 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 59) HHH000431: Unable to determine H2 database version, certain features may not work
+2015-09-11 20:05:44,792 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'farmafacil.war#farmafacil'
+2015-09-11 20:05:44,792 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: farmafacil
+	...]
+2015-09-11 20:05:44,923 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 59) HHH000397: Using ASTQueryTranslatorFactory
+2015-09-11 20:05:44,964 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment farmafacil.war
+2015-09-11 20:05:45,152 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0006: Starting Services for CDI deployment: farmafacil.war
+2015-09-11 20:05:45,192 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0009: Starting weld service for deployment farmafacil.war
+2015-09-11 20:05:45,250 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'farmafacil.war#farmafacil'
+2015-09-11 20:05:46,264 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-09-11 20:05:46,340 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 58) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-09-11 20:05:46,581 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 58) HHH000397: Using ASTQueryTranslatorFactory
+2015-09-11 20:05:47,071 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 62) Inicializando Mojarra 2.2.11-jbossorg-1 20150505-1501 para o contexto '/apis1'
+2015-09-11 20:05:47,546 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-09-11 20:05:47,562 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-09-11 20:05:47,562 INFO  [stdout] (ServerService Thread Pool -- 58)     drop table apis2.TB_USUARIO cascade
+2015-09-11 20:05:47,602 WARN  [org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase] (ServerService Thread Pool -- 58) Unable to execute JPA schema generation drop command [drop table apis2.TB_USUARIO cascade]
+2015-09-11 20:05:47,602 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-09-11 20:05:47,602 INFO  [stdout] (ServerService Thread Pool -- 58)     drop sequence SQ_ID_USUARIO
+2015-09-11 20:05:47,603 WARN  [org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase] (ServerService Thread Pool -- 58) Unable to execute JPA schema generation drop command [drop sequence SQ_ID_USUARIO]
+2015-09-11 20:05:47,606 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-09-11 20:05:47,606 INFO  [stdout] (ServerService Thread Pool -- 58)     create table apis2.TB_USUARIO (
+2015-09-11 20:05:47,607 INFO  [stdout] (ServerService Thread Pool -- 58)         id int8 not null,
+2015-09-11 20:05:47,607 INFO  [stdout] (ServerService Thread Pool -- 58)         EMAIL varchar(50) not null,
+2015-09-11 20:05:47,607 INFO  [stdout] (ServerService Thread Pool -- 58)         LOGIN varchar(30) not null,
+2015-09-11 20:05:47,607 INFO  [stdout] (ServerService Thread Pool -- 58)         SENHA varchar(255) not null,
+2015-09-11 20:05:47,607 INFO  [stdout] (ServerService Thread Pool -- 58)         primary key (id)
+2015-09-11 20:05:47,608 INFO  [stdout] (ServerService Thread Pool -- 58)     )
+2015-09-11 20:05:48,078 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 62) WFLYUT0021: Registered web context: /apis1
+2015-09-11 20:05:48,389 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-09-11 20:05:48,389 INFO  [stdout] (ServerService Thread Pool -- 58)     alter table apis2.TB_USUARIO 
+2015-09-11 20:05:48,389 INFO  [stdout] (ServerService Thread Pool -- 58)         add constraint UK_au0xr0q5xh0jfall0iu29tk46  unique (EMAIL)
+2015-09-11 20:05:48,470 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-09-11 20:05:48,471 INFO  [stdout] (ServerService Thread Pool -- 58)     create sequence SQ_ID_USUARIO start 1 increment 1
+2015-09-11 20:05:49,802 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 68) Inicializando Mojarra 2.2.11-jbossorg-1 20150505-1501 para o contexto '/farmafacil'
+2015-09-11 20:05:53,409 SEVERE [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 68) Critical error during deployment: : com.sun.faces.config.ConfigurationException: The tag named inputFile from namespace http://xmlns.jcp.org/jsf/html has a null handler-class defined
+	at com.sun.faces.config.processor.FaceletTaglibConfigProcessor.processHandlerClass(FaceletTaglibConfigProcessor.java:422)
+	at com.sun.faces.config.processor.FaceletTaglibConfigProcessor.processTags(FaceletTaglibConfigProcessor.java:378)
+	at com.sun.faces.config.processor.FaceletTaglibConfigProcessor.processTagLibrary(FaceletTaglibConfigProcessor.java:321)
+	at com.sun.faces.config.processor.FaceletTaglibConfigProcessor.process(FaceletTaglibConfigProcessor.java:270)
+	at com.sun.faces.config.ConfigManager.initialize(ConfigManager.java:441)
+	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:227)
+	at io.undertow.servlet.core.ApplicationListeners.contextInitialized(ApplicationListeners.java:173)
+	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:195)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:100)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+
+2015-09-11 20:05:53,412 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 68) MSC000001: Failed to start service jboss.undertow.deployment.default-server.default-host./farmafacil: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./farmafacil: java.lang.RuntimeException: java.lang.RuntimeException: com.sun.faces.config.ConfigurationException: The tag named inputFile from namespace http://xmlns.jcp.org/jsf/html has a null handler-class defined
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:85)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: java.lang.RuntimeException: java.lang.RuntimeException: com.sun.faces.config.ConfigurationException: The tag named inputFile from namespace http://xmlns.jcp.org/jsf/html has a null handler-class defined
+	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:224)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:100)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:82)
+	... 6 more
+Caused by: java.lang.RuntimeException: com.sun.faces.config.ConfigurationException: The tag named inputFile from namespace http://xmlns.jcp.org/jsf/html has a null handler-class defined
+	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:292)
+	at io.undertow.servlet.core.ApplicationListeners.contextInitialized(ApplicationListeners.java:173)
+	at io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:195)
+	... 8 more
+Caused by: com.sun.faces.config.ConfigurationException: The tag named inputFile from namespace http://xmlns.jcp.org/jsf/html has a null handler-class defined
+	at com.sun.faces.config.processor.FaceletTaglibConfigProcessor.processHandlerClass(FaceletTaglibConfigProcessor.java:422)
+	at com.sun.faces.config.processor.FaceletTaglibConfigProcessor.processTags(FaceletTaglibConfigProcessor.java:378)
+	at com.sun.faces.config.processor.FaceletTaglibConfigProcessor.processTagLibrary(FaceletTaglibConfigProcessor.java:321)
+	at com.sun.faces.config.processor.FaceletTaglibConfigProcessor.process(FaceletTaglibConfigProcessor.java:270)
+	at com.sun.faces.config.ConfigManager.initialize(ConfigManager.java:441)
+	at com.sun.faces.config.ConfigureListener.contextInitialized(ConfigureListener.java:227)
+	... 10 more
+
+2015-09-11 20:05:53,443 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "farmafacil.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.undertow.deployment.default-server.default-host./farmafacil" => "org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./farmafacil: java.lang.RuntimeException: java.lang.RuntimeException: com.sun.faces.config.ConfigurationException: The tag named inputFile from namespace http://xmlns.jcp.org/jsf/html has a null handler-class defined
+    Caused by: java.lang.RuntimeException: java.lang.RuntimeException: com.sun.faces.config.ConfigurationException: The tag named inputFile from namespace http://xmlns.jcp.org/jsf/html has a null handler-class defined
+    Caused by: java.lang.RuntimeException: com.sun.faces.config.ConfigurationException: The tag named inputFile from namespace http://xmlns.jcp.org/jsf/html has a null handler-class defined
+    Caused by: com.sun.faces.config.ConfigurationException: The tag named inputFile from namespace http://xmlns.jcp.org/jsf/html has a null handler-class defined"}}
+2015-09-11 20:05:53,590 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "farmafacil.war" (runtime-name : "farmafacil.war")
+2015-09-11 20:05:53,591 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "apis1.war" (runtime-name : "apis1.war")
+2015-09-11 20:05:53,635 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./farmafacil: org.jboss.msc.service.StartException in service jboss.undertow.deployment.default-server.default-host./farmafacil: java.lang.RuntimeException: java.lang.RuntimeException: com.sun.faces.config.ConfigurationException: The tag named inputFile from namespace http://xmlns.jcp.org/jsf/html has a null handler-class defined
+
+2015-09-11 20:05:54,238 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-09-11 20:05:54,238 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-09-11 20:05:54,239 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) started (with errors) in 25544ms - Started 652 of 841 services (2 services failed or missing dependencies, 232 services are lazy, passive or on-demand)
+2015-09-11 20:05:54,357 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'farmafacil.war#farmafacil'
+2015-09-11 20:05:54,362 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0010: Stopping weld service for deployment farmafacil.war
+2015-09-11 20:05:54,365 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 2) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'farmafacil.war#farmafacil'
+2015-09-11 20:05:54,612 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment farmafacil.war (runtime-name: farmafacil.war) in 315ms
+2015-09-11 20:05:54,876 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "farmafacil.war" (runtime-name: "farmafacil.war")
+2015-09-11 20:05:54,881 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.ext.taglib.CreditCardValidatorTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.ext.taglib.FocusTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.ColumnTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandButtonTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.CommandLinkTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.DataTableTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.GraphicImageTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.HtmlBasicValidator".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputFileTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.InputSecretTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.MessageTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.PanelGroupTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectBooleanCheckboxTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.html_basic.SelectOneRadioTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ActionListenerTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConvertDateTimeTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConvertNumberTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ConverterTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.LoadBundleTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.SelectItemsTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.VerbatimTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."com.sun.faces.taglib.jsf_core.ViewTag".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."javax.faces.webapp.FacesServlet".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+      service jboss.deployment.unit."farmafacil.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.deployment.unit."farmafacil.war".deploymentCompleteService] 
+WFLYCTL0186:   Services which failed to start:      service jboss.undertow.deployment.default-server.default-host./farmafacil
+
+2015-09-11 20:05:58,928 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found farmafacil.war in deployment directory. To trigger deployment create a file called farmafacil.war.dodeploy

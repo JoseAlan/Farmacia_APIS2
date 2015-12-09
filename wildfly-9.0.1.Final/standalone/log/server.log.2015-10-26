@@ -1,0 +1,1055 @@
+2015-10-26 09:44:33,863 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-10-26 09:44:37,526 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-10-26 09:44:38,036 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) starting
+2015-10-26 09:44:38,066 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_60\jre
+	java.io.tmpdir = C:\Users\Aluno\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec BioExcess\x64;C:\Program Files (x86)\EgisTec BioExcess\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Users\Aluno\Desktop\Apaches apis2\apache-maven-3.3.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Brackets\command;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Users\Aluno\Documents\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final
+	jboss.host.name = aluno-pc
+	jboss.modules.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = aluno-pc
+	jboss.qualified.host.name = aluno-pc
+	jboss.server.base.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	jboss.server.config.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\log
+	jboss.server.name = aluno-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules
+	org.jboss.boot.log.file = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly  9.x 
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_60\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\bin
+	user.home = C:\Users\Aluno
+	user.language = pt
+	user.name = Aluno
+	user.script = 
+	user.timezone = GMT-03:00
+	user.variant = 
+2015-10-26 09:44:38,069 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=JBossTools: WildFly  9.x  -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2015-10-26 09:44:49,562 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found todahora.war in deployment directory. To trigger deployment create a file called todahora.war.dodeploy
+2015-10-26 09:44:49,575 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 7) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-26 09:44:49,629 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 3) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=apis2DS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-26 09:44:49,637 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 3) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-26 09:44:49,770 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-10-26 09:44:49,937 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.1.Final
+2015-10-26 09:44:50,023 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.1.Final
+2015-10-26 09:44:51,394 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-10-26 09:44:51,412 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-10-26 09:44:51,420 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-10-26 09:44:51,382 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-10-26 09:44:51,415 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-10-26 09:44:51,602 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-10-26 09:44:52,008 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-10-26 09:44:52,105 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-26 09:44:52,063 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-10-26 09:44:52,118 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-26 09:44:52,439 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.4.Final)
+2015-10-26 09:44:54,068 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-10-26 09:44:54,559 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-10-26 09:44:54,574 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
+2015-10-26 09:44:54,578 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-10-26 09:44:54,880 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final/welcome-content
+2015-10-26 09:44:55,529 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-26 09:44:55,547 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2015-10-26 09:44:57,186 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2015-10-26 09:44:57,299 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.9.Final
+2015-10-26 09:44:57,307 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2015-10-26 09:44:57,528 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2015-10-26 09:44:58,272 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/apis2DS]
+2015-10-26 09:44:58,272 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-10-26 09:44:58,646 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "todahora.war" (runtime-name: "todahora.war")
+2015-10-26 09:44:58,746 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\deployments
+2015-10-26 09:45:03,289 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-10-26 09:45:05,746 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for todahora
+2015-10-26 09:45:07,145 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'todahora.war#todahora'
+2015-10-26 09:45:07,236 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: todahora
+	...]
+2015-10-26 09:45:07,657 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment todahora.war
+2015-10-26 09:45:08,477 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {4.3.10.Final}
+2015-10-26 09:45:08,520 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2015-10-26 09:45:08,563 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+2015-10-26 09:45:09,157 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.1.3.Final
+2015-10-26 09:45:11,992 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0006: Starting Services for CDI deployment: todahora.war
+2015-10-26 09:45:12,171 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.2.14 (Final)
+2015-10-26 09:45:12,382 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0009: Starting weld service for deployment todahora.war
+2015-10-26 09:45:13,106 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'todahora.war#todahora'
+2015-10-26 09:45:13,506 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-10-26 09:45:15,271 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-26 09:45:15,327 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 59) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-26 09:45:15,913 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 59) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-26 09:45:17,656 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-26 09:45:17,668 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:17,670 INFO  [stdout] (ServerService Thread Pool -- 59)     alter table apis2.aluno_disciplina 
+2015-10-26 09:45:17,670 INFO  [stdout] (ServerService Thread Pool -- 59)         drop constraint if exists FK_avr8icno6x2beeadcskc7kaow
+2015-10-26 09:45:17,896 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:17,896 INFO  [stdout] (ServerService Thread Pool -- 59)     alter table apis2.aluno_disciplina 
+2015-10-26 09:45:17,897 INFO  [stdout] (ServerService Thread Pool -- 59)         drop constraint if exists FK_t45gi0o52egvxee0garyd9jlr
+2015-10-26 09:45:17,901 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:17,901 INFO  [stdout] (ServerService Thread Pool -- 59)     drop table apis2.Aluno cascade
+2015-10-26 09:45:18,069 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:18,070 INFO  [stdout] (ServerService Thread Pool -- 59)     drop table apis2.Disciplina cascade
+2015-10-26 09:45:18,114 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:18,114 INFO  [stdout] (ServerService Thread Pool -- 59)     drop table apis2.FARMACIA cascade
+2015-10-26 09:45:18,173 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:18,173 INFO  [stdout] (ServerService Thread Pool -- 59)     drop table apis2.USUARIO cascade
+2015-10-26 09:45:18,239 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:18,240 INFO  [stdout] (ServerService Thread Pool -- 59)     drop table apis2.aluno_disciplina cascade
+2015-10-26 09:45:18,244 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:18,245 INFO  [stdout] (ServerService Thread Pool -- 59)     drop sequence SQ_ID_ALUNO
+2015-10-26 09:45:18,324 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:18,325 INFO  [stdout] (ServerService Thread Pool -- 59)     drop sequence SQ_ID_DISCIPLINA
+2015-10-26 09:45:18,357 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:18,358 INFO  [stdout] (ServerService Thread Pool -- 59)     drop sequence SQ_ID_FARMACIA
+2015-10-26 09:45:18,385 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:18,385 INFO  [stdout] (ServerService Thread Pool -- 59)     drop sequence SQ_ID_USUARIO
+2015-10-26 09:45:18,416 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:18,416 INFO  [stdout] (ServerService Thread Pool -- 59)     create table apis2.Aluno (
+2015-10-26 09:45:18,417 INFO  [stdout] (ServerService Thread Pool -- 59)         id int8 not null,
+2015-10-26 09:45:18,417 INFO  [stdout] (ServerService Thread Pool -- 59)         nome varchar(255) not null,
+2015-10-26 09:45:18,417 INFO  [stdout] (ServerService Thread Pool -- 59)         primary key (id)
+2015-10-26 09:45:18,418 INFO  [stdout] (ServerService Thread Pool -- 59)     )
+2015-10-26 09:45:18,767 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:18,767 INFO  [stdout] (ServerService Thread Pool -- 59)     create table apis2.Disciplina (
+2015-10-26 09:45:18,768 INFO  [stdout] (ServerService Thread Pool -- 59)         id int8 not null,
+2015-10-26 09:45:18,768 INFO  [stdout] (ServerService Thread Pool -- 59)         NOME varchar(255) not null,
+2015-10-26 09:45:18,769 INFO  [stdout] (ServerService Thread Pool -- 59)         primary key (id)
+2015-10-26 09:45:18,769 INFO  [stdout] (ServerService Thread Pool -- 59)     )
+2015-10-26 09:45:18,869 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:18,869 INFO  [stdout] (ServerService Thread Pool -- 59)     create table apis2.FARMACIA (
+2015-10-26 09:45:18,870 INFO  [stdout] (ServerService Thread Pool -- 59)         id int8 not null,
+2015-10-26 09:45:18,870 INFO  [stdout] (ServerService Thread Pool -- 59)         BAIRRO varchar(30) not null,
+2015-10-26 09:45:18,870 INFO  [stdout] (ServerService Thread Pool -- 59)         CIDADE varchar(30) not null,
+2015-10-26 09:45:18,871 INFO  [stdout] (ServerService Thread Pool -- 59)         DESCRICAO varchar(255) not null,
+2015-10-26 09:45:18,871 INFO  [stdout] (ServerService Thread Pool -- 59)         ENDERECO varchar(50) not null,
+2015-10-26 09:45:18,871 INFO  [stdout] (ServerService Thread Pool -- 59)         HORARIO varchar(30) not null,
+2015-10-26 09:45:18,872 INFO  [stdout] (ServerService Thread Pool -- 59)         NOME varchar(30) not null,
+2015-10-26 09:45:18,872 INFO  [stdout] (ServerService Thread Pool -- 59)         NUMERO varchar(10) not null,
+2015-10-26 09:45:18,873 INFO  [stdout] (ServerService Thread Pool -- 59)         TELEFONE int4 not null,
+2015-10-26 09:45:18,873 INFO  [stdout] (ServerService Thread Pool -- 59)         primary key (id)
+2015-10-26 09:45:18,873 INFO  [stdout] (ServerService Thread Pool -- 59)     )
+2015-10-26 09:45:18,954 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:18,954 INFO  [stdout] (ServerService Thread Pool -- 59)     create table apis2.USUARIO (
+2015-10-26 09:45:18,955 INFO  [stdout] (ServerService Thread Pool -- 59)         id int8 not null,
+2015-10-26 09:45:18,955 INFO  [stdout] (ServerService Thread Pool -- 59)         EMAIL varchar(50) not null,
+2015-10-26 09:45:18,955 INFO  [stdout] (ServerService Thread Pool -- 59)         LOGIN varchar(30) not null,
+2015-10-26 09:45:18,956 INFO  [stdout] (ServerService Thread Pool -- 59)         SENHA varchar(255) not null,
+2015-10-26 09:45:18,956 INFO  [stdout] (ServerService Thread Pool -- 59)         primary key (id)
+2015-10-26 09:45:18,956 INFO  [stdout] (ServerService Thread Pool -- 59)     )
+2015-10-26 09:45:19,031 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:19,031 INFO  [stdout] (ServerService Thread Pool -- 59)     create table apis2.aluno_disciplina (
+2015-10-26 09:45:19,031 INFO  [stdout] (ServerService Thread Pool -- 59)         alunos_id int8 not null,
+2015-10-26 09:45:19,031 INFO  [stdout] (ServerService Thread Pool -- 59)         disciplinas_id int8 not null
+2015-10-26 09:45:19,032 INFO  [stdout] (ServerService Thread Pool -- 59)     )
+2015-10-26 09:45:19,037 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:19,037 INFO  [stdout] (ServerService Thread Pool -- 59)     alter table apis2.USUARIO 
+2015-10-26 09:45:19,037 INFO  [stdout] (ServerService Thread Pool -- 59)         add constraint UK_5kj57sci0og84ngs04ndwa7ch  unique (EMAIL)
+2015-10-26 09:45:19,122 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:19,123 INFO  [stdout] (ServerService Thread Pool -- 59)     alter table apis2.aluno_disciplina 
+2015-10-26 09:45:19,123 INFO  [stdout] (ServerService Thread Pool -- 59)         add constraint FK_avr8icno6x2beeadcskc7kaow 
+2015-10-26 09:45:19,123 INFO  [stdout] (ServerService Thread Pool -- 59)         foreign key (disciplinas_id) 
+2015-10-26 09:45:19,124 INFO  [stdout] (ServerService Thread Pool -- 59)         references apis2.Disciplina
+2015-10-26 09:45:19,323 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:19,323 INFO  [stdout] (ServerService Thread Pool -- 59)     alter table apis2.aluno_disciplina 
+2015-10-26 09:45:19,324 INFO  [stdout] (ServerService Thread Pool -- 59)         add constraint FK_t45gi0o52egvxee0garyd9jlr 
+2015-10-26 09:45:19,324 INFO  [stdout] (ServerService Thread Pool -- 59)         foreign key (alunos_id) 
+2015-10-26 09:45:19,325 INFO  [stdout] (ServerService Thread Pool -- 59)         references apis2.Aluno
+2015-10-26 09:45:19,332 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:19,333 INFO  [stdout] (ServerService Thread Pool -- 59)     create sequence SQ_ID_ALUNO start 1 increment 1
+2015-10-26 09:45:19,339 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:19,339 INFO  [stdout] (ServerService Thread Pool -- 59)     create sequence SQ_ID_DISCIPLINA start 1 increment 1
+2015-10-26 09:45:19,357 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:19,358 INFO  [stdout] (ServerService Thread Pool -- 59)     create sequence SQ_ID_FARMACIA start 1 increment 1
+2015-10-26 09:45:19,365 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-26 09:45:19,366 INFO  [stdout] (ServerService Thread Pool -- 59)     create sequence SQ_ID_USUARIO start 1 increment 1
+2015-10-26 09:45:24,527 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 59) Inicializando Mojarra 2.2.11-jbossorg-1 20150505-1501 para o contexto '/todahora'
+2015-10-26 09:45:28,995 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 59) net.bootsfaces.listeners.AddResourcesListener ready for use.
+2015-10-26 09:45:30,812 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 59) Monitoring file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/deployments/todahora.war/WEB-INF/faces-config.xml for modifications
+2015-10-26 09:45:30,961 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 59) Running on PrimeFaces 5.2
+2015-10-26 09:45:33,395 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 59) Deploying javax.ws.rs.core.Application: class br.com.pbldg.apis2.service.AtivadorRest
+2015-10-26 09:45:33,615 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /todahora
+2015-10-26 09:45:34,595 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "todahora.war" (runtime-name : "todahora.war")
+2015-10-26 09:45:35,617 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-10-26 09:45:35,618 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-10-26 09:45:35,619 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) started in 65776ms - Started 313 of 493 services (221 services are lazy, passive or on-demand)
+2015-10-26 09:45:53,829 INFO  [stdout] (default task-3) Hibernate: 
+2015-10-26 09:45:53,830 INFO  [stdout] (default task-3)     select
+2015-10-26 09:45:53,830 INFO  [stdout] (default task-3)         farmacia0_.id as id1_2_,
+2015-10-26 09:45:53,830 INFO  [stdout] (default task-3)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 09:45:53,831 INFO  [stdout] (default task-3)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 09:45:53,831 INFO  [stdout] (default task-3)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 09:45:53,831 INFO  [stdout] (default task-3)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 09:45:53,831 INFO  [stdout] (default task-3)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 09:45:53,832 INFO  [stdout] (default task-3)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 09:45:53,832 INFO  [stdout] (default task-3)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 09:45:53,832 INFO  [stdout] (default task-3)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 09:45:53,832 INFO  [stdout] (default task-3)     from
+2015-10-26 09:45:53,833 INFO  [stdout] (default task-3)         apis2.FARMACIA farmacia0_
+2015-10-26 09:46:03,802 INFO  [stdout] (default task-14) Hibernate: 
+2015-10-26 09:46:03,803 INFO  [stdout] (default task-14)     select
+2015-10-26 09:46:03,803 INFO  [stdout] (default task-14)         farmacia0_.id as id1_2_,
+2015-10-26 09:46:03,803 INFO  [stdout] (default task-14)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 09:46:03,803 INFO  [stdout] (default task-14)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 09:46:03,804 INFO  [stdout] (default task-14)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 09:46:03,804 INFO  [stdout] (default task-14)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 09:46:03,804 INFO  [stdout] (default task-14)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 09:46:03,805 INFO  [stdout] (default task-14)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 09:46:03,805 INFO  [stdout] (default task-14)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 09:46:03,805 INFO  [stdout] (default task-14)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 09:46:03,805 INFO  [stdout] (default task-14)     from
+2015-10-26 09:46:03,806 INFO  [stdout] (default task-14)         apis2.FARMACIA farmacia0_
+2015-10-26 09:46:03,819 INFO  [stdout] (default task-14) Hibernate: 
+2015-10-26 09:46:03,819 INFO  [stdout] (default task-14)     select
+2015-10-26 09:46:03,819 INFO  [stdout] (default task-14)         farmacia0_.id as id1_2_,
+2015-10-26 09:46:03,820 INFO  [stdout] (default task-14)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 09:46:03,820 INFO  [stdout] (default task-14)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 09:46:03,820 INFO  [stdout] (default task-14)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 09:46:03,821 INFO  [stdout] (default task-14)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 09:46:03,821 INFO  [stdout] (default task-14)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 09:46:03,821 INFO  [stdout] (default task-14)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 09:46:03,821 INFO  [stdout] (default task-14)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 09:46:03,822 INFO  [stdout] (default task-14)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 09:46:03,822 INFO  [stdout] (default task-14)     from
+2015-10-26 09:46:03,822 INFO  [stdout] (default task-14)         apis2.FARMACIA farmacia0_
+2015-10-26 09:46:03,832 INFO  [stdout] (default task-14) Hibernate: 
+2015-10-26 09:46:03,833 INFO  [stdout] (default task-14)     select
+2015-10-26 09:46:03,833 INFO  [stdout] (default task-14)         farmacia0_.id as id1_2_,
+2015-10-26 09:46:03,833 INFO  [stdout] (default task-14)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 09:46:03,834 INFO  [stdout] (default task-14)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 09:46:03,834 INFO  [stdout] (default task-14)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 09:46:03,834 INFO  [stdout] (default task-14)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 09:46:03,835 INFO  [stdout] (default task-14)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 09:46:03,835 INFO  [stdout] (default task-14)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 09:46:03,835 INFO  [stdout] (default task-14)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 09:46:03,835 INFO  [stdout] (default task-14)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 09:46:03,836 INFO  [stdout] (default task-14)     from
+2015-10-26 09:46:03,836 INFO  [stdout] (default task-14)         apis2.FARMACIA farmacia0_
+2015-10-26 09:46:03,839 INFO  [stdout] (default task-14) Hibernate: 
+2015-10-26 09:46:03,840 INFO  [stdout] (default task-14)     select
+2015-10-26 09:46:03,840 INFO  [stdout] (default task-14)         farmacia0_.id as id1_2_,
+2015-10-26 09:46:03,840 INFO  [stdout] (default task-14)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 09:46:03,841 INFO  [stdout] (default task-14)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 09:46:03,841 INFO  [stdout] (default task-14)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 09:46:03,841 INFO  [stdout] (default task-14)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 09:46:03,841 INFO  [stdout] (default task-14)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 09:46:03,842 INFO  [stdout] (default task-14)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 09:46:03,842 INFO  [stdout] (default task-14)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 09:46:03,842 INFO  [stdout] (default task-14)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 09:46:03,842 INFO  [stdout] (default task-14)     from
+2015-10-26 09:46:03,843 INFO  [stdout] (default task-14)         apis2.FARMACIA farmacia0_
+2015-10-26 09:46:03,850 INFO  [stdout] (default task-14) Hibernate: 
+2015-10-26 09:46:03,850 INFO  [stdout] (default task-14)     select
+2015-10-26 09:46:03,850 INFO  [stdout] (default task-14)         farmacia0_.id as id1_2_,
+2015-10-26 09:46:03,851 INFO  [stdout] (default task-14)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 09:46:03,851 INFO  [stdout] (default task-14)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 09:46:03,851 INFO  [stdout] (default task-14)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 09:46:03,851 INFO  [stdout] (default task-14)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 09:46:03,852 INFO  [stdout] (default task-14)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 09:46:03,852 INFO  [stdout] (default task-14)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 09:46:03,852 INFO  [stdout] (default task-14)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 09:46:03,852 INFO  [stdout] (default task-14)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 09:46:03,853 INFO  [stdout] (default task-14)     from
+2015-10-26 09:46:03,853 INFO  [stdout] (default task-14)         apis2.FARMACIA farmacia0_
+2015-10-26 09:46:03,856 INFO  [stdout] (default task-14) Hibernate: 
+2015-10-26 09:46:03,856 INFO  [stdout] (default task-14)     select
+2015-10-26 09:46:03,857 INFO  [stdout] (default task-14)         farmacia0_.id as id1_2_,
+2015-10-26 09:46:03,857 INFO  [stdout] (default task-14)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 09:46:03,857 INFO  [stdout] (default task-14)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 09:46:03,857 INFO  [stdout] (default task-14)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 09:46:03,858 INFO  [stdout] (default task-14)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 09:46:03,858 INFO  [stdout] (default task-14)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 09:46:03,858 INFO  [stdout] (default task-14)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 09:46:03,858 INFO  [stdout] (default task-14)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 09:46:03,859 INFO  [stdout] (default task-14)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 09:46:03,859 INFO  [stdout] (default task-14)     from
+2015-10-26 09:46:03,859 INFO  [stdout] (default task-14)         apis2.FARMACIA farmacia0_
+2015-10-26 09:46:46,635 INFO  [stdout] (default task-32) Hibernate: 
+2015-10-26 09:46:46,635 INFO  [stdout] (default task-32)     select
+2015-10-26 09:46:46,636 INFO  [stdout] (default task-32)         nextval ('SQ_ID_USUARIO')
+2015-10-26 09:46:46,742 INFO  [stdout] (default task-32) Hibernate: 
+2015-10-26 09:46:46,742 INFO  [stdout] (default task-32)     insert 
+2015-10-26 09:46:46,742 INFO  [stdout] (default task-32)     into
+2015-10-26 09:46:46,743 INFO  [stdout] (default task-32)         apis2.USUARIO
+2015-10-26 09:46:46,743 INFO  [stdout] (default task-32)         (EMAIL, LOGIN, SENHA, id) 
+2015-10-26 09:46:46,743 INFO  [stdout] (default task-32)     values
+2015-10-26 09:46:46,743 INFO  [stdout] (default task-32)         (?, ?, ?, ?)
+2015-10-26 09:46:46,785 INFO  [stdout] (default task-32) Hibernate: 
+2015-10-26 09:46:46,785 INFO  [stdout] (default task-32)     select
+2015-10-26 09:46:46,785 INFO  [stdout] (default task-32)         usuario0_.id as id1_3_,
+2015-10-26 09:46:46,786 INFO  [stdout] (default task-32)         usuario0_.EMAIL as EMAIL2_3_,
+2015-10-26 09:46:46,786 INFO  [stdout] (default task-32)         usuario0_.LOGIN as LOGIN3_3_,
+2015-10-26 09:46:46,786 INFO  [stdout] (default task-32)         usuario0_.SENHA as SENHA4_3_ 
+2015-10-26 09:46:46,786 INFO  [stdout] (default task-32)     from
+2015-10-26 09:46:46,787 INFO  [stdout] (default task-32)         apis2.USUARIO usuario0_
+2015-10-26 09:46:46,856 INFO  [stdout] (default task-33) Hibernate: 
+2015-10-26 09:46:46,857 INFO  [stdout] (default task-33)     select
+2015-10-26 09:46:46,857 INFO  [stdout] (default task-33)         farmacia0_.id as id1_2_,
+2015-10-26 09:46:46,858 INFO  [stdout] (default task-33)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 09:46:46,858 INFO  [stdout] (default task-33)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 09:46:46,858 INFO  [stdout] (default task-33)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 09:46:46,858 INFO  [stdout] (default task-33)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 09:46:46,858 INFO  [stdout] (default task-33)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 09:46:46,859 INFO  [stdout] (default task-33)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 09:46:46,859 INFO  [stdout] (default task-33)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 09:46:46,860 INFO  [stdout] (default task-33)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 09:46:46,860 INFO  [stdout] (default task-33)     from
+2015-10-26 09:46:46,860 INFO  [stdout] (default task-33)         apis2.FARMACIA farmacia0_
+2015-10-26 10:26:33,810 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-10-26 10:26:34,122 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-10-26 10:26:34,246 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) starting
+2015-10-26 10:26:34,248 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_60\jre
+	java.io.tmpdir = C:\Users\Aluno\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec BioExcess\x64;C:\Program Files (x86)\EgisTec BioExcess\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Users\Aluno\Desktop\Apaches apis2\apache-maven-3.3.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Brackets\command;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Users\Aluno\Documents\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final
+	jboss.host.name = aluno-pc
+	jboss.modules.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = aluno-pc
+	jboss.qualified.host.name = aluno-pc
+	jboss.server.base.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	jboss.server.config.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\log
+	jboss.server.name = aluno-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules
+	org.jboss.boot.log.file = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly  9.x 
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_60\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\bin
+	user.home = C:\Users\Aluno
+	user.language = pt
+	user.name = Aluno
+	user.script = 
+	user.timezone = GMT-03:00
+	user.variant = 
+2015-10-26 10:26:34,250 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=JBossTools: WildFly  9.x  -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2015-10-26 10:26:36,285 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-26 10:26:36,298 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 19) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=apis2DS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-26 10:26:36,327 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 19) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-26 10:26:36,362 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found todahora.war in deployment directory. To trigger deployment create a file called todahora.war.dodeploy
+2015-10-26 10:26:36,422 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-10-26 10:26:36,446 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.3.1.Final
+2015-10-26 10:26:36,457 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.3.1.Final
+2015-10-26 10:26:36,520 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-10-26 10:26:36,523 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-10-26 10:26:36,526 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-10-26 10:26:36,531 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-10-26 10:26:36,540 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-10-26 10:26:36,568 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-10-26 10:26:36,581 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-10-26 10:26:36,601 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-10-26 10:26:36,631 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-10-26 10:26:36,640 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.4.Final)
+2015-10-26 10:26:36,651 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-26 10:26:36,721 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2015-10-26 10:26:36,722 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-10-26 10:26:36,727 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2015-10-26 10:26:36,765 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-26 10:26:36,765 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-26 10:26:36,776 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-10-26 10:26:37,153 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 4.0.9.Final
+2015-10-26 10:26:37,329 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final/welcome-content
+2015-10-26 10:26:37,410 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2015-10-26 10:26:37,503 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2015-10-26 10:26:37,781 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2015-10-26 10:26:38,266 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "todahora.war" (runtime-name: "todahora.war")
+2015-10-26 10:26:38,393 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\deployments
+2015-10-26 10:26:38,581 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-10-26 10:26:38,582 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/apis2DS]
+2015-10-26 10:26:38,713 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-10-26 10:26:39,730 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for todahora
+2015-10-26 10:26:39,895 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'todahora.war#todahora'
+2015-10-26 10:26:39,910 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: todahora
+	...]
+2015-10-26 10:26:39,990 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment todahora.war
+2015-10-26 10:26:40,019 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {4.3.10.Final}
+2015-10-26 10:26:40,031 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2015-10-26 10:26:40,046 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+2015-10-26 10:26:40,097 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.1.3.Final
+2015-10-26 10:26:41,162 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0006: Starting Services for CDI deployment: todahora.war
+2015-10-26 10:26:41,235 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 2.2.14 (Final)
+2015-10-26 10:26:41,309 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0009: Starting weld service for deployment todahora.war
+2015-10-26 10:26:41,604 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'todahora.war#todahora'
+2015-10-26 10:26:41,722 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-10-26 10:26:42,208 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-26 10:26:42,219 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 59) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-26 10:26:42,352 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 59) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-26 10:26:44,340 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 59) Inicializando Mojarra 2.2.11-jbossorg-1 20150505-1501 para o contexto '/todahora'
+2015-10-26 10:26:45,735 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 59) net.bootsfaces.listeners.AddResourcesListener ready for use.
+2015-10-26 10:26:46,656 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 59) Monitoring file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/deployments/todahora.war/WEB-INF/faces-config.xml for modifications
+2015-10-26 10:26:46,723 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 59) Running on PrimeFaces 5.2
+2015-10-26 10:26:47,251 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 59) Deploying javax.ws.rs.core.Application: class br.com.pbldg.apis2.service.AtivadorRest
+2015-10-26 10:26:47,280 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /todahora
+2015-10-26 10:26:47,359 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "todahora.war" (runtime-name : "todahora.war")
+2015-10-26 10:26:47,692 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-10-26 10:26:47,692 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-10-26 10:26:47,692 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) started in 14396ms - Started 313 of 493 services (221 services are lazy, passive or on-demand)
+2015-10-26 10:26:51,423 INFO  [stdout] (default task-2) Hibernate: 
+2015-10-26 10:26:51,423 INFO  [stdout] (default task-2)     select
+2015-10-26 10:26:51,423 INFO  [stdout] (default task-2)         farmacia0_.id as id1_2_,
+2015-10-26 10:26:51,424 INFO  [stdout] (default task-2)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 10:26:51,424 INFO  [stdout] (default task-2)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 10:26:51,424 INFO  [stdout] (default task-2)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 10:26:51,424 INFO  [stdout] (default task-2)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 10:26:51,424 INFO  [stdout] (default task-2)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 10:26:51,425 INFO  [stdout] (default task-2)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 10:26:51,425 INFO  [stdout] (default task-2)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 10:26:51,425 INFO  [stdout] (default task-2)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 10:26:51,425 INFO  [stdout] (default task-2)     from
+2015-10-26 10:26:51,425 INFO  [stdout] (default task-2)         apis2.FARMACIA farmacia0_
+2015-10-26 10:27:01,356 INFO  [stdout] (default task-14) Hibernate: 
+2015-10-26 10:27:01,356 INFO  [stdout] (default task-14)     select
+2015-10-26 10:27:01,356 INFO  [stdout] (default task-14)         farmacia0_.id as id1_2_,
+2015-10-26 10:27:01,356 INFO  [stdout] (default task-14)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 10:27:01,357 INFO  [stdout] (default task-14)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 10:27:01,357 INFO  [stdout] (default task-14)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 10:27:01,357 INFO  [stdout] (default task-14)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 10:27:01,357 INFO  [stdout] (default task-14)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 10:27:01,358 INFO  [stdout] (default task-14)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 10:27:01,358 INFO  [stdout] (default task-14)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 10:27:01,358 INFO  [stdout] (default task-14)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 10:27:01,359 INFO  [stdout] (default task-14)     from
+2015-10-26 10:27:01,359 INFO  [stdout] (default task-14)         apis2.FARMACIA farmacia0_
+2015-10-26 10:27:25,554 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-31) JSF1064: Não foi possível encontrar ou fornecer o recurso, holder.js, pela biblioteca, holder.
+2015-10-26 10:27:26,055 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-43) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo /fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-26 10:27:26,056 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-43) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-26 10:28:01,548 INFO  [stdout] (default task-44) Hibernate: 
+2015-10-26 10:28:01,548 INFO  [stdout] (default task-44)     select
+2015-10-26 10:28:01,548 INFO  [stdout] (default task-44)         usuario0_.id as id1_3_,
+2015-10-26 10:28:01,548 INFO  [stdout] (default task-44)         usuario0_.EMAIL as EMAIL2_3_,
+2015-10-26 10:28:01,548 INFO  [stdout] (default task-44)         usuario0_.LOGIN as LOGIN3_3_,
+2015-10-26 10:28:01,549 INFO  [stdout] (default task-44)         usuario0_.SENHA as SENHA4_3_ 
+2015-10-26 10:28:01,549 INFO  [stdout] (default task-44)     from
+2015-10-26 10:28:01,549 INFO  [stdout] (default task-44)         apis2.USUARIO usuario0_ 
+2015-10-26 10:28:01,549 INFO  [stdout] (default task-44)     where
+2015-10-26 10:28:01,549 INFO  [stdout] (default task-44)         usuario0_.LOGIN=? 
+2015-10-26 10:28:01,550 INFO  [stdout] (default task-44)         and usuario0_.SENHA=?
+2015-10-26 10:28:35,198 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-50) JSF1064: Não foi possível encontrar ou fornecer o recurso, holder.js, pela biblioteca, holder.
+2015-10-26 10:28:35,423 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-62) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo /fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-26 10:28:35,425 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-62) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-26 10:28:40,151 INFO  [stdout] (default task-63) Hibernate: 
+2015-10-26 10:28:40,151 INFO  [stdout] (default task-63)     select
+2015-10-26 10:28:40,151 INFO  [stdout] (default task-63)         usuario0_.id as id1_3_,
+2015-10-26 10:28:40,151 INFO  [stdout] (default task-63)         usuario0_.EMAIL as EMAIL2_3_,
+2015-10-26 10:28:40,151 INFO  [stdout] (default task-63)         usuario0_.LOGIN as LOGIN3_3_,
+2015-10-26 10:28:40,151 INFO  [stdout] (default task-63)         usuario0_.SENHA as SENHA4_3_ 
+2015-10-26 10:28:40,151 INFO  [stdout] (default task-63)     from
+2015-10-26 10:28:40,151 INFO  [stdout] (default task-63)         apis2.USUARIO usuario0_ 
+2015-10-26 10:28:40,152 INFO  [stdout] (default task-63)     where
+2015-10-26 10:28:40,152 INFO  [stdout] (default task-63)         usuario0_.LOGIN=? 
+2015-10-26 10:28:40,152 INFO  [stdout] (default task-63)         and usuario0_.SENHA=?
+2015-10-26 10:28:40,156 INFO  [stdout] (default task-63) deu errado
+2015-10-26 10:28:40,189 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-63) JSF1064: Não foi possível encontrar ou fornecer o recurso, holder.js, pela biblioteca, holder.
+2015-10-26 10:28:40,195 WARNING [javax.enterprise.resource.webcontainer.jsf.application.view] (default task-63) Unable to save dynamic action with clientId 'j_id2' because the UIComponent cannot be found
+2015-10-26 10:28:40,328 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-9) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo /fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-26 10:28:40,329 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-9) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-26 10:28:48,010 INFO  [stdout] (default task-12) Hibernate: 
+2015-10-26 10:28:48,011 INFO  [stdout] (default task-12)     select
+2015-10-26 10:28:48,011 INFO  [stdout] (default task-12)         usuario0_.id as id1_3_,
+2015-10-26 10:28:48,011 INFO  [stdout] (default task-12)         usuario0_.EMAIL as EMAIL2_3_,
+2015-10-26 10:28:48,011 INFO  [stdout] (default task-12)         usuario0_.LOGIN as LOGIN3_3_,
+2015-10-26 10:28:48,011 INFO  [stdout] (default task-12)         usuario0_.SENHA as SENHA4_3_ 
+2015-10-26 10:28:48,011 INFO  [stdout] (default task-12)     from
+2015-10-26 10:28:48,011 INFO  [stdout] (default task-12)         apis2.USUARIO usuario0_ 
+2015-10-26 10:28:48,011 INFO  [stdout] (default task-12)     where
+2015-10-26 10:28:48,011 INFO  [stdout] (default task-12)         usuario0_.LOGIN=? 
+2015-10-26 10:28:48,012 INFO  [stdout] (default task-12)         and usuario0_.SENHA=?
+2015-10-26 10:28:48,030 INFO  [stdout] (default task-12) deu errado
+2015-10-26 10:28:48,055 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-12) JSF1064: Não foi possível encontrar ou fornecer o recurso, holder.js, pela biblioteca, holder.
+2015-10-26 10:28:48,059 WARNING [javax.enterprise.resource.webcontainer.jsf.application.view] (default task-12) Unable to save dynamic action with clientId 'j_id19' because the UIComponent cannot be found
+2015-10-26 10:28:48,216 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-21) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo /fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-26 10:28:48,217 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-21) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-26 10:30:13,749 INFO  [stdout] (default task-32) Hibernate: 
+2015-10-26 10:30:13,749 INFO  [stdout] (default task-32)     select
+2015-10-26 10:30:13,749 INFO  [stdout] (default task-32)         nextval ('SQ_ID_USUARIO')
+2015-10-26 10:30:13,763 INFO  [stdout] (default task-32) Hibernate: 
+2015-10-26 10:30:13,764 INFO  [stdout] (default task-32)     insert 
+2015-10-26 10:30:13,764 INFO  [stdout] (default task-32)     into
+2015-10-26 10:30:13,764 INFO  [stdout] (default task-32)         apis2.USUARIO
+2015-10-26 10:30:13,764 INFO  [stdout] (default task-32)         (EMAIL, LOGIN, SENHA, id) 
+2015-10-26 10:30:13,764 INFO  [stdout] (default task-32)     values
+2015-10-26 10:30:13,764 INFO  [stdout] (default task-32)         (?, ?, ?, ?)
+2015-10-26 10:30:13,867 INFO  [stdout] (default task-32) Hibernate: 
+2015-10-26 10:30:13,867 INFO  [stdout] (default task-32)     select
+2015-10-26 10:30:13,867 INFO  [stdout] (default task-32)         usuario0_.id as id1_3_,
+2015-10-26 10:30:13,867 INFO  [stdout] (default task-32)         usuario0_.EMAIL as EMAIL2_3_,
+2015-10-26 10:30:13,868 INFO  [stdout] (default task-32)         usuario0_.LOGIN as LOGIN3_3_,
+2015-10-26 10:30:13,868 INFO  [stdout] (default task-32)         usuario0_.SENHA as SENHA4_3_ 
+2015-10-26 10:30:13,868 INFO  [stdout] (default task-32)     from
+2015-10-26 10:30:13,868 INFO  [stdout] (default task-32)         apis2.USUARIO usuario0_
+2015-10-26 10:30:13,894 INFO  [stdout] (default task-33) Hibernate: 
+2015-10-26 10:30:13,895 INFO  [stdout] (default task-33)     select
+2015-10-26 10:30:13,895 INFO  [stdout] (default task-33)         farmacia0_.id as id1_2_,
+2015-10-26 10:30:13,895 INFO  [stdout] (default task-33)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 10:30:13,895 INFO  [stdout] (default task-33)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 10:30:13,895 INFO  [stdout] (default task-33)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 10:30:13,895 INFO  [stdout] (default task-33)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 10:30:13,895 INFO  [stdout] (default task-33)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 10:30:13,895 INFO  [stdout] (default task-33)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 10:30:13,895 INFO  [stdout] (default task-33)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 10:30:13,896 INFO  [stdout] (default task-33)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 10:30:13,896 INFO  [stdout] (default task-33)     from
+2015-10-26 10:30:13,897 INFO  [stdout] (default task-33)         apis2.FARMACIA farmacia0_
+2015-10-26 10:30:59,172 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-44) JSF1064: Não foi possível encontrar ou fornecer o recurso, holder.js, pela biblioteca, holder.
+2015-10-26 10:30:59,374 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-58) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo /fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-26 10:30:59,376 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-58) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-26 10:31:51,514 INFO  [stdout] (default task-55) Hibernate: 
+2015-10-26 10:31:51,514 INFO  [stdout] (default task-55)     select
+2015-10-26 10:31:51,515 INFO  [stdout] (default task-55)         usuario0_.id as id1_3_,
+2015-10-26 10:31:51,515 INFO  [stdout] (default task-55)         usuario0_.EMAIL as EMAIL2_3_,
+2015-10-26 10:31:51,515 INFO  [stdout] (default task-55)         usuario0_.LOGIN as LOGIN3_3_,
+2015-10-26 10:31:51,515 INFO  [stdout] (default task-55)         usuario0_.SENHA as SENHA4_3_ 
+2015-10-26 10:31:51,515 INFO  [stdout] (default task-55)     from
+2015-10-26 10:31:51,515 INFO  [stdout] (default task-55)         apis2.USUARIO usuario0_ 
+2015-10-26 10:31:51,515 INFO  [stdout] (default task-55)     where
+2015-10-26 10:31:51,515 INFO  [stdout] (default task-55)         usuario0_.LOGIN=? 
+2015-10-26 10:31:51,516 INFO  [stdout] (default task-55)         and usuario0_.SENHA=?
+2015-10-26 10:32:01,168 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-63) JSF1064: Não foi possível encontrar ou fornecer o recurso, holder.js, pela biblioteca, holder.
+2015-10-26 10:32:01,262 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-9) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo /fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-26 10:32:01,262 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-9) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-26 10:32:05,429 INFO  [stdout] (default task-12) Hibernate: 
+2015-10-26 10:32:05,429 INFO  [stdout] (default task-12)     select
+2015-10-26 10:32:05,429 INFO  [stdout] (default task-12)         usuario0_.id as id1_3_,
+2015-10-26 10:32:05,429 INFO  [stdout] (default task-12)         usuario0_.EMAIL as EMAIL2_3_,
+2015-10-26 10:32:05,429 INFO  [stdout] (default task-12)         usuario0_.LOGIN as LOGIN3_3_,
+2015-10-26 10:32:05,429 INFO  [stdout] (default task-12)         usuario0_.SENHA as SENHA4_3_ 
+2015-10-26 10:32:05,429 INFO  [stdout] (default task-12)     from
+2015-10-26 10:32:05,429 INFO  [stdout] (default task-12)         apis2.USUARIO usuario0_ 
+2015-10-26 10:32:05,429 INFO  [stdout] (default task-12)     where
+2015-10-26 10:32:05,430 INFO  [stdout] (default task-12)         usuario0_.LOGIN=? 
+2015-10-26 10:32:05,430 INFO  [stdout] (default task-12)         and usuario0_.SENHA=?
+2015-10-26 10:32:05,436 INFO  [stdout] (default task-12) deu errado
+2015-10-26 10:32:05,444 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-12) JSF1064: Não foi possível encontrar ou fornecer o recurso, holder.js, pela biblioteca, holder.
+2015-10-26 10:32:05,453 WARNING [javax.enterprise.resource.webcontainer.jsf.application.view] (default task-12) Unable to save dynamic action with clientId 'j_id2' because the UIComponent cannot be found
+2015-10-26 10:32:05,577 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-21) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo /fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-26 10:32:05,577 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-21) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-26 10:32:20,725 INFO  [stdout] (default task-25) Hibernate: 
+2015-10-26 10:32:20,725 INFO  [stdout] (default task-25)     select
+2015-10-26 10:32:20,725 INFO  [stdout] (default task-25)         usuario0_.id as id1_3_,
+2015-10-26 10:32:20,725 INFO  [stdout] (default task-25)         usuario0_.EMAIL as EMAIL2_3_,
+2015-10-26 10:32:20,725 INFO  [stdout] (default task-25)         usuario0_.LOGIN as LOGIN3_3_,
+2015-10-26 10:32:20,725 INFO  [stdout] (default task-25)         usuario0_.SENHA as SENHA4_3_ 
+2015-10-26 10:32:20,725 INFO  [stdout] (default task-25)     from
+2015-10-26 10:32:20,726 INFO  [stdout] (default task-25)         apis2.USUARIO usuario0_ 
+2015-10-26 10:32:20,726 INFO  [stdout] (default task-25)     where
+2015-10-26 10:32:20,726 INFO  [stdout] (default task-25)         usuario0_.LOGIN=? 
+2015-10-26 10:32:20,726 INFO  [stdout] (default task-25)         and usuario0_.SENHA=?
+2015-10-26 10:32:20,734 INFO  [stdout] (default task-25) deu errado
+2015-10-26 10:32:20,743 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-25) JSF1064: Não foi possível encontrar ou fornecer o recurso, holder.js, pela biblioteca, holder.
+2015-10-26 10:32:20,750 WARNING [javax.enterprise.resource.webcontainer.jsf.application.view] (default task-25) Unable to save dynamic action with clientId 'j_id19' because the UIComponent cannot be found
+2015-10-26 10:32:20,857 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-37) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo /fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-26 10:32:20,858 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-37) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-26 10:32:25,960 INFO  [stdout] (default task-35) Hibernate: 
+2015-10-26 10:32:25,960 INFO  [stdout] (default task-35)     select
+2015-10-26 10:32:25,961 INFO  [stdout] (default task-35)         usuario0_.id as id1_3_,
+2015-10-26 10:32:25,961 INFO  [stdout] (default task-35)         usuario0_.EMAIL as EMAIL2_3_,
+2015-10-26 10:32:25,961 INFO  [stdout] (default task-35)         usuario0_.LOGIN as LOGIN3_3_,
+2015-10-26 10:32:25,961 INFO  [stdout] (default task-35)         usuario0_.SENHA as SENHA4_3_ 
+2015-10-26 10:32:25,961 INFO  [stdout] (default task-35)     from
+2015-10-26 10:32:25,961 INFO  [stdout] (default task-35)         apis2.USUARIO usuario0_ 
+2015-10-26 10:32:25,961 INFO  [stdout] (default task-35)     where
+2015-10-26 10:32:25,961 INFO  [stdout] (default task-35)         usuario0_.LOGIN=? 
+2015-10-26 10:32:25,961 INFO  [stdout] (default task-35)         and usuario0_.SENHA=?
+2015-10-26 10:33:43,939 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-10-26 10:33:44,270 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-10-26 10:33:44,378 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) starting
+2015-10-26 10:33:44,380 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_60\jre
+	java.io.tmpdir = C:\Users\Aluno\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec BioExcess\x64;C:\Program Files (x86)\EgisTec BioExcess\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Users\Aluno\Desktop\Apaches apis2\apache-maven-3.3.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Brackets\command;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Users\Aluno\Documents\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final
+	jboss.host.name = aluno-pc
+	jboss.modules.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = aluno-pc
+	jboss.qualified.host.name = aluno-pc
+	jboss.server.base.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	jboss.server.config.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\log
+	jboss.server.name = aluno-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules
+	org.jboss.boot.log.file = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly  9.x 
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_60\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\bin
+	user.home = C:\Users\Aluno
+	user.language = pt
+	user.name = Aluno
+	user.script = 
+	user.timezone = GMT-03:00
+	user.variant = 
+2015-10-26 10:33:44,383 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly  9.x  -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2015-10-26 10:33:46,513 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 3) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=apis2DS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-26 10:33:46,515 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 3) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-26 10:33:46,539 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 26) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-26 10:33:46,570 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found todahora.war in deployment directory. To trigger deployment create a file called todahora.war.dodeploy
+2015-10-26 10:33:46,608 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-10-26 10:33:46,665 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.3.1.Final
+2015-10-26 10:33:46,690 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.3.1.Final
+2015-10-26 10:33:46,807 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-10-26 10:33:46,878 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-10-26 10:33:46,884 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-10-26 10:33:46,889 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-10-26 10:33:46,900 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-10-26 10:33:46,936 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-10-26 10:33:46,943 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-10-26 10:33:46,958 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-10-26 10:33:46,966 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-10-26 10:33:46,982 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-26 10:33:47,011 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-26 10:33:47,016 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-26 10:33:47,035 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.4.Final)
+2015-10-26 10:33:47,040 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-10-26 10:33:47,041 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2015-10-26 10:33:47,505 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2015-10-26 10:33:47,508 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-10-26 10:33:47,645 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final/welcome-content
+2015-10-26 10:33:47,682 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.9.Final
+2015-10-26 10:33:47,733 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2015-10-26 10:33:47,740 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2015-10-26 10:33:48,243 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2015-10-26 10:33:48,593 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "todahora.war" (runtime-name: "todahora.war")
+2015-10-26 10:33:48,600 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\deployments
+2015-10-26 10:33:49,030 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-10-26 10:33:49,182 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-10-26 10:33:49,183 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/apis2DS]
+2015-10-26 10:33:49,844 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for todahora
+2015-10-26 10:33:50,098 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'todahora.war#todahora'
+2015-10-26 10:33:50,113 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: todahora
+	...]
+2015-10-26 10:33:50,158 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment todahora.war
+2015-10-26 10:33:50,237 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 58) HHH000412: Hibernate Core {4.3.10.Final}
+2015-10-26 10:33:50,241 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000206: hibernate.properties not found
+2015-10-26 10:33:50,243 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000021: Bytecode provider name : javassist
+2015-10-26 10:33:50,280 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.1.3.Final
+2015-10-26 10:33:51,282 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0006: Starting Services for CDI deployment: todahora.war
+2015-10-26 10:33:51,340 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.2.14 (Final)
+2015-10-26 10:33:51,427 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0009: Starting weld service for deployment todahora.war
+2015-10-26 10:33:51,725 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'todahora.war#todahora'
+2015-10-26 10:33:51,821 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 58) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-10-26 10:33:52,286 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-26 10:33:52,301 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 58) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-26 10:33:52,457 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 58) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-26 10:33:54,343 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 60) Inicializando Mojarra 2.2.11-jbossorg-1 20150505-1501 para o contexto '/todahora'
+2015-10-26 10:33:55,522 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 60) net.bootsfaces.listeners.AddResourcesListener ready for use.
+2015-10-26 10:33:56,307 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 60) Monitoring file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/deployments/todahora.war/WEB-INF/faces-config.xml for modifications
+2015-10-26 10:33:56,374 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 60) Running on PrimeFaces 5.2
+2015-10-26 10:33:56,969 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 60) Deploying javax.ws.rs.core.Application: class br.com.pbldg.apis2.service.AtivadorRest
+2015-10-26 10:33:57,020 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 60) WFLYUT0021: Registered web context: /todahora
+2015-10-26 10:33:57,118 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "todahora.war" (runtime-name : "todahora.war")
+2015-10-26 10:33:57,935 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-10-26 10:33:57,938 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-10-26 10:33:57,940 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) started in 14440ms - Started 313 of 493 services (221 services are lazy, passive or on-demand)
+2015-10-26 10:34:02,019 INFO  [stdout] (default task-2) Hibernate: 
+2015-10-26 10:34:02,020 INFO  [stdout] (default task-2)     select
+2015-10-26 10:34:02,020 INFO  [stdout] (default task-2)         farmacia0_.id as id1_2_,
+2015-10-26 10:34:02,021 INFO  [stdout] (default task-2)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 10:34:02,021 INFO  [stdout] (default task-2)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 10:34:02,021 INFO  [stdout] (default task-2)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 10:34:02,022 INFO  [stdout] (default task-2)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 10:34:02,023 INFO  [stdout] (default task-2)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 10:34:02,024 INFO  [stdout] (default task-2)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 10:34:02,024 INFO  [stdout] (default task-2)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 10:34:02,024 INFO  [stdout] (default task-2)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 10:34:02,025 INFO  [stdout] (default task-2)     from
+2015-10-26 10:34:02,025 INFO  [stdout] (default task-2)         apis2.FARMACIA farmacia0_
+2015-10-26 10:34:19,364 INFO  [stdout] (default task-14) Hibernate: 
+2015-10-26 10:34:19,365 INFO  [stdout] (default task-14)     select
+2015-10-26 10:34:19,365 INFO  [stdout] (default task-14)         farmacia0_.id as id1_2_,
+2015-10-26 10:34:19,365 INFO  [stdout] (default task-14)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 10:34:19,366 INFO  [stdout] (default task-14)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 10:34:19,366 INFO  [stdout] (default task-14)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 10:34:19,366 INFO  [stdout] (default task-14)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 10:34:19,366 INFO  [stdout] (default task-14)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 10:34:19,367 INFO  [stdout] (default task-14)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 10:34:19,367 INFO  [stdout] (default task-14)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 10:34:19,367 INFO  [stdout] (default task-14)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 10:34:19,367 INFO  [stdout] (default task-14)     from
+2015-10-26 10:34:19,368 INFO  [stdout] (default task-14)         apis2.FARMACIA farmacia0_
+2015-10-26 10:34:22,208 INFO  [stdout] (default task-25) Hibernate: 
+2015-10-26 10:34:22,209 INFO  [stdout] (default task-25)     select
+2015-10-26 10:34:22,210 INFO  [stdout] (default task-25)         farmacia0_.id as id1_2_,
+2015-10-26 10:34:22,210 INFO  [stdout] (default task-25)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 10:34:22,210 INFO  [stdout] (default task-25)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 10:34:22,211 INFO  [stdout] (default task-25)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 10:34:22,211 INFO  [stdout] (default task-25)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 10:34:22,212 INFO  [stdout] (default task-25)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 10:34:22,212 INFO  [stdout] (default task-25)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 10:34:22,212 INFO  [stdout] (default task-25)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 10:34:22,213 INFO  [stdout] (default task-25)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 10:34:22,213 INFO  [stdout] (default task-25)     from
+2015-10-26 10:34:22,213 INFO  [stdout] (default task-25)         apis2.FARMACIA farmacia0_
+2015-10-26 10:34:22,218 INFO  [stdout] (default task-25) Hibernate: 
+2015-10-26 10:34:22,218 INFO  [stdout] (default task-25)     select
+2015-10-26 10:34:22,219 INFO  [stdout] (default task-25)         farmacia0_.id as id1_2_,
+2015-10-26 10:34:22,219 INFO  [stdout] (default task-25)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 10:34:22,219 INFO  [stdout] (default task-25)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 10:34:22,219 INFO  [stdout] (default task-25)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 10:34:22,220 INFO  [stdout] (default task-25)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 10:34:22,220 INFO  [stdout] (default task-25)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 10:34:22,220 INFO  [stdout] (default task-25)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 10:34:22,221 INFO  [stdout] (default task-25)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 10:34:22,221 INFO  [stdout] (default task-25)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 10:34:22,221 INFO  [stdout] (default task-25)     from
+2015-10-26 10:34:22,221 INFO  [stdout] (default task-25)         apis2.FARMACIA farmacia0_
+2015-10-26 10:34:22,231 INFO  [stdout] (default task-25) Hibernate: 
+2015-10-26 10:34:22,231 INFO  [stdout] (default task-25)     select
+2015-10-26 10:34:22,231 INFO  [stdout] (default task-25)         farmacia0_.id as id1_2_,
+2015-10-26 10:34:22,232 INFO  [stdout] (default task-25)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 10:34:22,232 INFO  [stdout] (default task-25)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 10:34:22,232 INFO  [stdout] (default task-25)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 10:34:22,233 INFO  [stdout] (default task-25)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 10:34:22,233 INFO  [stdout] (default task-25)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 10:34:22,233 INFO  [stdout] (default task-25)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 10:34:22,234 INFO  [stdout] (default task-25)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 10:34:22,234 INFO  [stdout] (default task-25)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 10:34:22,235 INFO  [stdout] (default task-25)     from
+2015-10-26 10:34:22,235 INFO  [stdout] (default task-25)         apis2.FARMACIA farmacia0_
+2015-10-26 10:34:22,240 INFO  [stdout] (default task-25) Hibernate: 
+2015-10-26 10:34:22,240 INFO  [stdout] (default task-25)     select
+2015-10-26 10:34:22,240 INFO  [stdout] (default task-25)         farmacia0_.id as id1_2_,
+2015-10-26 10:34:22,240 INFO  [stdout] (default task-25)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 10:34:22,241 INFO  [stdout] (default task-25)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 10:34:22,241 INFO  [stdout] (default task-25)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 10:34:22,241 INFO  [stdout] (default task-25)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 10:34:22,242 INFO  [stdout] (default task-25)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 10:34:22,242 INFO  [stdout] (default task-25)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 10:34:22,242 INFO  [stdout] (default task-25)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 10:34:22,243 INFO  [stdout] (default task-25)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 10:34:22,243 INFO  [stdout] (default task-25)     from
+2015-10-26 10:34:22,243 INFO  [stdout] (default task-25)         apis2.FARMACIA farmacia0_
+2015-10-26 10:34:22,248 INFO  [stdout] (default task-25) Hibernate: 
+2015-10-26 10:34:22,248 INFO  [stdout] (default task-25)     select
+2015-10-26 10:34:22,249 INFO  [stdout] (default task-25)         farmacia0_.id as id1_2_,
+2015-10-26 10:34:22,249 INFO  [stdout] (default task-25)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 10:34:22,249 INFO  [stdout] (default task-25)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 10:34:22,250 INFO  [stdout] (default task-25)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 10:34:22,250 INFO  [stdout] (default task-25)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 10:34:22,250 INFO  [stdout] (default task-25)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 10:34:22,250 INFO  [stdout] (default task-25)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 10:34:22,251 INFO  [stdout] (default task-25)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 10:34:22,251 INFO  [stdout] (default task-25)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 10:34:22,251 INFO  [stdout] (default task-25)     from
+2015-10-26 10:34:22,252 INFO  [stdout] (default task-25)         apis2.FARMACIA farmacia0_
+2015-10-26 10:34:22,255 INFO  [stdout] (default task-25) Hibernate: 
+2015-10-26 10:34:22,256 INFO  [stdout] (default task-25)     select
+2015-10-26 10:34:22,256 INFO  [stdout] (default task-25)         farmacia0_.id as id1_2_,
+2015-10-26 10:34:22,256 INFO  [stdout] (default task-25)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 10:34:22,256 INFO  [stdout] (default task-25)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 10:34:22,257 INFO  [stdout] (default task-25)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 10:34:22,257 INFO  [stdout] (default task-25)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 10:34:22,257 INFO  [stdout] (default task-25)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 10:34:22,258 INFO  [stdout] (default task-25)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 10:34:22,258 INFO  [stdout] (default task-25)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 10:34:22,258 INFO  [stdout] (default task-25)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 10:34:22,259 INFO  [stdout] (default task-25)     from
+2015-10-26 10:34:22,259 INFO  [stdout] (default task-25)         apis2.FARMACIA farmacia0_
+2015-10-26 10:34:39,798 INFO  [stdout] (default task-36) Hibernate: 
+2015-10-26 10:34:39,799 INFO  [stdout] (default task-36)     select
+2015-10-26 10:34:39,803 INFO  [stdout] (default task-36)         nextval ('SQ_ID_FARMACIA')
+2015-10-26 10:34:39,885 INFO  [stdout] (default task-36) Hibernate: 
+2015-10-26 10:34:39,886 INFO  [stdout] (default task-36)     insert 
+2015-10-26 10:34:39,886 INFO  [stdout] (default task-36)     into
+2015-10-26 10:34:39,886 INFO  [stdout] (default task-36)         apis2.FARMACIA
+2015-10-26 10:34:39,887 INFO  [stdout] (default task-36)         (BAIRRO, CIDADE, DESCRICAO, ENDERECO, HORARIO, NOME, NUMERO, TELEFONE, id) 
+2015-10-26 10:34:39,887 INFO  [stdout] (default task-36)     values
+2015-10-26 10:34:39,887 INFO  [stdout] (default task-36)         (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2015-10-26 10:34:39,973 INFO  [stdout] (default task-36) Hibernate: 
+2015-10-26 10:34:39,973 INFO  [stdout] (default task-36)     select
+2015-10-26 10:34:39,974 INFO  [stdout] (default task-36)         farmacia0_.id as id1_2_,
+2015-10-26 10:34:39,974 INFO  [stdout] (default task-36)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 10:34:39,974 INFO  [stdout] (default task-36)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 10:34:39,974 INFO  [stdout] (default task-36)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 10:34:39,974 INFO  [stdout] (default task-36)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 10:34:39,975 INFO  [stdout] (default task-36)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 10:34:39,975 INFO  [stdout] (default task-36)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 10:34:39,975 INFO  [stdout] (default task-36)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 10:34:39,975 INFO  [stdout] (default task-36)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 10:34:39,975 INFO  [stdout] (default task-36)     from
+2015-10-26 10:34:39,976 INFO  [stdout] (default task-36)         apis2.FARMACIA farmacia0_
+2015-10-26 10:35:24,138 INFO  [stdout] (default task-56) Hibernate: 
+2015-10-26 10:35:24,139 INFO  [stdout] (default task-56)     select
+2015-10-26 10:35:24,140 INFO  [stdout] (default task-56)         farmacia0_.id as id1_2_0_,
+2015-10-26 10:35:24,140 INFO  [stdout] (default task-56)         farmacia0_.BAIRRO as BAIRRO2_2_0_,
+2015-10-26 10:35:24,140 INFO  [stdout] (default task-56)         farmacia0_.CIDADE as CIDADE3_2_0_,
+2015-10-26 10:35:24,140 INFO  [stdout] (default task-56)         farmacia0_.DESCRICAO as DESCRICA4_2_0_,
+2015-10-26 10:35:24,141 INFO  [stdout] (default task-56)         farmacia0_.ENDERECO as ENDERECO5_2_0_,
+2015-10-26 10:35:24,141 INFO  [stdout] (default task-56)         farmacia0_.HORARIO as HORARIO6_2_0_,
+2015-10-26 10:35:24,141 INFO  [stdout] (default task-56)         farmacia0_.NOME as NOME7_2_0_,
+2015-10-26 10:35:24,141 INFO  [stdout] (default task-56)         farmacia0_.NUMERO as NUMERO8_2_0_,
+2015-10-26 10:35:24,142 INFO  [stdout] (default task-56)         farmacia0_.TELEFONE as TELEFONE9_2_0_ 
+2015-10-26 10:35:24,142 INFO  [stdout] (default task-56)     from
+2015-10-26 10:35:24,142 INFO  [stdout] (default task-56)         apis2.FARMACIA farmacia0_ 
+2015-10-26 10:35:24,142 INFO  [stdout] (default task-56)     where
+2015-10-26 10:35:24,143 INFO  [stdout] (default task-56)         farmacia0_.id=?
+2015-10-26 10:35:24,234 INFO  [stdout] (default task-56) Hibernate: 
+2015-10-26 10:35:24,235 INFO  [stdout] (default task-56)     update
+2015-10-26 10:35:24,235 INFO  [stdout] (default task-56)         apis2.FARMACIA 
+2015-10-26 10:35:24,235 INFO  [stdout] (default task-56)     set
+2015-10-26 10:35:24,235 INFO  [stdout] (default task-56)         BAIRRO=?,
+2015-10-26 10:35:24,235 INFO  [stdout] (default task-56)         CIDADE=?,
+2015-10-26 10:35:24,236 INFO  [stdout] (default task-56)         DESCRICAO=?,
+2015-10-26 10:35:24,236 INFO  [stdout] (default task-56)         ENDERECO=?,
+2015-10-26 10:35:24,236 INFO  [stdout] (default task-56)         HORARIO=?,
+2015-10-26 10:35:24,236 INFO  [stdout] (default task-56)         NOME=?,
+2015-10-26 10:35:24,236 INFO  [stdout] (default task-56)         NUMERO=?,
+2015-10-26 10:35:24,237 INFO  [stdout] (default task-56)         TELEFONE=? 
+2015-10-26 10:35:24,237 INFO  [stdout] (default task-56)     where
+2015-10-26 10:35:24,237 INFO  [stdout] (default task-56)         id=?
+2015-10-26 10:35:40,235 INFO  [stdout] (default task-4) Hibernate: 
+2015-10-26 10:35:40,236 INFO  [stdout] (default task-4)     select
+2015-10-26 10:35:40,236 INFO  [stdout] (default task-4)         farmacia0_.id as id1_2_0_,
+2015-10-26 10:35:40,236 INFO  [stdout] (default task-4)         farmacia0_.BAIRRO as BAIRRO2_2_0_,
+2015-10-26 10:35:40,236 INFO  [stdout] (default task-4)         farmacia0_.CIDADE as CIDADE3_2_0_,
+2015-10-26 10:35:40,236 INFO  [stdout] (default task-4)         farmacia0_.DESCRICAO as DESCRICA4_2_0_,
+2015-10-26 10:35:40,236 INFO  [stdout] (default task-4)         farmacia0_.ENDERECO as ENDERECO5_2_0_,
+2015-10-26 10:35:40,237 INFO  [stdout] (default task-4)         farmacia0_.HORARIO as HORARIO6_2_0_,
+2015-10-26 10:35:40,237 INFO  [stdout] (default task-4)         farmacia0_.NOME as NOME7_2_0_,
+2015-10-26 10:35:40,237 INFO  [stdout] (default task-4)         farmacia0_.NUMERO as NUMERO8_2_0_,
+2015-10-26 10:35:40,237 INFO  [stdout] (default task-4)         farmacia0_.TELEFONE as TELEFONE9_2_0_ 
+2015-10-26 10:35:40,264 INFO  [stdout] (default task-4)     from
+2015-10-26 10:35:40,264 INFO  [stdout] (default task-4)         apis2.FARMACIA farmacia0_ 
+2015-10-26 10:35:40,264 INFO  [stdout] (default task-4)     where
+2015-10-26 10:35:40,265 INFO  [stdout] (default task-4)         farmacia0_.id=?
+2015-10-26 10:35:40,276 INFO  [stdout] (default task-4) Hibernate: 
+2015-10-26 10:35:40,276 INFO  [stdout] (default task-4)     delete 
+2015-10-26 10:35:40,276 INFO  [stdout] (default task-4)     from
+2015-10-26 10:35:40,277 INFO  [stdout] (default task-4)         apis2.FARMACIA 
+2015-10-26 10:35:40,277 INFO  [stdout] (default task-4)     where
+2015-10-26 10:35:40,277 INFO  [stdout] (default task-4)         id=?
+2015-10-26 10:35:40,303 INFO  [stdout] (default task-4) Hibernate: 
+2015-10-26 10:35:40,303 INFO  [stdout] (default task-4)     select
+2015-10-26 10:35:40,303 INFO  [stdout] (default task-4)         farmacia0_.id as id1_2_,
+2015-10-26 10:35:40,304 INFO  [stdout] (default task-4)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 10:35:40,304 INFO  [stdout] (default task-4)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 10:35:40,304 INFO  [stdout] (default task-4)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 10:35:40,304 INFO  [stdout] (default task-4)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 10:35:40,305 INFO  [stdout] (default task-4)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 10:35:40,305 INFO  [stdout] (default task-4)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 10:35:40,305 INFO  [stdout] (default task-4)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 10:35:40,305 INFO  [stdout] (default task-4)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 10:35:40,306 INFO  [stdout] (default task-4)     from
+2015-10-26 10:35:40,307 INFO  [stdout] (default task-4)         apis2.FARMACIA farmacia0_
+2015-10-26 10:35:40,366 INFO  [stdout] (default task-6) Hibernate: 
+2015-10-26 10:35:40,367 INFO  [stdout] (default task-6)     select
+2015-10-26 10:35:40,367 INFO  [stdout] (default task-6)         farmacia0_.id as id1_2_,
+2015-10-26 10:35:40,367 INFO  [stdout] (default task-6)         farmacia0_.BAIRRO as BAIRRO2_2_,
+2015-10-26 10:35:40,367 INFO  [stdout] (default task-6)         farmacia0_.CIDADE as CIDADE3_2_,
+2015-10-26 10:35:40,368 INFO  [stdout] (default task-6)         farmacia0_.DESCRICAO as DESCRICA4_2_,
+2015-10-26 10:35:40,368 INFO  [stdout] (default task-6)         farmacia0_.ENDERECO as ENDERECO5_2_,
+2015-10-26 10:35:40,368 INFO  [stdout] (default task-6)         farmacia0_.HORARIO as HORARIO6_2_,
+2015-10-26 10:35:40,368 INFO  [stdout] (default task-6)         farmacia0_.NOME as NOME7_2_,
+2015-10-26 10:35:40,369 INFO  [stdout] (default task-6)         farmacia0_.NUMERO as NUMERO8_2_,
+2015-10-26 10:35:40,369 INFO  [stdout] (default task-6)         farmacia0_.TELEFONE as TELEFONE9_2_ 
+2015-10-26 10:35:40,369 INFO  [stdout] (default task-6)     from
+2015-10-26 10:35:40,369 INFO  [stdout] (default task-6)         apis2.FARMACIA farmacia0_

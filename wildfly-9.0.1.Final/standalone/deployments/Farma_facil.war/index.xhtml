@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:b="http://bootsfaces.net/ui">
+<h:head>
+	<title>Farmacia Fácil</title>
+	<meta name="author" content="Alan, Jhon e Gustavo"></meta>
+</h:head>
+<!-- Add 50px padding top to the body for the navbar -->
+<h:body style="padding-top: 50px; padding-bottom: 20px;">
+	<b:navBar brand="Farmacia Fácil" brandHref="#" inverse="true"
+		fixed="top">
+		<b:navbarLinks>
+			<b:navLink value="Time" href="#"></b:navLink>
+			<b:navLink value="Contato" href="#"></b:navLink>
+			<b:navLink value="FAQ" href="#"></b:navLink>
+
+		</b:navbarLinks>
+		<h:form styleClass="navbar-form navbar-right">
+			<div class="form-group">
+				<b:inputText placeholder="Login" fieldSize="sm"
+					value="#{usuarioController.usuario.login}" />
+
+			</div>
+			<div class="form-group">
+				<b:inputText placeholder="Senha" fieldSize="sm" type="password"
+					value="#{usuarioController.usuario.senha}" />
+			</div>
+
+			<b:commandButton action="#{usuarioController.login}" value="Entrar"
+				look="success" icon="chevron-right" iconAlign="right" style="margin:0px 5px;"/>
+		</h:form>
+	</b:navBar>
+	<b:jumbotron>
+		<b:container>
+			<h1>Hello, world!</h1>
+			<p>This is a template for a simple marketing or informational
+				website. It includes a large callout called a jumbotron and three
+				supporting pieces of content. Use it as a starting point to create
+				something more unique.</p>
+			<p>
+				<h:form>
+					<b:commandButton action="#{usuarioController.goToCadastroUser()}"
+						size="lg" value="Cadastrar-se" look="info" />
+				</h:form>
+
+			</p>
+		</b:container>
+
+	</b:jumbotron>
+	<b:container>
+		<b:row>
+			<b:column col-md="6">
+				<h2>Aplicação Mobile</h2>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce
+					dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+					ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+					magna mollis euismod. Donec sed odio dui.</p>
+				<p>
+					<b:button outcome="" value="View details »" />
+				</p>
+			</b:column>
+			<b:column col-md="6">
+				<h2>Outros Produtos</h2>
+				<p>Donec id elit non mi porta gravida at eget metus. Fusce
+					dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+					ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
+					magna mollis euismod. Donec sed odio dui.</p>
+				<p>
+					<b:button outcome="" value="View details »" />
+				</p>
+			</b:column>
+		</b:row>
+		<hr />
+		<footer>
+			<p>© APIS2 Company 2015</p>
+		</footer>
+	</b:container>
+
+</h:body>
+</html>
