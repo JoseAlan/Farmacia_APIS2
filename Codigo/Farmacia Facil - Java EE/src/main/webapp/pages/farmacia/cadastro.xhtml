@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:b="http://bootsfaces.net/ui"
+	xmlns:pt="http://xmlns.jcp.org/jsf/passthrough">
+
+<h:head>
+</h:head>
+<h:body>
+<h:form>
+	<h1>Cadastro de Farmácia</h1>
+	<p:panelGrid columns="1"  >
+	
+		<h:outputLabel id="nome_o" value="Nome"/>
+		<b:inputText id="nome" value="#{farmaciaController.farmacia.nome}" pt:placeholder="Digite o nome da Farmacia" size="40"/><!-- Nome -->
+		<h:outputLabel id="endereco_o" value="Endereço"/>
+		<b:inputText id="endereco" value="#{farmaciaController.farmacia.endereco}" pt:placeholder="Digite o nome da rua" size="40"/><!-- Rua -->
+		<h:outputLabel id="numero_o" value="Número"/>
+		<b:inputText id="numero" value="#{farmaciaController.farmacia.numero}" pt:placeholder="Digite o nome da rua" size="40"/><!-- Número -->
+		<h:outputLabel id="bairro_o" value="Bairro"/>
+		<b:inputText id="bairro" value="#{farmaciaController.farmacia.bairro}" pt:placeholder="Digite o nome do bairro" size="40"/><!-- Bairro -->
+		<h:outputLabel id="cidade_o" value="Cidade"/>
+		<b:inputText id="cidade" value="#{farmaciaController.farmacia.cidade}" pt:placeholder="Digite o nome da cidade" size="40" /><!-- Cidade -->
+		<h:outputLabel id="telefone_o" value="Telefone"/>
+		<b:inputText id="telefone" value="#{farmaciaController.farmacia.telefone}" pt:placeholder="Digite o telefone" size="40"/><!-- Telefone -->
+		<h:outputLabel id="telefone2_o" value="Telefone2"/>
+		<b:inputText id="telefone2" value="#{farmaciaController.farmacia.telefone2}" pt:placeholder="Digite o telefone2" size="40"/><!-- Telefone2 -->
+		<h:outputLabel id="horario_o" value="Horário"/>
+		<b:inputText id="horario" value="#{farmaciaController.farmacia.horario}" pt:placeholder="Digite o horário de funcionamento" size="40"/><!-- Horário -->
+		<h:outputLabel id="descricao_o" value="Descrição"/>
+		<b:inputText id="descricao" value="#{farmaciaController.farmacia.descricao}" pt:placeholder="Digite uma breve descrição" size="40"/><!-- Descrição -->
+		
+	</p:panelGrid>
+	
+	<p:panelGrid columns="2">
+		<p:commandButton value="Cadastrar" action="#{farmaciaController.salvar}"/>
+		<p:commandButton value="Voltar" action="#{farmaciaController.voltar}"/>
+	</p:panelGrid>
+	
+</h:form>
+</h:body>
+</html>

@@ -1,0 +1,780 @@
+2015-10-16 15:43:16,070 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-10-16 15:43:18,978 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-10-16 15:43:19,316 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) starting
+2015-10-16 15:43:19,320 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_60\jre
+	java.io.tmpdir = C:\Users\Aluno\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec BioExcess\x64;C:\Program Files (x86)\EgisTec BioExcess\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Users\Aluno\Desktop\Apaches apis2\apache-maven-3.3.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Users\Aluno\Videos\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final
+	jboss.host.name = aluno-pc
+	jboss.modules.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = aluno-pc
+	jboss.qualified.host.name = aluno-pc
+	jboss.server.base.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	jboss.server.config.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\log
+	jboss.server.name = aluno-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules
+	org.jboss.boot.log.file = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly  9.x 
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_60\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\bin
+	user.home = C:\Users\Aluno
+	user.language = pt
+	user.name = Aluno
+	user.script = 
+	user.timezone = GMT-03:00
+	user.variant = 
+2015-10-16 15:43:19,325 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=JBossTools: WildFly  9.x  -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2015-10-16 15:43:31,548 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 4) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-16 15:43:31,643 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 17) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=apis2DS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-16 15:43:31,646 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 17) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-16 15:43:31,906 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found todahora.war in deployment directory. To trigger deployment create a file called todahora.war.dodeploy
+2015-10-16 15:43:32,045 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-10-16 15:43:32,269 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.3.1.Final
+2015-10-16 15:43:32,288 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.3.1.Final
+2015-10-16 15:43:32,560 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-10-16 15:43:32,587 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-10-16 15:43:32,600 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-10-16 15:43:32,608 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-10-16 15:43:32,649 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-10-16 15:43:32,610 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-10-16 15:43:32,681 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-10-16 15:43:32,718 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-10-16 15:43:32,996 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-16 15:43:32,997 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-16 15:43:33,344 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-10-16 15:43:33,545 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.4.Final)
+2015-10-16 15:43:33,551 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-10-16 15:43:33,735 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2015-10-16 15:43:33,736 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-10-16 15:43:34,198 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-16 15:43:34,217 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2015-10-16 15:43:34,641 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.9.Final
+2015-10-16 15:43:34,931 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final/welcome-content
+2015-10-16 15:43:35,542 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2015-10-16 15:43:35,765 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2015-10-16 15:43:35,944 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2015-10-16 15:43:36,471 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "todahora.war" (runtime-name: "todahora.war")
+2015-10-16 15:43:36,550 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\deployments
+2015-10-16 15:43:36,943 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/apis2DS]
+2015-10-16 15:43:36,955 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-10-16 15:43:38,634 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-10-16 15:43:42,033 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for todahora
+2015-10-16 15:43:43,011 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'todahora.war#todahora'
+2015-10-16 15:43:43,111 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: todahora
+	...]
+2015-10-16 15:43:43,615 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment todahora.war
+2015-10-16 15:43:44,276 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {4.3.10.Final}
+2015-10-16 15:43:44,297 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2015-10-16 15:43:44,303 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+2015-10-16 15:43:44,806 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 5.1.3.Final
+2015-10-16 15:43:46,109 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named UsuarioMB in deployment unit deployment "todahora.war" are as follows:
+
+	java:global/todahora/UsuarioMB!br.com.pbldg.apis2.controller.UsuarioMB
+	java:app/todahora/UsuarioMB!br.com.pbldg.apis2.controller.UsuarioMB
+	java:module/UsuarioMB!br.com.pbldg.apis2.controller.UsuarioMB
+	java:global/todahora/UsuarioMB
+	java:app/todahora/UsuarioMB
+	java:module/UsuarioMB
+
+2015-10-16 15:43:47,538 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0006: Starting Services for CDI deployment: todahora.war
+2015-10-16 15:43:47,689 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 2.2.14 (Final)
+2015-10-16 15:43:47,853 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0009: Starting weld service for deployment todahora.war
+2015-10-16 15:43:48,779 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'todahora.war#todahora'
+2015-10-16 15:43:49,151 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 60) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-10-16 15:43:52,124 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 60) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-16 15:43:52,311 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 60) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-16 15:43:52,927 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 60) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-16 15:43:59,581 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 62) Inicializando Mojarra 2.2.11-jbossorg-1 20150505-1501 para o contexto '/todahora'
+2015-10-16 15:44:03,838 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 62) net.bootsfaces.listeners.AddResourcesListener ready for use.
+2015-10-16 15:44:05,529 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 62) Monitoring file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/deployments/todahora.war/WEB-INF/faces-config.xml for modifications
+2015-10-16 15:44:05,621 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 62) Running on PrimeFaces 5.2
+2015-10-16 15:44:06,743 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 62) Deploying javax.ws.rs.core.Application: class br.com.pbldg.apis2.service.AtivadorRest
+2015-10-16 15:44:06,826 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 62) WFLYUT0021: Registered web context: /todahora
+2015-10-16 15:44:07,231 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "todahora.war" (runtime-name : "todahora.war")
+2015-10-16 15:44:07,906 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-10-16 15:44:07,908 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-10-16 15:44:07,908 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) started in 54593ms - Started 345 of 517 services (221 services are lazy, passive or on-demand)
+2015-10-16 16:03:43,008 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-3) JSF1064: Não foi possível encontrar ou fornecer o recurso, holder.js, pela biblioteca, holder.
+2015-10-16 16:03:44,361 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-14) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo /fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-16 16:03:44,363 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-14) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo fonts/glyphicons-halflings-regular.woff2.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-16 16:04:01,215 INFO  [stdout] (default task-15) Hibernate: 
+2015-10-16 16:04:01,216 INFO  [stdout] (default task-15)     select
+2015-10-16 16:04:01,217 INFO  [stdout] (default task-15)         usuario0_.id as id1_2_,
+2015-10-16 16:04:01,217 INFO  [stdout] (default task-15)         usuario0_.LOGIN as LOGIN2_2_,
+2015-10-16 16:04:01,217 INFO  [stdout] (default task-15)         usuario0_.SENHA as SENHA3_2_ 
+2015-10-16 16:04:01,217 INFO  [stdout] (default task-15)     from
+2015-10-16 16:04:01,217 INFO  [stdout] (default task-15)         apis2.USUARIO usuario0_
+2015-10-16 16:06:11,305 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-22) JSF1064: Não foi possível encontrar ou fornecer o recurso, holder.js, pela biblioteca, holder.
+2015-10-16 16:06:12,287 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-33) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo /fonts/glyphicons-halflings-regular.eot.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-16 16:06:12,287 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-33) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo fonts/glyphicons-halflings-regular.eot.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-16 22:41:07,157 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-10-16 22:41:11,579 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-10-16 22:41:12,066 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) starting
+2015-10-16 22:41:12,097 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_60\jre
+	java.io.tmpdir = C:\Users\Aluno\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec BioExcess\x64;C:\Program Files (x86)\EgisTec BioExcess\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Users\Aluno\Desktop\Apaches apis2\apache-maven-3.3.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Users\Aluno\Documents\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final
+	jboss.host.name = aluno-pc
+	jboss.modules.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = aluno-pc
+	jboss.qualified.host.name = aluno-pc
+	jboss.server.base.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	jboss.server.config.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\log
+	jboss.server.name = aluno-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules
+	org.jboss.boot.log.file = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly  9.x 
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_60\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\bin
+	user.home = C:\Users\Aluno
+	user.language = pt
+	user.name = Aluno
+	user.script = 
+	user.timezone = GMT-03:00
+	user.variant = 
+2015-10-16 22:41:12,101 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=JBossTools: WildFly  9.x  -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2015-10-16 22:41:23,179 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 13) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=apis2DS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-16 22:41:23,248 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 17) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-16 22:41:23,250 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 13) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-16 22:41:23,273 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found todahora.war in deployment directory. To trigger deployment create a file called todahora.war.dodeploy
+2015-10-16 22:41:23,634 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-10-16 22:41:23,784 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.3.1.Final
+2015-10-16 22:41:23,838 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.3.1.Final
+2015-10-16 22:41:24,347 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-10-16 22:41:24,348 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-10-16 22:41:24,392 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-10-16 22:41:24,425 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-10-16 22:41:24,494 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-10-16 22:41:24,506 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-10-16 22:41:24,569 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-10-16 22:41:24,685 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-10-16 22:41:24,918 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.4.Final)
+2015-10-16 22:41:25,681 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-16 22:41:25,683 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-16 22:41:25,715 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-10-16 22:41:25,723 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-10-16 22:41:26,180 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-16 22:41:26,182 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2015-10-16 22:41:26,751 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-10-16 22:41:26,750 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2015-10-16 22:41:27,027 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final/welcome-content
+2015-10-16 22:41:28,506 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2015-10-16 22:41:28,668 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.9.Final
+2015-10-16 22:41:28,903 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2015-10-16 22:41:29,036 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "todahora.war" (runtime-name: "todahora.war")
+2015-10-16 22:41:29,136 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\deployments
+2015-10-16 22:41:29,290 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-10-16 22:41:29,322 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/apis2DS]
+2015-10-16 22:41:29,383 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2015-10-16 22:41:33,360 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-10-16 22:41:36,048 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for todahora
+2015-10-16 22:41:37,580 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'todahora.war#todahora'
+2015-10-16 22:41:37,757 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: todahora
+	...]
+2015-10-16 22:41:37,988 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment todahora.war
+2015-10-16 22:41:38,664 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {4.3.10.Final}
+2015-10-16 22:41:38,897 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2015-10-16 22:41:39,121 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+2015-10-16 22:41:39,956 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 5.1.3.Final
+2015-10-16 22:41:42,231 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0006: Starting Services for CDI deployment: todahora.war
+2015-10-16 22:41:42,344 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 2.2.14 (Final)
+2015-10-16 22:41:42,459 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0009: Starting weld service for deployment todahora.war
+2015-10-16 22:41:43,209 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'todahora.war#todahora'
+2015-10-16 22:41:43,551 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-10-16 22:41:46,661 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-16 22:41:47,108 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 59) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-16 22:41:48,288 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 59) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-16 22:41:55,155 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 59) Inicializando Mojarra 2.2.11-jbossorg-1 20150505-1501 para o contexto '/todahora'
+2015-10-16 22:42:00,495 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 59) net.bootsfaces.listeners.AddResourcesListener ready for use.
+2015-10-16 22:42:03,328 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 59) Monitoring file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/deployments/todahora.war/WEB-INF/faces-config.xml for modifications
+2015-10-16 22:42:03,513 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 59) Running on PrimeFaces 5.2
+2015-10-16 22:42:03,797 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /todahora
+2015-10-16 22:42:04,340 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "todahora.war" (runtime-name : "todahora.war")
+2015-10-16 22:42:05,764 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-10-16 22:42:05,767 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-10-16 22:42:05,768 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) started in 65999ms - Started 313 of 493 services (221 services are lazy, passive or on-demand)
+2015-10-16 22:42:09,054 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-2) JSF1064: Não foi possível encontrar ou fornecer o recurso, holder.js, pela biblioteca, holder.
+2015-10-16 22:42:11,848 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-13) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo /fonts/glyphicons-halflings-regular.eot.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-16 22:42:11,852 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-13) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo fonts/glyphicons-halflings-regular.eot.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-16 22:47:57,026 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-10-16 22:47:57,477 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-10-16 22:47:57,633 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) starting
+2015-10-16 22:47:57,649 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_60\jre
+	java.io.tmpdir = C:\Users\Aluno\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec BioExcess\x64;C:\Program Files (x86)\EgisTec BioExcess\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Users\Aluno\Desktop\Apaches apis2\apache-maven-3.3.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Users\Aluno\Documents\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final
+	jboss.host.name = aluno-pc
+	jboss.modules.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = aluno-pc
+	jboss.qualified.host.name = aluno-pc
+	jboss.server.base.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	jboss.server.config.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\log
+	jboss.server.name = aluno-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules
+	org.jboss.boot.log.file = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly  9.x 
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_60\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\bin
+	user.home = C:\Users\Aluno
+	user.language = pt
+	user.name = Aluno
+	user.script = 
+	user.timezone = GMT-03:00
+	user.variant = 
+2015-10-16 22:47:57,649 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly  9.x  -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2015-10-16 22:48:00,661 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 3) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=apis2DS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-16 22:48:00,677 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 12) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-16 22:48:00,693 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 3) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-16 22:48:00,756 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found todahora.war in deployment directory. To trigger deployment create a file called todahora.war.dodeploy
+2015-10-16 22:48:00,803 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-10-16 22:48:00,850 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.3.1.Final
+2015-10-16 22:48:00,865 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.3.1.Final
+2015-10-16 22:48:00,943 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-10-16 22:48:00,943 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-10-16 22:48:01,006 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-10-16 22:48:01,021 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-10-16 22:48:01,037 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-10-16 22:48:01,052 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-10-16 22:48:01,084 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-10-16 22:48:01,099 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-10-16 22:48:01,162 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-16 22:48:01,177 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-16 22:48:01,177 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-10-16 22:48:01,193 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-16 22:48:01,411 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-10-16 22:48:01,442 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.9.Final
+2015-10-16 22:48:01,411 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2015-10-16 22:48:01,895 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.4.Final)
+2015-10-16 22:48:01,942 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-10-16 22:48:01,943 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2015-10-16 22:48:01,989 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final/welcome-content
+2015-10-16 22:48:02,083 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0012: Started server default-server.
+2015-10-16 22:48:02,317 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2015-10-16 22:48:02,395 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2015-10-16 22:48:03,191 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\deployments
+2015-10-16 22:48:03,191 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-10-16 22:48:03,191 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "todahora.war" (runtime-name: "todahora.war")
+2015-10-16 22:48:03,191 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/apis2DS]
+2015-10-16 22:48:03,432 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-10-16 22:48:05,070 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for todahora
+2015-10-16 22:48:05,358 ERROR [org.jboss.remoting.remote.connection] (XNIO-1 I/O-2) JBREM000200: Remote connection failed: java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+2015-10-16 22:48:05,452 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'todahora.war#todahora'
+2015-10-16 22:48:05,514 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: todahora
+	...]
+2015-10-16 22:48:05,608 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment todahora.war
+2015-10-16 22:48:05,686 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 58) HHH000412: Hibernate Core {4.3.10.Final}
+2015-10-16 22:48:05,701 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000206: hibernate.properties not found
+2015-10-16 22:48:05,701 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000021: Bytecode provider name : javassist
+2015-10-16 22:48:05,826 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.1.3.Final
+2015-10-16 22:48:06,013 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-7) JNDI bindings for session bean named UsuarioMB in deployment unit deployment "todahora.war" are as follows:
+
+	java:global/todahora/UsuarioMB!br.com.pbldg.apis2.controller.UsuarioMB
+	java:app/todahora/UsuarioMB!br.com.pbldg.apis2.controller.UsuarioMB
+	java:module/UsuarioMB!br.com.pbldg.apis2.controller.UsuarioMB
+	java:global/todahora/UsuarioMB
+	java:app/todahora/UsuarioMB
+	java:module/UsuarioMB
+
+2015-10-16 22:48:07,230 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0006: Starting Services for CDI deployment: todahora.war
+2015-10-16 22:48:07,278 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 2.2.14 (Final)
+2015-10-16 22:48:07,325 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0009: Starting weld service for deployment todahora.war
+2015-10-16 22:48:07,559 ERROR [org.jboss.remoting.remote.connection] (XNIO-1 I/O-1) JBREM000200: Remote connection failed: java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+2015-10-16 22:48:07,683 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'todahora.war#todahora'
+2015-10-16 22:48:07,793 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 58) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-10-16 22:48:08,403 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-16 22:48:08,419 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 58) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-16 22:48:08,607 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 58) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-16 22:48:09,075 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-16 22:48:09,090 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,090 INFO  [stdout] (ServerService Thread Pool -- 58)     alter table apis2.aluno_disciplina 
+2015-10-16 22:48:09,090 INFO  [stdout] (ServerService Thread Pool -- 58)         drop constraint if exists FK_avr8icno6x2beeadcskc7kaow
+2015-10-16 22:48:09,231 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,231 INFO  [stdout] (ServerService Thread Pool -- 58)     alter table apis2.aluno_disciplina 
+2015-10-16 22:48:09,231 INFO  [stdout] (ServerService Thread Pool -- 58)         drop constraint if exists FK_t45gi0o52egvxee0garyd9jlr
+2015-10-16 22:48:09,231 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,231 INFO  [stdout] (ServerService Thread Pool -- 58)     drop table apis2.Aluno cascade
+2015-10-16 22:48:09,262 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,278 INFO  [stdout] (ServerService Thread Pool -- 58)     drop table apis2.Disciplina cascade
+2015-10-16 22:48:09,278 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,278 INFO  [stdout] (ServerService Thread Pool -- 58)     drop table apis2.USUARIO cascade
+2015-10-16 22:48:09,278 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,278 INFO  [stdout] (ServerService Thread Pool -- 58)     drop table apis2.aluno_disciplina cascade
+2015-10-16 22:48:09,293 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,293 INFO  [stdout] (ServerService Thread Pool -- 58)     drop sequence SQ_ID_ALUNO
+2015-10-16 22:48:09,309 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,309 INFO  [stdout] (ServerService Thread Pool -- 58)     drop sequence SQ_ID_DISCIPLINA
+2015-10-16 22:48:09,324 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,324 INFO  [stdout] (ServerService Thread Pool -- 58)     drop sequence SQ_ID_USUARIO
+2015-10-16 22:48:09,356 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,356 INFO  [stdout] (ServerService Thread Pool -- 58)     create table apis2.Aluno (
+2015-10-16 22:48:09,356 INFO  [stdout] (ServerService Thread Pool -- 58)         id int8 not null,
+2015-10-16 22:48:09,356 INFO  [stdout] (ServerService Thread Pool -- 58)         nome varchar(255) not null,
+2015-10-16 22:48:09,356 INFO  [stdout] (ServerService Thread Pool -- 58)         primary key (id)
+2015-10-16 22:48:09,356 INFO  [stdout] (ServerService Thread Pool -- 58)     )
+2015-10-16 22:48:09,668 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,668 INFO  [stdout] (ServerService Thread Pool -- 58)     create table apis2.Disciplina (
+2015-10-16 22:48:09,668 INFO  [stdout] (ServerService Thread Pool -- 58)         id int8 not null,
+2015-10-16 22:48:09,668 INFO  [stdout] (ServerService Thread Pool -- 58)         NOME varchar(255) not null,
+2015-10-16 22:48:09,668 INFO  [stdout] (ServerService Thread Pool -- 58)         primary key (id)
+2015-10-16 22:48:09,668 INFO  [stdout] (ServerService Thread Pool -- 58)     )
+2015-10-16 22:48:09,731 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,731 INFO  [stdout] (ServerService Thread Pool -- 58)     create table apis2.USUARIO (
+2015-10-16 22:48:09,731 INFO  [stdout] (ServerService Thread Pool -- 58)         id int8 not null,
+2015-10-16 22:48:09,731 INFO  [stdout] (ServerService Thread Pool -- 58)         LOGIN varchar(30) not null,
+2015-10-16 22:48:09,731 INFO  [stdout] (ServerService Thread Pool -- 58)         SENHA varchar(255) not null,
+2015-10-16 22:48:09,731 INFO  [stdout] (ServerService Thread Pool -- 58)         primary key (id)
+2015-10-16 22:48:09,731 INFO  [stdout] (ServerService Thread Pool -- 58)     )
+2015-10-16 22:48:09,825 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,825 INFO  [stdout] (ServerService Thread Pool -- 58)     create table apis2.aluno_disciplina (
+2015-10-16 22:48:09,825 INFO  [stdout] (ServerService Thread Pool -- 58)         alunos_id int8 not null,
+2015-10-16 22:48:09,825 INFO  [stdout] (ServerService Thread Pool -- 58)         disciplinas_id int8 not null
+2015-10-16 22:48:09,825 INFO  [stdout] (ServerService Thread Pool -- 58)     )
+2015-10-16 22:48:09,840 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,840 INFO  [stdout] (ServerService Thread Pool -- 58)     alter table apis2.aluno_disciplina 
+2015-10-16 22:48:09,840 INFO  [stdout] (ServerService Thread Pool -- 58)         add constraint FK_avr8icno6x2beeadcskc7kaow 
+2015-10-16 22:48:09,840 INFO  [stdout] (ServerService Thread Pool -- 58)         foreign key (disciplinas_id) 
+2015-10-16 22:48:09,840 INFO  [stdout] (ServerService Thread Pool -- 58)         references apis2.Disciplina
+2015-10-16 22:48:09,918 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,918 INFO  [stdout] (ServerService Thread Pool -- 58)     alter table apis2.aluno_disciplina 
+2015-10-16 22:48:09,918 INFO  [stdout] (ServerService Thread Pool -- 58)         add constraint FK_t45gi0o52egvxee0garyd9jlr 
+2015-10-16 22:48:09,918 INFO  [stdout] (ServerService Thread Pool -- 58)         foreign key (alunos_id) 
+2015-10-16 22:48:09,918 INFO  [stdout] (ServerService Thread Pool -- 58)         references apis2.Aluno
+2015-10-16 22:48:09,934 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,934 INFO  [stdout] (ServerService Thread Pool -- 58)     create sequence SQ_ID_ALUNO start 1 increment 1
+2015-10-16 22:48:09,934 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,934 INFO  [stdout] (ServerService Thread Pool -- 58)     create sequence SQ_ID_DISCIPLINA start 1 increment 1
+2015-10-16 22:48:09,949 INFO  [stdout] (ServerService Thread Pool -- 58) Hibernate: 
+2015-10-16 22:48:09,949 INFO  [stdout] (ServerService Thread Pool -- 58)     create sequence SQ_ID_USUARIO start 1 increment 1
+2015-10-16 22:48:11,725 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 58) Inicializando Mojarra 2.2.11-jbossorg-1 20150505-1501 para o contexto '/todahora'
+2015-10-16 22:48:12,959 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 58) net.bootsfaces.listeners.AddResourcesListener ready for use.
+2015-10-16 22:48:13,880 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 58) Monitoring file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/deployments/todahora.war/WEB-INF/faces-config.xml for modifications
+2015-10-16 22:48:13,942 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 58) Running on PrimeFaces 5.2
+2015-10-16 22:48:15,502 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 58) Deploying javax.ws.rs.core.Application: class br.com.pbldg.apis2.service.AtivadorRest
+2015-10-16 22:48:15,580 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 58) WFLYUT0021: Registered web context: /todahora
+2015-10-16 22:48:15,675 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "todahora.war" (runtime-name : "todahora.war")
+2015-10-16 22:48:16,237 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-10-16 22:48:16,237 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-10-16 22:48:16,237 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) started in 19788ms - Started 345 of 517 services (221 services are lazy, passive or on-demand)
+2015-10-16 22:48:19,086 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-2) JSF1064: Não foi possível encontrar ou fornecer o recurso, holder.js, pela biblioteca, holder.
+2015-10-16 22:48:19,806 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-13) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo /fonts/glyphicons-halflings-regular.eot.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-16 22:48:19,822 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-13) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo fonts/glyphicons-halflings-regular.eot.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-16 22:49:17,499 INFO  [stdout] (default task-14) Hibernate: 
+2015-10-16 22:49:17,500 INFO  [stdout] (default task-14)     select
+2015-10-16 22:49:17,500 INFO  [stdout] (default task-14)         usuario0_.id as id1_2_,
+2015-10-16 22:49:17,500 INFO  [stdout] (default task-14)         usuario0_.LOGIN as LOGIN2_2_,
+2015-10-16 22:49:17,500 INFO  [stdout] (default task-14)         usuario0_.SENHA as SENHA3_2_ 
+2015-10-16 22:49:17,501 INFO  [stdout] (default task-14)     from
+2015-10-16 22:49:17,501 INFO  [stdout] (default task-14)         apis2.USUARIO usuario0_
+2015-10-16 22:49:44,781 INFO  [stdout] (default task-22) Hibernate: 
+2015-10-16 22:49:44,782 INFO  [stdout] (default task-22)     select
+2015-10-16 22:49:44,784 INFO  [stdout] (default task-22)         usuario0_.id as id1_2_,
+2015-10-16 22:49:44,784 INFO  [stdout] (default task-22)         usuario0_.LOGIN as LOGIN2_2_,
+2015-10-16 22:49:44,784 INFO  [stdout] (default task-22)         usuario0_.SENHA as SENHA3_2_ 
+2015-10-16 22:49:44,784 INFO  [stdout] (default task-22)     from
+2015-10-16 22:49:44,785 INFO  [stdout] (default task-22)         apis2.USUARIO usuario0_
+2015-10-16 22:52:10,462 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-10-16 22:52:10,962 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-10-16 22:52:11,119 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) starting
+2015-10-16 22:52:11,134 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_60\jre
+	java.io.tmpdir = C:\Users\Aluno\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec BioExcess\x64;C:\Program Files (x86)\EgisTec BioExcess\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Users\Aluno\Desktop\Apaches apis2\apache-maven-3.3.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Users\Aluno\Documents\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final
+	jboss.host.name = aluno-pc
+	jboss.modules.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = aluno-pc
+	jboss.qualified.host.name = aluno-pc
+	jboss.server.base.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	jboss.server.config.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\log
+	jboss.server.name = aluno-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules
+	org.jboss.boot.log.file = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly  9.x 
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_60\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\bin
+	user.home = C:\Users\Aluno
+	user.language = pt
+	user.name = Aluno
+	user.script = 
+	user.timezone = GMT-03:00
+	user.variant = 
+2015-10-16 22:52:11,134 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly  9.x  -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2015-10-16 22:52:13,833 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 27) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-16 22:52:13,849 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 19) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=apis2DS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-16 22:52:13,849 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 19) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-16 22:52:13,913 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found todahora.war in deployment directory. To trigger deployment create a file called todahora.war.dodeploy
+2015-10-16 22:52:13,952 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-10-16 22:52:13,998 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.3.1.Final
+2015-10-16 22:52:14,014 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.3.1.Final
+2015-10-16 22:52:14,108 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-10-16 22:52:14,123 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-10-16 22:52:14,123 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-10-16 22:52:14,139 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-10-16 22:52:14,154 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-10-16 22:52:14,170 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-10-16 22:52:14,576 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-10-16 22:52:14,622 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-10-16 22:52:14,825 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-16 22:52:14,841 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.4.Final)
+2015-10-16 22:52:14,856 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-10-16 22:52:14,856 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2015-10-16 22:52:14,856 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-16 22:52:14,872 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-10-16 22:52:14,934 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-16 22:52:14,934 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-10-16 22:52:15,060 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2015-10-16 22:52:15,154 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.9.Final
+2015-10-16 22:52:15,372 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final/welcome-content
+2015-10-16 22:52:15,388 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2015-10-16 22:52:15,450 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2015-10-16 22:52:15,622 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2015-10-16 22:52:15,965 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\deployments
+2015-10-16 22:52:15,981 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "todahora.war" (runtime-name: "todahora.war")
+2015-10-16 22:52:16,636 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-10-16 22:52:16,729 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-10-16 22:52:16,729 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/apis2DS]
+2015-10-16 22:52:17,151 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for todahora
+2015-10-16 22:52:17,339 ERROR [org.jboss.remoting.remote.connection] (XNIO-1 I/O-2) JBREM000200: Remote connection failed: java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+2015-10-16 22:52:17,386 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'todahora.war#todahora'
+2015-10-16 22:52:17,401 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: todahora
+	...]
+2015-10-16 22:52:17,510 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment todahora.war
+2015-10-16 22:52:17,526 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 58) HHH000412: Hibernate Core {4.3.10.Final}
+2015-10-16 22:52:17,542 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000206: hibernate.properties not found
+2015-10-16 22:52:17,542 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000021: Bytecode provider name : javassist
+2015-10-16 22:52:17,604 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 5.1.3.Final
+2015-10-16 22:52:17,729 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named UsuarioMB in deployment unit deployment "todahora.war" are as follows:
+
+	java:global/todahora/UsuarioMB!br.com.pbldg.apis2.controller.UsuarioMB
+	java:app/todahora/UsuarioMB!br.com.pbldg.apis2.controller.UsuarioMB
+	java:module/UsuarioMB!br.com.pbldg.apis2.controller.UsuarioMB
+	java:global/todahora/UsuarioMB
+	java:app/todahora/UsuarioMB
+	java:module/UsuarioMB
+
+2015-10-16 22:52:18,528 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0006: Starting Services for CDI deployment: todahora.war
+2015-10-16 22:52:18,566 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 2.2.14 (Final)
+2015-10-16 22:52:18,628 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0009: Starting weld service for deployment todahora.war
+2015-10-16 22:52:18,831 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'todahora.war#todahora'
+2015-10-16 22:52:18,924 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 58) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-10-16 22:52:19,595 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-16 22:52:19,626 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 58) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-16 22:52:19,908 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 58) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-16 22:52:22,014 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 61) Inicializando Mojarra 2.2.11-jbossorg-1 20150505-1501 para o contexto '/todahora'
+2015-10-16 22:52:23,326 INFO  [net.bootsfaces.listeners.AddResourcesListener] (ServerService Thread Pool -- 61) net.bootsfaces.listeners.AddResourcesListener ready for use.
+2015-10-16 22:52:24,044 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 61) Monitoring file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/deployments/todahora.war/WEB-INF/faces-config.xml for modifications
+2015-10-16 22:52:24,107 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 61) Running on PrimeFaces 5.2
+2015-10-16 22:52:24,684 INFO  [org.jboss.resteasy.spi.ResteasyDeployment] (ServerService Thread Pool -- 61) Deploying javax.ws.rs.core.Application: class br.com.pbldg.apis2.service.AtivadorRest
+2015-10-16 22:52:25,418 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0021: Registered web context: /todahora
+2015-10-16 22:52:25,590 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "todahora.war" (runtime-name : "todahora.war")
+2015-10-16 22:52:26,058 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-10-16 22:52:26,073 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-10-16 22:52:26,073 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) started in 16188ms - Started 345 of 517 services (221 services are lazy, passive or on-demand)
+2015-10-16 22:52:28,781 WARNING [javax.enterprise.resource.webcontainer.jsf.application] (default task-2) JSF1064: Não foi possível encontrar ou fornecer o recurso, holder.js, pela biblioteca, holder.
+2015-10-16 22:52:29,489 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-13) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo /fonts/glyphicons-halflings-regular.eot.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-16 22:52:29,505 WARNING [javax.enterprise.resource.webcontainer.jsf.context] (default task-13) JSF1091: Nenhum tipo de mime pôde ser encontrado para o arquivo fonts/glyphicons-halflings-regular.eot.  Para resolver isso, adicione um mapeamento de mime-type ao web.xml do aplicativo.
+2015-10-16 22:52:35,051 INFO  [stdout] (default task-14) Hibernate: 
+2015-10-16 22:52:35,052 INFO  [stdout] (default task-14)     select
+2015-10-16 22:52:35,052 INFO  [stdout] (default task-14)         usuario0_.id as id1_2_,
+2015-10-16 22:52:35,052 INFO  [stdout] (default task-14)         usuario0_.LOGIN as LOGIN2_2_,
+2015-10-16 22:52:35,052 INFO  [stdout] (default task-14)         usuario0_.SENHA as SENHA3_2_ 
+2015-10-16 22:52:35,053 INFO  [stdout] (default task-14)     from
+2015-10-16 22:52:35,053 INFO  [stdout] (default task-14)         apis2.USUARIO usuario0_
+2015-10-16 22:52:38,046 INFO  [stdout] (default task-24) Hibernate: 
+2015-10-16 22:52:38,047 INFO  [stdout] (default task-24)     select
+2015-10-16 22:52:38,047 INFO  [stdout] (default task-24)         usuario0_.id as id1_2_,
+2015-10-16 22:52:38,047 INFO  [stdout] (default task-24)         usuario0_.LOGIN as LOGIN2_2_,
+2015-10-16 22:52:38,047 INFO  [stdout] (default task-24)         usuario0_.SENHA as SENHA3_2_ 
+2015-10-16 22:52:38,047 INFO  [stdout] (default task-24)     from
+2015-10-16 22:52:38,048 INFO  [stdout] (default task-24)         apis2.USUARIO usuario0_

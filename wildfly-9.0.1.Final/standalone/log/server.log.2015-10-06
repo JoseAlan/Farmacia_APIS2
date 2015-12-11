@@ -1,0 +1,981 @@
+2015-10-06 10:52:28,983 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-10-06 10:52:32,713 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-10-06 10:52:33,331 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) starting
+2015-10-06 10:52:33,335 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_60\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_60\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_60
+	java.io.tmpdir = C:\Users\Aluno\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jre1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec BioExcess\x64;C:\Program Files (x86)\EgisTec BioExcess\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Brackets\command;C:\Users\Aluno\Desktop\Apaches apis2\apache-maven-3.3.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Users\Aluno\Documents\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final
+	jboss.host.name = aluno-pc
+	jboss.modules.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = aluno-pc
+	jboss.qualified.host.name = aluno-pc
+	jboss.server.base.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	jboss.server.config.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\log
+	jboss.server.name = aluno-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules
+	org.jboss.boot.log.file = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly 9.x (Experimental)
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_60\lib\resources.jar;C:\Program Files\Java\jre1.8.0_60\lib\rt.jar;C:\Program Files\Java\jre1.8.0_60\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_60\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_60\lib\jce.jar;C:\Program Files\Java\jre1.8.0_60\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_60\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_60\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_60\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\bin
+	user.home = C:\Users\Aluno
+	user.language = pt
+	user.name = Aluno
+	user.script = 
+	user.timezone = GMT-03:00
+	user.variant = 
+2015-10-06 10:52:33,345 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=JBossTools: WildFly 9.x (Experimental) -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2015-10-06 10:52:50,757 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 8) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-06 10:52:50,762 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 19) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=apis2DS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-06 10:52:50,865 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 19) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-06 10:52:50,934 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found todahora.war in deployment directory. To trigger deployment create a file called todahora.war.dodeploy
+2015-10-06 10:52:50,941 ERROR [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0021: Deployment content C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\deployments\deployments.rar appears to be incomplete and is not progressing toward completion. This content cannot be auto-deployed.
+2015-10-06 10:52:50,942 WARN  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0014: Scan found content configured for auto-deploy that could not be safely auto-deployed. See details above. Deployment changes will not be processed until all problematic content is either removed or whether to deploy the content or not is indicated via a .dodeploy or .skipdeploy marker file. Problematic deployments are [deployments.rar]
+2015-10-06 10:52:51,019 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-10-06 10:52:51,319 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.3.1.Final
+2015-10-06 10:52:51,417 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.3.1.Final
+2015-10-06 10:52:51,970 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-10-06 10:52:51,997 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-10-06 10:52:51,996 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-10-06 10:52:52,039 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-10-06 10:52:52,068 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-10-06 10:52:52,069 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-10-06 10:52:52,091 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-10-06 10:52:52,094 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.4.Final)
+2015-10-06 10:52:52,249 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-10-06 10:52:52,465 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-06 10:52:52,465 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-06 10:52:54,000 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final/welcome-content
+2015-10-06 10:52:54,216 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-10-06 10:52:54,225 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-10-06 10:52:57,193 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2015-10-06 10:52:57,194 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-10-06 10:52:57,270 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-06 10:52:57,272 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2015-10-06 10:52:58,967 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2015-10-06 10:52:59,056 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.9.Final
+2015-10-06 10:52:59,197 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2015-10-06 10:52:59,834 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\deployments
+2015-10-06 10:52:59,841 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2015-10-06 10:52:59,847 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment deployments.rar
+2015-10-06 10:53:01,264 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-10-06 10:53:01,264 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/apis2DS]
+2015-10-06 10:53:06,896 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-10-06 10:53:09,544 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content\e6\16bbcc4ebadc9d03e544f1d7bea564ad34f038\content
+2015-10-06 10:53:09,678 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-10-06 10:53:09,679 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-10-06 10:53:09,680 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) started in 47877ms - Started 209 of 385 services (210 services are lazy, passive or on-demand)
+2015-10-06 10:53:10,189 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "todahora.war" (runtime-name: "todahora.war")
+2015-10-06 10:53:10,500 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "deployments.rar" (runtime-name: "deployments.rar")
+2015-10-06 10:53:10,518 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-7) MSC000001: Failed to start service jboss.deployment.unit."deployments.rar".STRUCTURE: org.jboss.msc.service.StartException in service jboss.deployment.unit."deployments.rar".STRUCTURE: WFLYSRV0153: Failed to process phase STRUCTURE of deployment "deployments.rar"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:163)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYSRV0160: Failed to mount deployment content
+	at org.jboss.as.server.deployment.module.DeploymentRootMountProcessor.deploy(DeploymentRootMountProcessor.java:95)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:156)
+	... 5 more
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.zip.ZipFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at java.util.jar.JarFile.<init>(Unknown Source)
+	at org.jboss.vfs.spi.JavaZipFileSystem.<init>(JavaZipFileSystem.java:90)
+	at org.jboss.vfs.spi.JavaZipFileSystem.<init>(JavaZipFileSystem.java:77)
+	at org.jboss.vfs.VFS.mountZip(VFS.java:386)
+	at org.jboss.vfs.VFS.mountZip(VFS.java:410)
+	at org.jboss.as.server.deployment.DeploymentMountProvider$Factory$ServerDeploymentRepositoryImpl.mountDeploymentContent(DeploymentMountProvider.java:106)
+	at org.jboss.as.server.deployment.module.DeploymentRootMountProcessor.deploy(DeploymentRootMountProcessor.java:91)
+	... 6 more
+
+2015-10-06 10:53:17,854 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for todahora
+2015-10-06 10:53:19,955 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 7) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'todahora.war#todahora'
+2015-10-06 10:53:20,511 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 7) HHH000204: Processing PersistenceUnitInfo [
+	name: todahora
+	...]
+2015-10-06 10:53:21,262 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment todahora.war
+2015-10-06 10:53:22,663 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 7) HHH000412: Hibernate Core {4.3.10.Final}
+2015-10-06 10:53:22,781 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 7) HHH000206: hibernate.properties not found
+2015-10-06 10:53:22,882 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 7) HHH000021: Bytecode provider name : javassist
+2015-10-06 10:53:24,401 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-3) HV000001: Hibernate Validator 5.1.3.Final
+2015-10-06 10:53:30,414 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0006: Starting Services for CDI deployment: todahora.war
+2015-10-06 10:53:31,247 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 2.2.14 (Final)
+2015-10-06 10:53:32,073 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0009: Starting weld service for deployment todahora.war
+2015-10-06 10:53:36,227 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 7) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'todahora.war#todahora'
+2015-10-06 10:53:38,386 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 7) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-10-06 10:53:44,932 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 7) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:336)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:278)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1224)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.getConnection(SemaphoreArrayListManagedConnectionPool.java:484)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getSimpleConnection(AbstractPool.java:622)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:594)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:579)
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:430)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:737)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:138)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:67)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcServicesImpl.java:279)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:124)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:111)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:234)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:206)
+	at org.hibernate.cfg.Configuration.buildTypeRegistrations(Configuration.java:1887)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1845)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:857)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.jboss.as.jpa.hibernate4.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:665)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: org.postgresql.util.PSQLException: FATAL: database "apis2" does not exist
+	at org.postgresql.core.v3.ConnectionFactoryImpl.readStartupMessages(ConnectionFactoryImpl.java:691)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:146)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:312)
+	... 32 more
+
+2015-10-06 10:53:44,939 WARN  [org.hibernate.engine.jdbc.internal.JdbcServicesImpl] (ServerService Thread Pool -- 7) HHH000342: Could not obtain connection to query metadata : javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/apis2DS
+2015-10-06 10:53:46,324 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 7) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-06 10:53:46,851 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 7) HHH000422: Disabling contextual LOB creation as connection was null
+2015-10-06 10:53:52,543 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 7) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-06 10:54:22,336 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 7) IJ000604: Throwable while attempting to get a new connection: null: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:336)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:278)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1224)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.getConnection(SemaphoreArrayListManagedConnectionPool.java:484)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getSimpleConnection(AbstractPool.java:622)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:594)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:579)
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:430)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:737)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:138)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:67)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator$ConnectionProviderJdbcConnectionAccess.<init>(JpaSchemaGenerator.java:695)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator$ConnectionProviderJdbcConnectionAccess.<init>(JpaSchemaGenerator.java:686)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.determineAppropriateJdbcConnectionContext(JpaSchemaGenerator.java:413)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.access$100(JpaSchemaGenerator.java:69)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator$Generation.execute(JpaSchemaGenerator.java:122)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.performGeneration(JpaSchemaGenerator.java:76)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:864)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.jboss.as.jpa.hibernate4.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:665)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: org.postgresql.util.PSQLException: FATAL: database "apis2" does not exist
+	at org.postgresql.core.v3.ConnectionFactoryImpl.readStartupMessages(ConnectionFactoryImpl.java:691)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:146)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:312)
+	... 31 more
+
+2015-10-06 10:54:22,340 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 7) MSC000001: Failed to start service jboss.persistenceunit."todahora.war#todahora": org.jboss.msc.service.StartException in service jboss.persistenceunit."todahora.war#todahora": javax.persistence.PersistenceException: Unable to obtain JDBC Connection
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:172)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:665)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: javax.persistence.PersistenceException: Unable to obtain JDBC Connection
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator$ConnectionProviderJdbcConnectionAccess.<init>(JpaSchemaGenerator.java:698)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator$ConnectionProviderJdbcConnectionAccess.<init>(JpaSchemaGenerator.java:686)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.determineAppropriateJdbcConnectionContext(JpaSchemaGenerator.java:413)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.access$100(JpaSchemaGenerator.java:69)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator$Generation.execute(JpaSchemaGenerator.java:122)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.performGeneration(JpaSchemaGenerator.java:76)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:864)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.jboss.as.jpa.hibernate4.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
+	... 7 more
+Caused by: java.sql.SQLException: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/apis2DS
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:146)
+	at org.jboss.as.connector.subsystems.datasources.WildFlyDataSource.getConnection(WildFlyDataSource.java:67)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:139)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator$ConnectionProviderJdbcConnectionAccess.<init>(JpaSchemaGenerator.java:695)
+	... 18 more
+Caused by: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/apis2DS
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:646)
+	at org.jboss.jca.core.connectionmanager.tx.TxConnectionManagerImpl.getManagedConnection(TxConnectionManagerImpl.java:430)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.allocateConnection(AbstractConnectionManager.java:737)
+	at org.jboss.jca.adapters.jdbc.WrapperDataSource.getConnection(WrapperDataSource.java:138)
+	... 21 more
+Caused by: javax.resource.ResourceException: IJ031084: Unable to create connection
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:336)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.getLocalManagedConnection(LocalManagedConnectionFactory.java:343)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createManagedConnection(LocalManagedConnectionFactory.java:278)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.createConnectionEventListener(SemaphoreArrayListManagedConnectionPool.java:1224)
+	at org.jboss.jca.core.connectionmanager.pool.mcp.SemaphoreArrayListManagedConnectionPool.getConnection(SemaphoreArrayListManagedConnectionPool.java:484)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getSimpleConnection(AbstractPool.java:622)
+	at org.jboss.jca.core.connectionmanager.pool.AbstractPool.getConnection(AbstractPool.java:594)
+	at org.jboss.jca.core.connectionmanager.AbstractConnectionManager.getManagedConnection(AbstractConnectionManager.java:579)
+	... 24 more
+Caused by: org.postgresql.util.PSQLException: FATAL: database "apis2" does not exist
+	at org.postgresql.core.v3.ConnectionFactoryImpl.readStartupMessages(ConnectionFactoryImpl.java:691)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:207)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:65)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:146)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:35)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:47)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:30)
+	at org.postgresql.Driver.makeConnection(Driver.java:414)
+	at org.postgresql.Driver.connect(Driver.java:282)
+	at org.jboss.jca.adapters.jdbc.local.LocalManagedConnectionFactory.createLocalManagedConnection(LocalManagedConnectionFactory.java:312)
+	... 31 more
+
+2015-10-06 10:54:22,350 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 2) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "deployments.rar")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"deployments.rar\".STRUCTURE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"deployments.rar\".STRUCTURE: WFLYSRV0153: Failed to process phase STRUCTURE of deployment \"deployments.rar\"
+    Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYSRV0160: Failed to mount deployment content
+    Caused by: java.util.zip.ZipException: error in opening zip file"}}
+2015-10-06 10:54:22,358 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 2) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "todahora.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.persistenceunit.\"todahora.war#todahora\"" => "org.jboss.msc.service.StartException in service jboss.persistenceunit.\"todahora.war#todahora\": javax.persistence.PersistenceException: Unable to obtain JDBC Connection
+    Caused by: javax.persistence.PersistenceException: Unable to obtain JDBC Connection
+    Caused by: java.sql.SQLException: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/apis2DS
+    Caused by: javax.resource.ResourceException: IJ000453: Unable to get managed connection for java:jboss/datasources/apis2DS
+    Caused by: javax.resource.ResourceException: IJ031084: Unable to create connection
+    Caused by: org.postgresql.util.PSQLException: FATAL: database \"apis2\" does not exist"}}
+2015-10-06 10:54:23,439 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "todahora.war" (runtime-name : "todahora.war")
+2015-10-06 10:54:23,439 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "deployments.rar" (runtime-name : "deployments.rar")
+2015-10-06 10:54:23,440 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."todahora.war#todahora": org.jboss.msc.service.StartException in service jboss.persistenceunit."todahora.war#todahora": javax.persistence.PersistenceException: Unable to obtain JDBC Connection
+      service jboss.deployment.unit."deployments.rar".STRUCTURE: org.jboss.msc.service.StartException in service jboss.deployment.unit."deployments.rar".STRUCTURE: WFLYSRV0153: Failed to process phase STRUCTURE of deployment "deployments.rar"
+
+2015-10-06 10:54:23,596 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 7) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'todahora.war#todahora'
+2015-10-06 10:54:23,615 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment deployments.rar (runtime-name: deployments.rar) in 94ms
+2015-10-06 10:54:23,618 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0010: Stopping weld service for deployment todahora.war
+2015-10-06 10:54:24,405 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment todahora.war (runtime-name: todahora.war) in 884ms
+2015-10-06 10:54:24,779 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content\e6\16bbcc4ebadc9d03e544f1d7bea564ad34f038\content
+2015-10-06 10:54:24,779 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "deployments.rar" (runtime-name: "deployments.rar")
+2015-10-06 10:54:24,781 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "todahora.war" (runtime-name: "todahora.war")
+2015-10-06 10:54:24,785 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."todahora.war".WeldBootstrapService (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator, service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".WeldInstantiator, service jboss.deployment.unit."todahora.war".WeldStartService, service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".WeldInstantiator, WFLYCTL0208: ... and 7 more ] 
+      service jboss.deployment.unit."todahora.war".WeldStartService (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator, service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".WeldInstantiator, service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".WeldInstantiator, service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, WFLYCTL0208: ... and 8 more ] 
+      service jboss.deployment.unit."todahora.war".component."com.sun.faces.config.ConfigureListener".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."com.sun.faces.config.ConfigureListener".START] 
+      service jboss.deployment.unit."todahora.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."com.sun.faces.config.ConfigureListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."com.sun.faces.config.ConfigureListener".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START] 
+      service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".START] 
+      service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".START] 
+      service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldInitialListener".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldInitialListener".START] 
+      service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldInitialListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldInitialListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldInitialListener".START] 
+      service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldTerminalListener".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldTerminalListener".START] 
+      service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldTerminalListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldTerminalListener".START] 
+      service jboss.deployment.unit."todahora.war".ee.ComponentRegistry (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."todahora.war".jndiDependencyService (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START, service jboss.deployment.unit."todahora.war".WeldStartService, service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".START, service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".START, WFLYCTL0208: ... and 6 more ] 
+      service jboss.persistenceunit."todahora.war#todahora" (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START, service jboss.deployment.unit."todahora.war".WeldStartService, service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".START, service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, WFLYCTL0208: ... and 6 more ] 
+      service jboss.server.global-request-controller.control-point."todahora.war".undertow (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host./todahora (missing) dependents: [service jboss.deployment.unit."todahora.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.undertow.deployment.default-server.default-host./todahora.codec (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host./todahora.session (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService] 
+WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."todahora.war#todahora"
+      service jboss.deployment.unit."deployments.rar".STRUCTURE
+
+2015-10-06 10:54:28,461 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found todahora.war in deployment directory. To trigger deployment create a file called todahora.war.dodeploy
+2015-10-06 18:47:21,677 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-10-06 18:47:25,036 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-10-06 18:47:25,462 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) starting
+2015-10-06 18:47:25,487 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_60\jre
+	java.io.tmpdir = C:\Users\Aluno\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec BioExcess\x64;C:\Program Files (x86)\EgisTec BioExcess\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Brackets\command;C:\Users\Aluno\Desktop\Apaches apis2\apache-maven-3.3.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Users\Aluno\Videos\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final
+	jboss.host.name = aluno-pc
+	jboss.modules.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = aluno-pc
+	jboss.qualified.host.name = aluno-pc
+	jboss.server.base.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	jboss.server.config.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\log
+	jboss.server.name = aluno-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules
+	org.jboss.boot.log.file = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly  9.x 
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_60\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\bin
+	user.home = C:\Users\Aluno
+	user.language = pt
+	user.name = Aluno
+	user.script = 
+	user.timezone = GMT-03:00
+	user.variant = 
+2015-10-06 18:47:25,490 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=JBossTools: WildFly  9.x  -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2015-10-06 18:47:36,192 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 14) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-06 18:47:36,275 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment deployments.rar
+2015-10-06 18:47:36,157 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 13) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=apis2DS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-06 18:47:36,361 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 13) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-06 18:47:36,373 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found todahora.war in deployment directory. To trigger deployment create a file called todahora.war.dodeploy
+2015-10-06 18:47:36,997 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 7) WFLYDR0001: Content added at location C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content\e6\16bbcc4ebadc9d03e544f1d7bea564ad34f038\content
+2015-10-06 18:47:37,119 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-10-06 18:47:37,313 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.3.1.Final
+2015-10-06 18:47:37,346 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.3.1.Final
+2015-10-06 18:47:37,583 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-10-06 18:47:37,602 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-10-06 18:47:37,643 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-10-06 18:47:37,644 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-10-06 18:47:37,707 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-10-06 18:47:37,698 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-10-06 18:47:38,007 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-10-06 18:47:38,146 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-10-06 18:47:38,593 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-06 18:47:38,593 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-06 18:47:38,780 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.4.Final)
+2015-10-06 18:47:39,685 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final/welcome-content
+2015-10-06 18:47:39,824 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-10-06 18:47:39,832 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-10-06 18:47:39,937 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2015-10-06 18:47:39,935 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-10-06 18:47:40,018 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-06 18:47:40,019 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2015-10-06 18:47:40,706 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0012: Started server default-server.
+2015-10-06 18:47:40,741 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 4.0.9.Final
+2015-10-06 18:47:41,171 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2015-10-06 18:47:41,403 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2015-10-06 18:47:41,437 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/apis2DS]
+2015-10-06 18:47:41,440 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-10-06 18:47:41,811 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\deployments
+2015-10-06 18:47:41,839 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "todahora.war" (runtime-name: "todahora.war")
+2015-10-06 18:47:41,842 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "deployments.rar" (runtime-name: "deployments.rar")
+2015-10-06 18:47:41,995 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-8) MSC000001: Failed to start service jboss.deployment.unit."deployments.rar".STRUCTURE: org.jboss.msc.service.StartException in service jboss.deployment.unit."deployments.rar".STRUCTURE: WFLYSRV0153: Failed to process phase STRUCTURE of deployment "deployments.rar"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:163)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYSRV0160: Failed to mount deployment content
+	at org.jboss.as.server.deployment.module.DeploymentRootMountProcessor.deploy(DeploymentRootMountProcessor.java:95)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:156)
+	... 5 more
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.jboss.vfs.spi.JavaZipFileSystem.<init>(JavaZipFileSystem.java:90)
+	at org.jboss.vfs.spi.JavaZipFileSystem.<init>(JavaZipFileSystem.java:77)
+	at org.jboss.vfs.VFS.mountZip(VFS.java:386)
+	at org.jboss.vfs.VFS.mountZip(VFS.java:410)
+	at org.jboss.as.server.deployment.DeploymentMountProvider$Factory$ServerDeploymentRepositoryImpl.mountDeploymentContent(DeploymentMountProvider.java:106)
+	at org.jboss.as.server.deployment.module.DeploymentRootMountProcessor.deploy(DeploymentRootMountProcessor.java:91)
+	... 6 more
+
+2015-10-06 18:47:46,508 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-10-06 18:47:47,336 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for todahora
+2015-10-06 18:47:48,140 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'todahora.war#todahora'
+2015-10-06 18:47:48,206 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: todahora
+	...]
+2015-10-06 18:47:48,483 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment todahora.war
+2015-10-06 18:47:49,615 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {4.3.10.Final}
+2015-10-06 18:47:49,707 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2015-10-06 18:47:49,726 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+2015-10-06 18:47:49,789 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 5.1.3.Final
+2015-10-06 18:47:51,505 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0006: Starting Services for CDI deployment: todahora.war
+2015-10-06 18:47:51,631 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 2.2.14 (Final)
+2015-10-06 18:47:51,756 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0009: Starting weld service for deployment todahora.war
+2015-10-06 18:47:52,642 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'todahora.war#todahora'
+2015-10-06 18:47:53,672 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-10-06 18:47:55,991 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-06 18:47:56,031 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 59) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-06 18:47:56,467 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 59) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-06 18:47:57,800 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-06 18:47:57,809 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-06 18:47:57,810 INFO  [stdout] (ServerService Thread Pool -- 59)     drop table apis2.TB_USUARIO cascade
+2015-10-06 18:47:57,884 WARN  [org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase] (ServerService Thread Pool -- 59) Unable to execute JPA schema generation drop command [drop table apis2.TB_USUARIO cascade]
+2015-10-06 18:47:57,885 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-06 18:47:57,886 INFO  [stdout] (ServerService Thread Pool -- 59)     drop sequence SQ_ID_USUARIO
+2015-10-06 18:47:57,888 WARN  [org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase] (ServerService Thread Pool -- 59) Unable to execute JPA schema generation drop command [drop sequence SQ_ID_USUARIO]
+2015-10-06 18:47:57,893 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-06 18:47:57,894 INFO  [stdout] (ServerService Thread Pool -- 59)     create table apis2.TB_USUARIO (
+2015-10-06 18:47:57,894 INFO  [stdout] (ServerService Thread Pool -- 59)         id int8 not null,
+2015-10-06 18:47:57,895 INFO  [stdout] (ServerService Thread Pool -- 59)         EMAIL varchar(50) not null,
+2015-10-06 18:47:57,895 INFO  [stdout] (ServerService Thread Pool -- 59)         LOGIN varchar(30) not null,
+2015-10-06 18:47:57,895 INFO  [stdout] (ServerService Thread Pool -- 59)         SENHA varchar(255) not null,
+2015-10-06 18:47:57,896 INFO  [stdout] (ServerService Thread Pool -- 59)         primary key (id)
+2015-10-06 18:47:57,896 INFO  [stdout] (ServerService Thread Pool -- 59)     )
+2015-10-06 18:47:57,898 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 59) MSC000001: Failed to start service jboss.persistenceunit."todahora.war#todahora": org.jboss.msc.service.StartException in service jboss.persistenceunit."todahora.war#todahora": javax.persistence.PersistenceException: Unable to execute JPA schema generation create command [create table apis2.TB_USUARIO (id int8 not null, EMAIL varchar(50) not null, LOGIN varchar(30) not null, SENHA varchar(255) not null, primary key (id))]
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:172)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:665)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: javax.persistence.PersistenceException: Unable to execute JPA schema generation create command [create table apis2.TB_USUARIO (id int8 not null, EMAIL varchar(50) not null, LOGIN varchar(30) not null, SENHA varchar(255) not null, primary key (id))]
+	at org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase.acceptCreateCommands(GenerationTargetToDatabase.java:64)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.doGeneration(JpaSchemaGenerator.java:507)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.access$300(JpaSchemaGenerator.java:69)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator$Generation.execute(JpaSchemaGenerator.java:184)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.performGeneration(JpaSchemaGenerator.java:76)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:864)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.jboss.as.jpa.hibernate4.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
+	... 7 more
+Caused by: org.postgresql.util.PSQLException: ERROR: schema "apis2" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:615)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:451)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:443)
+	at org.jboss.jca.adapters.jdbc.WrappedStatement.execute(WrappedStatement.java:157)
+	at org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase.acceptCreateCommands(GenerationTargetToDatabase.java:61)
+	... 17 more
+
+2015-10-06 18:47:57,905 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "deployments.rar")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"deployments.rar\".STRUCTURE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"deployments.rar\".STRUCTURE: WFLYSRV0153: Failed to process phase STRUCTURE of deployment \"deployments.rar\"
+    Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYSRV0160: Failed to mount deployment content
+    Caused by: java.util.zip.ZipException: error in opening zip file"}}
+2015-10-06 18:47:57,925 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "todahora.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.persistenceunit.\"todahora.war#todahora\"" => "org.jboss.msc.service.StartException in service jboss.persistenceunit.\"todahora.war#todahora\": javax.persistence.PersistenceException: Unable to execute JPA schema generation create command [create table apis2.TB_USUARIO (id int8 not null, EMAIL varchar(50) not null, LOGIN varchar(30) not null, SENHA varchar(255) not null, primary key (id))]
+    Caused by: javax.persistence.PersistenceException: Unable to execute JPA schema generation create command [create table apis2.TB_USUARIO (id int8 not null, EMAIL varchar(50) not null, LOGIN varchar(30) not null, SENHA varchar(255) not null, primary key (id))]
+    Caused by: org.postgresql.util.PSQLException: ERROR: schema \"apis2\" does not exist"}}
+2015-10-06 18:47:58,256 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "todahora.war" (runtime-name : "todahora.war")
+2015-10-06 18:47:58,257 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "deployments.rar" (runtime-name : "deployments.rar")
+2015-10-06 18:47:58,261 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."todahora.war#todahora": org.jboss.msc.service.StartException in service jboss.persistenceunit."todahora.war#todahora": javax.persistence.PersistenceException: Unable to execute JPA schema generation create command [create table apis2.TB_USUARIO (id int8 not null, EMAIL varchar(50) not null, LOGIN varchar(30) not null, SENHA varchar(255) not null, primary key (id))]
+      service jboss.deployment.unit."deployments.rar".STRUCTURE: org.jboss.msc.service.StartException in service jboss.deployment.unit."deployments.rar".STRUCTURE: WFLYSRV0153: Failed to process phase STRUCTURE of deployment "deployments.rar"
+
+2015-10-06 18:47:58,813 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-10-06 18:47:58,813 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-10-06 18:47:58,814 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) started (with errors) in 41944ms - Started 292 of 496 services (23 services failed or missing dependencies, 221 services are lazy, passive or on-demand)
+2015-10-06 18:47:58,913 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment deployments.rar (runtime-name: deployments.rar) in 12ms
+2015-10-06 18:47:58,922 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0010: Stopping weld service for deployment todahora.war
+2015-10-06 18:47:58,924 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 7) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'todahora.war#todahora'
+2015-10-06 18:47:59,083 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment todahora.war (runtime-name: todahora.war) in 184ms
+2015-10-06 18:47:59,529 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content\e6\16bbcc4ebadc9d03e544f1d7bea564ad34f038\content
+2015-10-06 18:47:59,530 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "deployments.rar" (runtime-name: "deployments.rar")
+2015-10-06 18:47:59,531 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "todahora.war" (runtime-name: "todahora.war")
+2015-10-06 18:47:59,534 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."todahora.war".WeldBootstrapService (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator, service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".WeldInstantiator, service jboss.deployment.unit."todahora.war".WeldStartService, service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".WeldInstantiator, WFLYCTL0208: ... and 6 more ] 
+      service jboss.deployment.unit."todahora.war".WeldStartService (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator, service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".WeldInstantiator, service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".WeldInstantiator, service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, WFLYCTL0208: ... and 6 more ] 
+      service jboss.deployment.unit."todahora.war".component."com.sun.faces.config.ConfigureListener".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."com.sun.faces.config.ConfigureListener".START] 
+      service jboss.deployment.unit."todahora.war".component."com.sun.faces.config.ConfigureListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."com.sun.faces.config.ConfigureListener".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START] 
+      service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".START] 
+      service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".START] 
+      service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldInitialListener".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldInitialListener".START] 
+      service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldTerminalListener".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldTerminalListener".START] 
+      service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldTerminalListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldTerminalListener".START] 
+      service jboss.deployment.unit."todahora.war".ee.ComponentRegistry (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."todahora.war".jndiDependencyService (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START, service jboss.deployment.unit."todahora.war".WeldStartService, service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".START, service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".START, WFLYCTL0208: ... and 6 more ] 
+      service jboss.persistenceunit."todahora.war#todahora" (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START, service jboss.deployment.unit."todahora.war".WeldStartService, service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".START, service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, WFLYCTL0208: ... and 5 more ] 
+      service jboss.server.global-request-controller.control-point."todahora.war".undertow (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host./todahora (missing) dependents: [service jboss.deployment.unit."todahora.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.undertow.deployment.default-server.default-host./todahora.codec (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host./todahora.session (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService] 
+WFLYCTL0186:   Services which failed to start:      service jboss.persistenceunit."todahora.war#todahora"
+      service jboss.deployment.unit."deployments.rar".STRUCTURE
+
+2015-10-06 18:48:03,354 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found todahora.war in deployment directory. To trigger deployment create a file called todahora.war.dodeploy
+2015-10-06 18:59:02,408 INFO  [org.jboss.as.server] (management-handler-thread - 6) WFLYSRV0211: Suspending server
+2015-10-06 18:59:02,466 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+2015-10-06 18:59:02,595 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2015-10-06 18:59:02,604 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/apis2DS]
+2015-10-06 18:59:02,634 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2015-10-06 18:59:02,640 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0019: Host default-host stopping
+2015-10-06 18:59:02,644 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2015-10-06 18:59:02,666 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = postgresql
+2015-10-06 18:59:02,957 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to localhost/127.0.0.1:8080
+2015-10-06 18:59:02,960 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 1.2.9.Final stopping
+2015-10-06 18:59:03,099 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) stopped in 620ms
+2015-10-06 19:01:19,718 INFO  [org.jboss.modules] (main) JBoss Modules version 1.4.3.Final
+2015-10-06 19:01:21,688 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2015-10-06 19:01:21,975 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) starting
+2015-10-06 19:01:21,978 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_60\jre
+	java.io.tmpdir = C:\Users\Aluno\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_60\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\EgisTec BioExcess\x64;C:\Program Files (x86)\EgisTec BioExcess\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files\NTRU Cryptosystems\NTRU TCG Software Stack\bin\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Brackets\command;C:\Users\Aluno\Desktop\Apaches apis2\apache-maven-3.3.3\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Users\Aluno\Videos\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_60-b27
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_60
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.60-b23
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final
+	jboss.host.name = aluno-pc
+	jboss.modules.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = aluno-pc
+	jboss.qualified.host.name = aluno-pc
+	jboss.server.base.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	jboss.server.config.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\log
+	jboss.server.name = aluno-pc
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties
+	module.path = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules
+	org.jboss.boot.log.file = C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 7
+	os.version = 6.1
+	path.separator = ;
+	program.name = JBossTools: WildFly  9.x 
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_60\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/modules -jaxpmodule javax.xml.jaxp-provider -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = Service Pack 1
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\bin
+	user.home = C:\Users\Aluno
+	user.language = pt
+	user.name = Aluno
+	user.script = 
+	user.timezone = GMT-03:00
+	user.variant = 
+2015-10-06 19:01:21,984 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=JBossTools: WildFly  9.x  -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final/standalone/log/boot.log -Dlogging.configuration=file:/C:/Users/Aluno/Desktop/Apaches%20apis2/wildfly-9.0.1.Final/standalone/configuration/logging.properties -Djboss.home.dir=C:/Users/Aluno/Desktop/Apaches apis2/wildfly-9.0.1.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=Cp1252 
+2015-10-06 19:01:26,373 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 13) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=apis2DS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-06 19:01:26,439 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 13) WFLYCTL0028: Attribute 'enabled' in the resource at address '/subsystem=datasources/data-source=ExampleDS' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-06 19:01:26,397 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment deployments.rar
+2015-10-06 19:01:26,426 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 21) WFLYCTL0028: Attribute 'job-repository-type' in the resource at address '/subsystem=batch' is deprecated, and may be removed in future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2015-10-06 19:01:26,450 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment todahora.war
+2015-10-06 19:01:26,469 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found todahora.war in deployment directory. To trigger deployment create a file called todahora.war.dodeploy
+2015-10-06 19:01:29,661 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 6) WFLYDR0001: Content added at location C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content\e6\16bbcc4ebadc9d03e544f1d7bea564ad34f038\content
+2015-10-06 19:01:29,768 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2015-10-06 19:01:29,847 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.1.Final
+2015-10-06 19:01:29,867 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.1.Final
+2015-10-06 19:01:30,151 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2015-10-06 19:01:30,191 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2015-10-06 19:01:30,244 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2015-10-06 19:01:30,134 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2015-10-06 19:01:30,130 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2015-10-06 19:01:30,264 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2015-10-06 19:01:30,386 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-06 19:01:30,355 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2015-10-06 19:01:30,389 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0003: Undertow 1.2.9.Final starting
+2015-10-06 19:01:30,433 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=4.9.2.Final
+2015-10-06 19:01:30,454 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (IronJacamar 1.2.4.Final)
+2015-10-06 19:01:31,171 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final/welcome-content
+2015-10-06 19:01:31,275 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2015-10-06 19:01:31,292 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2015-10-06 19:01:31,323 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2015-10-06 19:01:31,352 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = postgresql
+2015-10-06 19:01:31,731 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2015-10-06 19:01:31,734 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2015-10-06 19:01:32,354 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2015-10-06 19:01:32,394 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.9.Final
+2015-10-06 19:01:32,409 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2015-10-06 19:01:32,458 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\deployments
+2015-10-06 19:01:32,457 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "todahora.war" (runtime-name: "todahora.war")
+2015-10-06 19:01:32,653 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "deployments.rar" (runtime-name: "deployments.rar")
+2015-10-06 19:01:32,729 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-4) MSC000001: Failed to start service jboss.deployment.unit."deployments.rar".STRUCTURE: org.jboss.msc.service.StartException in service jboss.deployment.unit."deployments.rar".STRUCTURE: WFLYSRV0153: Failed to process phase STRUCTURE of deployment "deployments.rar"
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:163)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYSRV0160: Failed to mount deployment content
+	at org.jboss.as.server.deployment.module.DeploymentRootMountProcessor.deploy(DeploymentRootMountProcessor.java:95)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:156)
+	... 5 more
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.jboss.vfs.spi.JavaZipFileSystem.<init>(JavaZipFileSystem.java:90)
+	at org.jboss.vfs.spi.JavaZipFileSystem.<init>(JavaZipFileSystem.java:77)
+	at org.jboss.vfs.VFS.mountZip(VFS.java:386)
+	at org.jboss.vfs.VFS.mountZip(VFS.java:410)
+	at org.jboss.as.server.deployment.DeploymentMountProvider$Factory$ServerDeploymentRepositoryImpl.mountDeploymentContent(DeploymentMountProvider.java:106)
+	at org.jboss.as.server.deployment.module.DeploymentRootMountProcessor.deploy(DeploymentRootMountProcessor.java:91)
+	... 6 more
+
+2015-10-06 19:01:32,852 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2015-10-06 19:01:32,948 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2015-10-06 19:01:32,948 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/apis2DS]
+2015-10-06 19:01:34,933 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBoss Web Services - Stack CXF Server 5.0.0.Final
+2015-10-06 19:01:35,259 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for todahora
+2015-10-06 19:01:35,591 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'todahora.war#todahora'
+2015-10-06 19:01:35,617 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: todahora
+	...]
+2015-10-06 19:01:35,669 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment todahora.war
+2015-10-06 19:01:35,905 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.1.3.Final
+2015-10-06 19:01:35,983 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 58) HHH000412: Hibernate Core {4.3.10.Final}
+2015-10-06 19:01:35,993 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000206: hibernate.properties not found
+2015-10-06 19:01:35,995 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 58) HHH000021: Bytecode provider name : javassist
+2015-10-06 19:01:36,891 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0006: Starting Services for CDI deployment: todahora.war
+2015-10-06 19:01:36,999 INFO  [org.jboss.as.protocol] (Remoting "aluno-pc:MANAGEMENT" task-6) WFLYPRT0057:  cancelled task by interrupting thread Thread[management-handler-thread - 3,5,management-handler-thread]
+2015-10-06 19:01:37,045 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 2.2.14 (Final)
+2015-10-06 19:01:37,112 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0009: Starting weld service for deployment todahora.war
+2015-10-06 19:01:37,374 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'todahora.war#todahora'
+2015-10-06 19:01:37,659 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 59) HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-10-06 19:01:39,023 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-06 19:01:39,048 INFO  [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] (ServerService Thread Pool -- 59) HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2015-10-06 19:01:39,433 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 59) HHH000397: Using ASTQueryTranslatorFactory
+2015-10-06 19:01:40,396 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2015-10-06 19:01:40,402 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-06 19:01:40,407 INFO  [stdout] (ServerService Thread Pool -- 59)     drop table apis2.TB_USUARIO cascade
+2015-10-06 19:01:40,425 WARN  [org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase] (ServerService Thread Pool -- 59) Unable to execute JPA schema generation drop command [drop table apis2.TB_USUARIO cascade]
+2015-10-06 19:01:40,426 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-06 19:01:40,426 INFO  [stdout] (ServerService Thread Pool -- 59)     drop sequence SQ_ID_USUARIO
+2015-10-06 19:01:40,428 WARN  [org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase] (ServerService Thread Pool -- 59) Unable to execute JPA schema generation drop command [drop sequence SQ_ID_USUARIO]
+2015-10-06 19:01:40,432 INFO  [stdout] (ServerService Thread Pool -- 59) Hibernate: 
+2015-10-06 19:01:40,432 INFO  [stdout] (ServerService Thread Pool -- 59)     create table apis2.TB_USUARIO (
+2015-10-06 19:01:40,433 INFO  [stdout] (ServerService Thread Pool -- 59)         id int8 not null,
+2015-10-06 19:01:40,433 INFO  [stdout] (ServerService Thread Pool -- 59)         EMAIL varchar(50) not null,
+2015-10-06 19:01:40,433 INFO  [stdout] (ServerService Thread Pool -- 59)         LOGIN varchar(30) not null,
+2015-10-06 19:01:40,434 INFO  [stdout] (ServerService Thread Pool -- 59)         SENHA varchar(255) not null,
+2015-10-06 19:01:40,434 INFO  [stdout] (ServerService Thread Pool -- 59)         primary key (id)
+2015-10-06 19:01:40,434 INFO  [stdout] (ServerService Thread Pool -- 59)     )
+2015-10-06 19:01:40,437 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 59) MSC000001: Failed to start service jboss.persistenceunit."todahora.war#todahora": org.jboss.msc.service.StartException in service jboss.persistenceunit."todahora.war#todahora": javax.persistence.PersistenceException: Unable to execute JPA schema generation create command [create table apis2.TB_USUARIO (id int8 not null, EMAIL varchar(50) not null, LOGIN varchar(30) not null, SENHA varchar(255) not null, primary key (id))]
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:172)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:117)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:665)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1.run(PersistenceUnitServiceImpl.java:182)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320)
+Caused by: javax.persistence.PersistenceException: Unable to execute JPA schema generation create command [create table apis2.TB_USUARIO (id int8 not null, EMAIL varchar(50) not null, LOGIN varchar(30) not null, SENHA varchar(255) not null, primary key (id))]
+	at org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase.acceptCreateCommands(GenerationTargetToDatabase.java:64)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.doGeneration(JpaSchemaGenerator.java:507)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.access$300(JpaSchemaGenerator.java:69)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator$Generation.execute(JpaSchemaGenerator.java:184)
+	at org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator.performGeneration(JpaSchemaGenerator.java:76)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:864)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl$4.perform(EntityManagerFactoryBuilderImpl.java:850)
+	at org.hibernate.boot.registry.classloading.internal.ClassLoaderServiceImpl.withTccl(ClassLoaderServiceImpl.java:425)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:849)
+	at org.jboss.as.jpa.hibernate4.TwoPhaseBootstrapImpl.build(TwoPhaseBootstrapImpl.java:44)
+	at org.jboss.as.jpa.service.PersistenceUnitServiceImpl$1$1.run(PersistenceUnitServiceImpl.java:154)
+	... 7 more
+Caused by: org.postgresql.util.PSQLException: ERROR: schema "apis2" does not exist
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:615)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:451)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:443)
+	at org.jboss.jca.adapters.jdbc.WrappedStatement.execute(WrappedStatement.java:157)
+	at org.hibernate.jpa.internal.schemagen.GenerationTargetToDatabase.acceptCreateCommands(GenerationTargetToDatabase.java:61)
+	... 17 more
+
+2015-10-06 19:01:40,542 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "deployments.rar")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"deployments.rar\".STRUCTURE" => "org.jboss.msc.service.StartException in service jboss.deployment.unit.\"deployments.rar\".STRUCTURE: WFLYSRV0153: Failed to process phase STRUCTURE of deployment \"deployments.rar\"
+    Caused by: org.jboss.as.server.deployment.DeploymentUnitProcessingException: WFLYSRV0160: Failed to mount deployment content
+    Caused by: java.util.zip.ZipException: error in opening zip file"}}
+2015-10-06 19:01:40,555 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "todahora.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.persistenceunit.\"todahora.war#todahora\"" => "org.jboss.msc.service.StartException in service jboss.persistenceunit.\"todahora.war#todahora\": javax.persistence.PersistenceException: Unable to execute JPA schema generation create command [create table apis2.TB_USUARIO (id int8 not null, EMAIL varchar(50) not null, LOGIN varchar(30) not null, SENHA varchar(255) not null, primary key (id))]
+    Caused by: javax.persistence.PersistenceException: Unable to execute JPA schema generation create command [create table apis2.TB_USUARIO (id int8 not null, EMAIL varchar(50) not null, LOGIN varchar(30) not null, SENHA varchar(255) not null, primary key (id))]
+    Caused by: org.postgresql.util.PSQLException: ERROR: schema \"apis2\" does not exist"}}
+2015-10-06 19:01:40,780 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "todahora.war" (runtime-name : "todahora.war")
+2015-10-06 19:01:40,781 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "deployments.rar" (runtime-name : "deployments.rar")
+2015-10-06 19:01:40,804 INFO  [org.jboss.as.controller] (Controller Boot Thread) WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."deployments.rar".STRUCTURE: org.jboss.msc.service.StartException in service jboss.deployment.unit."deployments.rar".STRUCTURE: WFLYSRV0153: Failed to process phase STRUCTURE of deployment "deployments.rar"
+      service jboss.persistenceunit."todahora.war#todahora": org.jboss.msc.service.StartException in service jboss.persistenceunit."todahora.war#todahora": javax.persistence.PersistenceException: Unable to execute JPA schema generation create command [create table apis2.TB_USUARIO (id int8 not null, EMAIL varchar(50) not null, LOGIN varchar(30) not null, SENHA varchar(255) not null, primary key (id))]
+
+2015-10-06 19:01:41,357 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2015-10-06 19:01:41,357 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2015-10-06 19:01:41,358 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 9.0.1.Final (WildFly Core 1.0.1.Final) started (with errors) in 25212ms - Started 292 of 496 services (23 services failed or missing dependencies, 221 services are lazy, passive or on-demand)
+2015-10-06 19:01:41,436 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0010: Stopping weld service for deployment todahora.war
+2015-10-06 19:01:41,439 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 6) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'todahora.war#todahora'
+2015-10-06 19:01:41,442 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment deployments.rar (runtime-name: deployments.rar) in 19ms
+2015-10-06 19:01:41,546 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment todahora.war (runtime-name: todahora.war) in 127ms
+2015-10-06 19:01:41,751 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0002: Content removed from location C:\Users\Aluno\Desktop\Apaches apis2\wildfly-9.0.1.Final\standalone\data\content\e6\16bbcc4ebadc9d03e544f1d7bea564ad34f038\content
+2015-10-06 19:01:41,752 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "deployments.rar" (runtime-name: "deployments.rar")
+2015-10-06 19:01:41,753 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "todahora.war" (runtime-name: "todahora.war")
+2015-10-06 19:01:41,758 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.deployment.unit."todahora.war".WeldBootstrapService (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator, service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".WeldInstantiator, service jboss.deployment.unit."todahora.war".WeldStartService, service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".WeldInstantiator, WFLYCTL0208: ... and 7 more ] 
+      service jboss.deployment.unit."todahora.war".WeldStartService (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator, service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".WeldInstantiator, service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".WeldInstantiator, service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, WFLYCTL0208: ... and 8 more ] 
+      service jboss.deployment.unit."todahora.war".component."com.sun.faces.config.ConfigureListener".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."com.sun.faces.config.ConfigureListener".START] 
+      service jboss.deployment.unit."todahora.war".component."com.sun.faces.config.ConfigureListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."com.sun.faces.config.ConfigureListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."com.sun.faces.config.ConfigureListener".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacesServlet".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.PermittedTaglibsTLV".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START] 
+      service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START] 
+      service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".START] 
+      service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".START] 
+      service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldInitialListener".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldInitialListener".START] 
+      service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldInitialListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldInitialListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldInitialListener".START] 
+      service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldTerminalListener".CREATE (missing) dependents: [service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldTerminalListener".START] 
+      service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldTerminalListener".START (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, service jboss.deployment.unit."todahora.war".deploymentCompleteService, service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldTerminalListener".WeldInstantiator (missing) dependents: [service jboss.deployment.unit."todahora.war".component."org.jboss.weld.servlet.WeldTerminalListener".START] 
+      service jboss.deployment.unit."todahora.war".ee.ComponentRegistry (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService] 
+      service jboss.deployment.unit."todahora.war".jndiDependencyService (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START, service jboss.deployment.unit."todahora.war".WeldStartService, service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".START, service jboss.deployment.unit."todahora.war".component."managed-bean.br.com.pbldg.apis2.controller.UsuarioMB".START, WFLYCTL0208: ... and 6 more ] 
+      service jboss.persistenceunit."todahora.war#todahora" (missing) dependents: [service jboss.deployment.unit."todahora.war".component."javax.servlet.jsp.jstl.tlv.ScriptFreeTLV".START, service jboss.deployment.unit."todahora.war".WeldStartService, service jboss.deployment.unit."todahora.war".component."javax.faces.webapp.FacetTag".START, service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService, WFLYCTL0208: ... and 6 more ] 
+      service jboss.server.global-request-controller.control-point."todahora.war".undertow (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host./todahora (missing) dependents: [service jboss.deployment.unit."todahora.war".deploymentCompleteService] 
+      service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora] 
+      service jboss.undertow.deployment.default-server.default-host./todahora.codec (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService] 
+      service jboss.undertow.deployment.default-server.default-host./todahora.session (missing) dependents: [service jboss.undertow.deployment.default-server.default-host./todahora.UndertowDeploymentInfoService] 
+WFLYCTL0186:   Services which failed to start:      service jboss.deployment.unit."deployments.rar".STRUCTURE
+      service jboss.persistenceunit."todahora.war#todahora"
+
+2015-10-06 19:01:46,014 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found todahora.war in deployment directory. To trigger deployment create a file called todahora.war.dodeploy
